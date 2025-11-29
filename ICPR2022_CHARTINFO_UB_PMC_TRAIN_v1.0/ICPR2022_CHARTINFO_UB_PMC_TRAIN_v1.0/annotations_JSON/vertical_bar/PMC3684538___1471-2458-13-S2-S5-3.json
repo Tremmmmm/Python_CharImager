@@ -1,0 +1,878 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 15,
+                        "x2": 15,
+                        "x3": 0,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 208,
+                        "y3": 208
+                    },
+                    "text": "# of women using family planning"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 60,
+                        "x1": 107,
+                        "x2": 107,
+                        "x3": 60,
+                        "y0": 226,
+                        "y1": 226,
+                        "y2": 236,
+                        "y3": 236
+                    },
+                    "text": "Baseline"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 394,
+                        "x1": 428,
+                        "x2": 428,
+                        "x3": 394,
+                        "y0": 226,
+                        "y1": 226,
+                        "y2": 236,
+                        "y3": 236
+                    },
+                    "text": "Year 1"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 407,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 407,
+                        "y0": 26,
+                        "y1": 26,
+                        "y2": 37,
+                        "y3": 37
+                    },
+                    "text": "e"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 407,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 407,
+                        "y0": 60,
+                        "y1": 60,
+                        "y2": 73,
+                        "y3": 73
+                    },
+                    "text": "d"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 407,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 407,
+                        "y0": 93,
+                        "y1": 93,
+                        "y2": 104,
+                        "y3": 104
+                    },
+                    "text": "c"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 405,
+                        "x1": 414,
+                        "x2": 414,
+                        "x3": 405,
+                        "y0": 135,
+                        "y1": 135,
+                        "y2": 148,
+                        "y3": 148
+                    },
+                    "text": "b"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 407,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 407,
+                        "y0": 190,
+                        "y1": 190,
+                        "y2": 201,
+                        "y3": 201
+                    },
+                    "text": "a"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 134,
+                        "x1": 316,
+                        "x2": 316,
+                        "x3": 134,
+                        "y0": 142,
+                        "y1": 142,
+                        "y2": 157,
+                        "y3": 157
+                    },
+                    "text": "Continuation among other users"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 134,
+                        "x1": 253,
+                        "x2": 253,
+                        "x3": 134,
+                        "y0": 183,
+                        "y1": 183,
+                        "y2": 194,
+                        "y3": 194
+                    },
+                    "text": "Continuing LAPM users"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 229,
+                        "x1": 366,
+                        "x2": 366,
+                        "x3": 229,
+                        "y0": 37,
+                        "y1": 37,
+                        "y2": 74,
+                        "y3": 74
+                    },
+                    "text": "Adopters allocated to offset population growth changes to baseline %"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 475,
+                        "x1": 600,
+                        "x2": 600,
+                        "x3": 475,
+                        "y0": 79,
+                        "y1": 79,
+                        "y2": 117,
+                        "y3": 117
+                    },
+                    "text": "Gap to maintain absolute number of users at baseline"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 475,
+                        "x1": 597,
+                        "x2": 597,
+                        "x3": 475,
+                        "y0": 9,
+                        "y1": 9,
+                        "y2": 46,
+                        "y3": 46
+                    },
+                    "text": "Adopters who contribute to increasing modern CPR"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 15,
+                            "x2": 15,
+                            "x3": 0,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 208,
+                            "y3": 208
+                        },
+                        "text": "# of women using family planning"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 107,
+                            "x2": 107,
+                            "x3": 60,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Baseline"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 394,
+                            "x1": 428,
+                            "x2": 428,
+                            "x3": 394,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Year 1"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 37,
+                            "y3": 37
+                        },
+                        "text": "e"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "d"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 93,
+                            "y1": 93,
+                            "y2": 104,
+                            "y3": 104
+                        },
+                        "text": "c"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 405,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "b"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "a"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 316,
+                            "x2": 316,
+                            "x3": 134,
+                            "y0": 142,
+                            "y1": 142,
+                            "y2": 157,
+                            "y3": 157
+                        },
+                        "text": "Continuation among other users"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 253,
+                            "x2": 253,
+                            "x3": 134,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Continuing LAPM users"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 229,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 229,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 74,
+                            "y3": 74
+                        },
+                        "text": "Adopters allocated to offset population growth changes to baseline %"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 475,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Gap to maintain absolute number of users at baseline"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 597,
+                            "x2": 597,
+                            "x3": 475,
+                            "y0": 9,
+                            "y1": 9,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Adopters who contribute to increasing modern CPR"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 4,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 5,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 6,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 7,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 8,
+                    "role": "other"
+                },
+                {
+                    "id": 9,
+                    "role": "other"
+                },
+                {
+                    "id": 10,
+                    "role": "other"
+                },
+                {
+                    "id": 11,
+                    "role": "other"
+                },
+                {
+                    "id": 12,
+                    "role": "other"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 15,
+                            "x2": 15,
+                            "x3": 0,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 208,
+                            "y3": 208
+                        },
+                        "text": "# of women using family planning"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 107,
+                            "x2": 107,
+                            "x3": 60,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Baseline"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 394,
+                            "x1": 428,
+                            "x2": 428,
+                            "x3": 394,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Year 1"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 37,
+                            "y3": 37
+                        },
+                        "text": "e"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "d"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 93,
+                            "y1": 93,
+                            "y2": 104,
+                            "y3": 104
+                        },
+                        "text": "c"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 405,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "b"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "a"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 316,
+                            "x2": 316,
+                            "x3": 134,
+                            "y0": 142,
+                            "y1": 142,
+                            "y2": 157,
+                            "y3": 157
+                        },
+                        "text": "Continuation among other users"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 253,
+                            "x2": 253,
+                            "x3": 134,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Continuing LAPM users"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 229,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 229,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 74,
+                            "y3": 74
+                        },
+                        "text": "Adopters allocated to offset population growth changes to baseline %"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 475,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Gap to maintain absolute number of users at baseline"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 597,
+                            "x2": 597,
+                            "x3": 475,
+                            "y0": 9,
+                            "y1": 9,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Adopters who contribute to increasing modern CPR"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 220,
+                "width": 530,
+                "x0": 26,
+                "y0": 0
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 84,
+                            "y": 219
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 411,
+                            "y": 219
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 15,
+                            "x2": 15,
+                            "x3": 0,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 208,
+                            "y3": 208
+                        },
+                        "text": "# of women using family planning"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 60,
+                            "x1": 107,
+                            "x2": 107,
+                            "x3": 60,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Baseline"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 394,
+                            "x1": 428,
+                            "x2": 428,
+                            "x3": 394,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Year 1"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 26,
+                            "y1": 26,
+                            "y2": 37,
+                            "y3": 37
+                        },
+                        "text": "e"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 73,
+                            "y3": 73
+                        },
+                        "text": "d"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 93,
+                            "y1": 93,
+                            "y2": 104,
+                            "y3": 104
+                        },
+                        "text": "c"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 414,
+                            "x2": 414,
+                            "x3": 405,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "b"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 407,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 407,
+                            "y0": 190,
+                            "y1": 190,
+                            "y2": 201,
+                            "y3": 201
+                        },
+                        "text": "a"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 316,
+                            "x2": 316,
+                            "x3": 134,
+                            "y0": 142,
+                            "y1": 142,
+                            "y2": 157,
+                            "y3": 157
+                        },
+                        "text": "Continuation among other users"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 134,
+                            "x1": 253,
+                            "x2": 253,
+                            "x3": 134,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 194,
+                            "y3": 194
+                        },
+                        "text": "Continuing LAPM users"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 229,
+                            "x1": 366,
+                            "x2": 366,
+                            "x3": 229,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 74,
+                            "y3": 74
+                        },
+                        "text": "Adopters allocated to offset population growth changes to baseline %"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 475,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 117,
+                            "y3": 117
+                        },
+                        "text": "Gap to maintain absolute number of users at baseline"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 475,
+                            "x1": 597,
+                            "x2": 597,
+                            "x3": 475,
+                            "y0": 9,
+                            "y1": 9,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Adopters who contribute to increasing modern CPR"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

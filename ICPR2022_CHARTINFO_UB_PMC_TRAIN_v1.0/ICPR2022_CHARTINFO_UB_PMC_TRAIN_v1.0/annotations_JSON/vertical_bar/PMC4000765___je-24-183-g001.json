@@ -1,0 +1,328 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 155,
+                        "x1": 392,
+                        "x2": 392,
+                        "x3": 155,
+                        "y0": 212,
+                        "y1": 212,
+                        "y2": 234,
+                        "y3": 234
+                    },
+                    "text": "Standard no. of SMIs"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 154,
+                        "x1": 570,
+                        "x2": 570,
+                        "x3": 154,
+                        "y0": 76,
+                        "y1": 76,
+                        "y2": 185,
+                        "y3": 185
+                    },
+                    "text": "Difference between standard no. of SMIs and no. of SMIs needed for a critical proportion of 75% of e"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 132,
+                        "x2": 132,
+                        "x3": 0,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 20,
+                        "y3": 20
+                    },
+                    "text": "No. of SMIs"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 8,
+                        "y0": 88,
+                        "y1": 88,
+                        "y2": 110,
+                        "y3": 110
+                    },
+                    "text": "400"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 8,
+                        "y0": 231,
+                        "y1": 231,
+                        "y2": 252,
+                        "y3": 252
+                    },
+                    "text": "300"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 8,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 8,
+                        "y0": 372,
+                        "y1": 372,
+                        "y2": 393,
+                        "y3": 393
+                    },
+                    "text": "200"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 10,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 10,
+                        "y0": 514,
+                        "y1": 514,
+                        "y2": 535,
+                        "y3": 535
+                    },
+                    "text": "100"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 35,
+                        "x1": 51,
+                        "x2": 51,
+                        "x3": 35,
+                        "y0": 655,
+                        "y1": 655,
+                        "y2": 677,
+                        "y3": 677
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 94,
+                        "x1": 722,
+                        "x2": 722,
+                        "x3": 94,
+                        "y0": 684,
+                        "y1": 684,
+                        "y2": 708,
+                        "y3": 708
+                    },
+                    "text": "Prefectures in descending order of standard no. of SMIs"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 392,
+                            "x2": 392,
+                            "x3": 155,
+                            "y0": 212,
+                            "y1": 212,
+                            "y2": 234,
+                            "y3": 234
+                        },
+                        "text": "Standard no. of SMIs"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 154,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 154,
+                            "y0": 76,
+                            "y1": 76,
+                            "y2": 185,
+                            "y3": 185
+                        },
+                        "text": "Difference between standard no. of SMIs and no. of SMIs needed for a critical proportion of 75% of e"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 132,
+                            "x2": 132,
+                            "x3": 0,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 20,
+                            "y3": 20
+                        },
+                        "text": "No. of SMIs"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 8,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 110,
+                            "y3": 110
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 8,
+                            "y0": 231,
+                            "y1": 231,
+                            "y2": 252,
+                            "y3": 252
+                        },
+                        "text": "300"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 8,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 8,
+                            "y0": 372,
+                            "y1": 372,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "200"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 10,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 10,
+                            "y0": 514,
+                            "y1": 514,
+                            "y2": 535,
+                            "y3": 535
+                        },
+                        "text": "100"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 51,
+                            "x2": 51,
+                            "x3": 35,
+                            "y0": 655,
+                            "y1": 655,
+                            "y2": 677,
+                            "y3": 677
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 94,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 94,
+                            "y0": 684,
+                            "y1": 684,
+                            "y2": 708,
+                            "y3": 708
+                        },
+                        "text": "Prefectures in descending order of standard no. of SMIs"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 1,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

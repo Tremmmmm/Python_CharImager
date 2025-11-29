@@ -1,0 +1,1141 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 744,
+                        "x2": 744,
+                        "x3": 11,
+                        "y0": 10,
+                        "y1": 10,
+                        "y2": 51,
+                        "y3": 51
+                    },
+                    "text": "The main abraded cusp wear (vertical loss) of the full ceramic CAD/CAM molar\ncrowns and the natural antagonists after chewing simulation (in \\mu m)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 178,
+                        "x1": 245,
+                        "x2": 245,
+                        "x3": 178,
+                        "y0": 569,
+                        "y1": 569,
+                        "y2": 611,
+                        "y3": 611
+                    },
+                    "text": "Antagonist\nLava\nUtimate"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 482,
+                        "x1": 548,
+                        "x2": 548,
+                        "x3": 482,
+                        "y0": 568,
+                        "y1": 568,
+                        "y2": 614,
+                        "y3": 614
+                    },
+                    "text": "Antagonist\nVita\nSuprinity"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 98,
+                        "x1": 174,
+                        "x2": 174,
+                        "x3": 98,
+                        "y0": 569,
+                        "y1": 569,
+                        "y2": 599,
+                        "y3": 599
+                    },
+                    "text": "Crown Lava\nUltimate"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 253,
+                        "x1": 323,
+                        "x2": 323,
+                        "x3": 253,
+                        "y0": 569,
+                        "y1": 569,
+                        "y2": 599,
+                        "y3": 599
+                    },
+                    "text": "Crown Vita\nEnamic"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 404,
+                        "x1": 474,
+                        "x2": 474,
+                        "x3": 404,
+                        "y0": 570,
+                        "y1": 570,
+                        "y2": 601,
+                        "y3": 601
+                    },
+                    "text": "Crown Vita\nSuprinity"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 327,
+                        "x1": 400,
+                        "x2": 400,
+                        "x3": 327,
+                        "y0": 568,
+                        "y1": 568,
+                        "y2": 599,
+                        "y3": 599
+                    },
+                    "text": "Anatogonist\nVie Enamic"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 588,
+                        "x1": 682,
+                        "x2": 682,
+                        "x3": 588,
+                        "y0": 91,
+                        "y1": 91,
+                        "y2": 105,
+                        "y3": 105
+                    },
+                    "text": "Ceramic crown"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 588,
+                        "x1": 698,
+                        "x2": 698,
+                        "x3": 588,
+                        "y0": 108,
+                        "y1": 108,
+                        "y2": 123,
+                        "y3": 123
+                    },
+                    "text": "Natural antagonist"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 291,
+                        "x1": 362,
+                        "x2": 362,
+                        "x3": 291,
+                        "y0": 625,
+                        "y1": 625,
+                        "y2": 642,
+                        "y3": 642
+                    },
+                    "text": "Material"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 37,
+                        "x1": 73,
+                        "x2": 73,
+                        "x3": 37,
+                        "y0": 101,
+                        "y1": 101,
+                        "y2": 116,
+                        "y3": 116
+                    },
+                    "text": "40,00"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 37,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 37,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 230,
+                        "y3": 230
+                    },
+                    "text": "30,00"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 37,
+                        "x1": 72,
+                        "x2": 72,
+                        "x3": 37,
+                        "y0": 329,
+                        "y1": 329,
+                        "y2": 344,
+                        "y3": 344
+                    },
+                    "text": "20,00"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 37,
+                        "x1": 73,
+                        "x2": 73,
+                        "x3": 37,
+                        "y0": 443,
+                        "y1": 443,
+                        "y2": 458,
+                        "y3": 458
+                    },
+                    "text": "10,00"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 53,
+                        "x1": 73,
+                        "x2": 73,
+                        "x3": 53,
+                        "y0": 557,
+                        "y1": 557,
+                        "y2": 572,
+                        "y3": 572
+                    },
+                    "text": ",00"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 9,
+                        "x1": 29,
+                        "x2": 29,
+                        "x3": 9,
+                        "y0": 229,
+                        "y1": 229,
+                        "y2": 389,
+                        "y3": 389
+                    },
+                    "text": "Vertical loss in \\micro m"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 11,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "The main abraded cusp wear (vertical loss) of the full ceramic CAD/CAM molar\ncrowns and the natural antagonists after chewing simulation (in \\mu m)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 245,
+                            "x2": 245,
+                            "x3": 178,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 611,
+                            "y3": 611
+                        },
+                        "text": "Antagonist\nLava\nUtimate"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 548,
+                            "x2": 548,
+                            "x3": 482,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 614,
+                            "y3": 614
+                        },
+                        "text": "Antagonist\nVita\nSuprinity"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 174,
+                            "x2": 174,
+                            "x3": 98,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Lava\nUltimate"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 323,
+                            "x2": 323,
+                            "x3": 253,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Vita\nEnamic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 404,
+                            "x1": 474,
+                            "x2": 474,
+                            "x3": 404,
+                            "y0": 570,
+                            "y1": 570,
+                            "y2": 601,
+                            "y3": 601
+                        },
+                        "text": "Crown Vita\nSuprinity"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 327,
+                            "x1": 400,
+                            "x2": 400,
+                            "x3": 327,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Anatogonist\nVie Enamic"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 682,
+                            "x2": 682,
+                            "x3": 588,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 105,
+                            "y3": 105
+                        },
+                        "text": "Ceramic crown"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 698,
+                            "x2": 698,
+                            "x3": 588,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Natural antagonist"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 291,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 291,
+                            "y0": 625,
+                            "y1": 625,
+                            "y2": 642,
+                            "y3": 642
+                        },
+                        "text": "Material"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "40,00"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 230,
+                            "y3": 230
+                        },
+                        "text": "30,00"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 344,
+                            "y3": 344
+                        },
+                        "text": "20,00"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 458,
+                            "y3": 458
+                        },
+                        "text": "10,00"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 53,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 53,
+                            "y0": 557,
+                            "y1": 557,
+                            "y2": 572,
+                            "y3": 572
+                        },
+                        "text": ",00"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 29,
+                            "x2": 29,
+                            "x3": 9,
+                            "y0": 229,
+                            "y1": 229,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Vertical loss in \\micro m"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 8,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 11,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "The main abraded cusp wear (vertical loss) of the full ceramic CAD/CAM molar\ncrowns and the natural antagonists after chewing simulation (in \\mu m)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 245,
+                            "x2": 245,
+                            "x3": 178,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 611,
+                            "y3": 611
+                        },
+                        "text": "Antagonist\nLava\nUtimate"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 548,
+                            "x2": 548,
+                            "x3": 482,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 614,
+                            "y3": 614
+                        },
+                        "text": "Antagonist\nVita\nSuprinity"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 174,
+                            "x2": 174,
+                            "x3": 98,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Lava\nUltimate"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 323,
+                            "x2": 323,
+                            "x3": 253,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Vita\nEnamic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 404,
+                            "x1": 474,
+                            "x2": 474,
+                            "x3": 404,
+                            "y0": 570,
+                            "y1": 570,
+                            "y2": 601,
+                            "y3": 601
+                        },
+                        "text": "Crown Vita\nSuprinity"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 327,
+                            "x1": 400,
+                            "x2": 400,
+                            "x3": 327,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Anatogonist\nVie Enamic"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 682,
+                            "x2": 682,
+                            "x3": 588,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 105,
+                            "y3": 105
+                        },
+                        "text": "Ceramic crown"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 698,
+                            "x2": 698,
+                            "x3": 588,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Natural antagonist"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 291,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 291,
+                            "y0": 625,
+                            "y1": 625,
+                            "y2": 642,
+                            "y3": 642
+                        },
+                        "text": "Material"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "40,00"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 230,
+                            "y3": 230
+                        },
+                        "text": "30,00"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 344,
+                            "y3": 344
+                        },
+                        "text": "20,00"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 458,
+                            "y3": 458
+                        },
+                        "text": "10,00"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 53,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 53,
+                            "y0": 557,
+                            "y1": 557,
+                            "y2": 572,
+                            "y3": 572
+                        },
+                        "text": ",00"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 29,
+                            "x2": 29,
+                            "x3": 9,
+                            "y0": 229,
+                            "y1": 229,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Vertical loss in \\micro m"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 506,
+                "width": 488,
+                "x0": 82,
+                "y0": 57
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 137,
+                            "y": 563
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 213,
+                            "y": 563
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 289,
+                            "y": 563
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 365,
+                            "y": 563
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 440,
+                            "y": 563
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 516,
+                            "y": 563
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 82,
+                            "y": 106
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 82,
+                            "y": 220
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 82,
+                            "y": 334
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 82,
+                            "y": 449
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 82,
+                            "y": 563
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 744,
+                            "x2": 744,
+                            "x3": 11,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "The main abraded cusp wear (vertical loss) of the full ceramic CAD/CAM molar\ncrowns and the natural antagonists after chewing simulation (in \\mu m)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 245,
+                            "x2": 245,
+                            "x3": 178,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 611,
+                            "y3": 611
+                        },
+                        "text": "Antagonist\nLava\nUtimate"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 548,
+                            "x2": 548,
+                            "x3": 482,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 614,
+                            "y3": 614
+                        },
+                        "text": "Antagonist\nVita\nSuprinity"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 174,
+                            "x2": 174,
+                            "x3": 98,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Lava\nUltimate"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 323,
+                            "x2": 323,
+                            "x3": 253,
+                            "y0": 569,
+                            "y1": 569,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Crown Vita\nEnamic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 404,
+                            "x1": 474,
+                            "x2": 474,
+                            "x3": 404,
+                            "y0": 570,
+                            "y1": 570,
+                            "y2": 601,
+                            "y3": 601
+                        },
+                        "text": "Crown Vita\nSuprinity"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 327,
+                            "x1": 400,
+                            "x2": 400,
+                            "x3": 327,
+                            "y0": 568,
+                            "y1": 568,
+                            "y2": 599,
+                            "y3": 599
+                        },
+                        "text": "Anatogonist\nVie Enamic"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 682,
+                            "x2": 682,
+                            "x3": 588,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 105,
+                            "y3": 105
+                        },
+                        "text": "Ceramic crown"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 588,
+                            "x1": 698,
+                            "x2": 698,
+                            "x3": 588,
+                            "y0": 108,
+                            "y1": 108,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Natural antagonist"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 291,
+                            "x1": 362,
+                            "x2": 362,
+                            "x3": 291,
+                            "y0": 625,
+                            "y1": 625,
+                            "y2": 642,
+                            "y3": 642
+                        },
+                        "text": "Material"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 101,
+                            "y1": 101,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "40,00"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 230,
+                            "y3": 230
+                        },
+                        "text": "30,00"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 72,
+                            "x2": 72,
+                            "x3": 37,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 344,
+                            "y3": 344
+                        },
+                        "text": "20,00"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 37,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 458,
+                            "y3": 458
+                        },
+                        "text": "10,00"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 53,
+                            "x1": 73,
+                            "x2": 73,
+                            "x3": 53,
+                            "y0": 557,
+                            "y1": 557,
+                            "y2": 572,
+                            "y3": 572
+                        },
+                        "text": ",00"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 9,
+                            "x1": 29,
+                            "x2": 29,
+                            "x3": 9,
+                            "y0": 229,
+                            "y1": 229,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Vertical loss in \\micro m"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 16,
+                        "x0": 572,
+                        "y0": 90
+                    },
+                    "id": 7
+                },
+                {
+                    "bb": {
+                        "height": 16,
+                        "width": 16,
+                        "x0": 572,
+                        "y0": 106
+                    },
+                    "id": 8
+                }
+            ]
+        }
+    },
+    "task6": null
+}

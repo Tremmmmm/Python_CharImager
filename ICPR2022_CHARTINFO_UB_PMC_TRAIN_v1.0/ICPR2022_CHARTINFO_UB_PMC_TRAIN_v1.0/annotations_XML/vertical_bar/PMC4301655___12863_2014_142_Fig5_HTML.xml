@@ -1,0 +1,24 @@
+<ImageInfo>
+    <PanelTree>
+        <PanelTreeNode>
+            <X1>0</X1>
+            <Y1>0</Y1>
+            <X2>473</X2>
+            <Y2>446</Y2>
+        </PanelTreeNode>
+    </PanelTree>
+    <Panels>
+        <ChartInfo>
+            <Type orientation="vertical">bar</Type>
+            <Text>
+            </Text>
+            <Properties>
+                <VERIFIED_01_CLASS>1590558130.9540942</VERIFIED_01_CLASS>
+                <auto_check_passed>1</auto_check_passed>
+            </Properties>
+        </ChartInfo>
+    </Panels>
+    <Properties>
+        <VERIFIED_01_PANELS>1590558130.9540942</VERIFIED_01_PANELS>
+    </Properties>
+</ImageInfo>

@@ -1,0 +1,392 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical box"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 330,
+                        "x1": 434,
+                        "x2": 434,
+                        "x3": 330,
+                        "y0": 497,
+                        "y1": 497,
+                        "y2": 516,
+                        "y3": 516
+                    },
+                    "text": "Housing type"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 83,
+                        "x1": 186,
+                        "x2": 186,
+                        "x3": 83,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 492,
+                        "y3": 492
+                    },
+                    "text": "Formal housing\n(bretrams)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 216,
+                        "x1": 300,
+                        "x2": 300,
+                        "x3": 216,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 491,
+                        "y3": 491
+                    },
+                    "text": "Old low cost\n(Riveriea)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 335,
+                        "x1": 423,
+                        "x2": 423,
+                        "x3": 335,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 490,
+                        "y3": 490
+                    },
+                    "text": "RDP\n(Breamfischervilie)"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 563,
+                        "x1": 690,
+                        "x2": 690,
+                        "x3": 563,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 491,
+                        "y3": 491
+                    },
+                    "text": "Informal settlement\n(Hosptal Hill)"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 484,
+                        "x1": 531,
+                        "x2": 531,
+                        "x3": 484,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 490,
+                        "y3": 490
+                    },
+                    "text": "Flat\n(Hillbrow)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 43,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 43,
+                        "y0": 394,
+                        "y1": 394,
+                        "y2": 415,
+                        "y3": 415
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 43,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 43,
+                        "y0": 272,
+                        "y1": 272,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 43,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 43,
+                        "y0": 152,
+                        "y1": 152,
+                        "y2": 173,
+                        "y3": 173
+                    },
+                    "text": "25"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 43,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 43,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 52,
+                        "y3": 52
+                    },
+                    "text": "30"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 18,
+                        "x1": 37,
+                        "x2": 37,
+                        "x3": 18,
+                        "y0": 121,
+                        "y1": 121,
+                        "y2": 353,
+                        "y3": 353
+                    },
+                    "text": "Daily indoor temperature (\u00b0C)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical box"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 330,
+                            "x1": 434,
+                            "x2": 434,
+                            "x3": 330,
+                            "y0": 497,
+                            "y1": 497,
+                            "y2": 516,
+                            "y3": 516
+                        },
+                        "text": "Housing type"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 83,
+                            "x1": 186,
+                            "x2": 186,
+                            "x3": 83,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 492,
+                            "y3": 492
+                        },
+                        "text": "Formal housing\n(bretrams)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 216,
+                            "x1": 300,
+                            "x2": 300,
+                            "x3": 216,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "Old low cost\n(Riveriea)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 335,
+                            "x1": 423,
+                            "x2": 423,
+                            "x3": 335,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 490,
+                            "y3": 490
+                        },
+                        "text": "RDP\n(Breamfischervilie)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 563,
+                            "x1": 690,
+                            "x2": 690,
+                            "x3": 563,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 491,
+                            "y3": 491
+                        },
+                        "text": "Informal settlement\n(Hosptal Hill)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 484,
+                            "x1": 531,
+                            "x2": 531,
+                            "x3": 484,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 490,
+                            "y3": 490
+                        },
+                        "text": "Flat\n(Hillbrow)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 43,
+                            "y0": 394,
+                            "y1": 394,
+                            "y2": 415,
+                            "y3": 415
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 43,
+                            "y0": 272,
+                            "y1": 272,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 43,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 173,
+                            "y3": 173
+                        },
+                        "text": "25"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 43,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 43,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 52,
+                            "y3": 52
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 18,
+                            "x1": 37,
+                            "x2": 37,
+                            "x3": 18,
+                            "y0": 121,
+                            "y1": 121,
+                            "y2": 353,
+                            "y3": 353
+                        },
+                        "text": "Daily indoor temperature (\u00b0C)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

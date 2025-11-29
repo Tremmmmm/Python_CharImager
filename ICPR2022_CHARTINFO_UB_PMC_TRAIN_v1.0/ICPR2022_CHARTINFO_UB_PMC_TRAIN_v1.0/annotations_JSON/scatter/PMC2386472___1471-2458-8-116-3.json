@@ -1,0 +1,1417 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 398,
+                        "x1": 445,
+                        "x2": 445,
+                        "x3": 398,
+                        "y0": 567,
+                        "y1": 567,
+                        "y2": 584,
+                        "y3": 584
+                    },
+                    "text": "ASYR"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 122,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 122,
+                        "y0": 54,
+                        "y1": 54,
+                        "y2": 67,
+                        "y3": 67
+                    },
+                    "text": "Ischemic heart disease"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 110,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 110,
+                        "y0": 86,
+                        "y1": 86,
+                        "y2": 100,
+                        "y3": 100
+                    },
+                    "text": "Cerebrovascular disease"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 96,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 96,
+                        "y0": 182,
+                        "y1": 182,
+                        "y2": 197,
+                        "y3": 197
+                    },
+                    "text": "Hypertensive heart disease"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 94,
+                        "x1": 264,
+                        "x2": 264,
+                        "x3": 94,
+                        "y0": 247,
+                        "y1": 247,
+                        "y2": 262,
+                        "y3": 262
+                    },
+                    "text": "Lower respiratory infections"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 101,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 101,
+                        "y0": 311,
+                        "y1": 311,
+                        "y2": 325,
+                        "y3": 325
+                    },
+                    "text": "Colon and rectum cancers"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 175,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 175,
+                        "y0": 150,
+                        "y1": 150,
+                        "y2": 164,
+                        "y3": 164
+                    },
+                    "text": "Breast Cancer"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 158,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 158,
+                        "y0": 343,
+                        "y1": 343,
+                        "y2": 357,
+                        "y3": 357
+                    },
+                    "text": "Diabetes mellitus"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 160,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 160,
+                        "y0": 375,
+                        "y1": 375,
+                        "y2": 389,
+                        "y3": 389
+                    },
+                    "text": "Pancreas cancer"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 71,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 71,
+                        "y0": 279,
+                        "y1": 279,
+                        "y2": 292,
+                        "y3": 292
+                    },
+                    "text": "Alzheimer and other dementias"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 87,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 87,
+                        "y0": 472,
+                        "y1": 472,
+                        "y2": 487,
+                        "y3": 487
+                    },
+                    "text": "Drug overdose, unintentional"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 35,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 35,
+                        "y0": 118,
+                        "y1": 118,
+                        "y2": 134,
+                        "y3": 134
+                    },
+                    "text": "Lung, bronchus, and trachea cancers"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 49,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 49,
+                        "y0": 440,
+                        "y1": 440,
+                        "y2": 455,
+                        "y3": 455
+                    },
+                    "text": "Lymphomas and multiple myeloma"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 33,
+                        "x1": 266,
+                        "x2": 266,
+                        "x3": 33,
+                        "y0": 407,
+                        "y1": 407,
+                        "y2": 422,
+                        "y3": 422
+                    },
+                    "text": "Self-inflicted injuries, all mechanisms"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 24,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 24,
+                        "y0": 214,
+                        "y1": 214,
+                        "y2": 231,
+                        "y3": 231
+                    },
+                    "text": "Chronic obstructive pulmonary disease"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 205,
+                        "x1": 265,
+                        "x2": 265,
+                        "x3": 205,
+                        "y0": 504,
+                        "y1": 504,
+                        "y2": 518,
+                        "y3": 518
+                    },
+                    "text": "HIV/AIDS"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 528,
+                        "x1": 560,
+                        "x2": 560,
+                        "x3": 528,
+                        "y0": 544,
+                        "y1": 544,
+                        "y2": 558,
+                        "y3": 558
+                    },
+                    "text": "1500"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 444,
+                        "x1": 476,
+                        "x2": 476,
+                        "x3": 444,
+                        "y0": 544,
+                        "y1": 544,
+                        "y2": 558,
+                        "y3": 558
+                    },
+                    "text": "1000"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 362,
+                        "x1": 388,
+                        "x2": 388,
+                        "x3": 362,
+                        "y0": 544,
+                        "y1": 544,
+                        "y2": 558,
+                        "y3": 558
+                    },
+                    "text": "500"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 286,
+                        "x1": 295,
+                        "x2": 295,
+                        "x3": 286,
+                        "y0": 544,
+                        "y1": 544,
+                        "y2": 558,
+                        "y3": 558
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 398,
+                            "x1": 445,
+                            "x2": 445,
+                            "x3": 398,
+                            "y0": 567,
+                            "y1": 567,
+                            "y2": 584,
+                            "y3": 584
+                        },
+                        "text": "ASYR"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 122,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 122,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 67,
+                            "y3": 67
+                        },
+                        "text": "Ischemic heart disease"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 110,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 100,
+                            "y3": 100
+                        },
+                        "text": "Cerebrovascular disease"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 96,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 96,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Hypertensive heart disease"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 94,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 94,
+                            "y0": 247,
+                            "y1": 247,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Lower respiratory infections"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 101,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 325,
+                            "y3": 325
+                        },
+                        "text": "Colon and rectum cancers"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 175,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 164,
+                            "y3": 164
+                        },
+                        "text": "Breast Cancer"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 158,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 158,
+                            "y0": 343,
+                            "y1": 343,
+                            "y2": 357,
+                            "y3": 357
+                        },
+                        "text": "Diabetes mellitus"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 160,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 160,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Pancreas cancer"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 71,
+                            "y0": 279,
+                            "y1": 279,
+                            "y2": 292,
+                            "y3": 292
+                        },
+                        "text": "Alzheimer and other dementias"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 87,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 87,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 487,
+                            "y3": 487
+                        },
+                        "text": "Drug overdose, unintentional"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 35,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 134,
+                            "y3": 134
+                        },
+                        "text": "Lung, bronchus, and trachea cancers"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 49,
+                            "y0": 440,
+                            "y1": 440,
+                            "y2": 455,
+                            "y3": 455
+                        },
+                        "text": "Lymphomas and multiple myeloma"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 33,
+                            "y0": 407,
+                            "y1": 407,
+                            "y2": 422,
+                            "y3": 422
+                        },
+                        "text": "Self-inflicted injuries, all mechanisms"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 24,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 231,
+                            "y3": 231
+                        },
+                        "text": "Chronic obstructive pulmonary disease"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 205,
+                            "y0": 504,
+                            "y1": 504,
+                            "y2": 518,
+                            "y3": 518
+                        },
+                        "text": "HIV/AIDS"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 560,
+                            "x2": 560,
+                            "x3": 528,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 444,
+                            "x1": 476,
+                            "x2": 476,
+                            "x3": 444,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 362,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 362,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 286,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 398,
+                            "x1": 445,
+                            "x2": 445,
+                            "x3": 398,
+                            "y0": 567,
+                            "y1": 567,
+                            "y2": 584,
+                            "y3": 584
+                        },
+                        "text": "ASYR"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 122,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 122,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 67,
+                            "y3": 67
+                        },
+                        "text": "Ischemic heart disease"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 110,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 100,
+                            "y3": 100
+                        },
+                        "text": "Cerebrovascular disease"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 96,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 96,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Hypertensive heart disease"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 94,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 94,
+                            "y0": 247,
+                            "y1": 247,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Lower respiratory infections"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 101,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 325,
+                            "y3": 325
+                        },
+                        "text": "Colon and rectum cancers"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 175,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 164,
+                            "y3": 164
+                        },
+                        "text": "Breast Cancer"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 158,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 158,
+                            "y0": 343,
+                            "y1": 343,
+                            "y2": 357,
+                            "y3": 357
+                        },
+                        "text": "Diabetes mellitus"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 160,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 160,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Pancreas cancer"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 71,
+                            "y0": 279,
+                            "y1": 279,
+                            "y2": 292,
+                            "y3": 292
+                        },
+                        "text": "Alzheimer and other dementias"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 87,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 87,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 487,
+                            "y3": 487
+                        },
+                        "text": "Drug overdose, unintentional"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 35,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 134,
+                            "y3": 134
+                        },
+                        "text": "Lung, bronchus, and trachea cancers"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 49,
+                            "y0": 440,
+                            "y1": 440,
+                            "y2": 455,
+                            "y3": 455
+                        },
+                        "text": "Lymphomas and multiple myeloma"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 33,
+                            "y0": 407,
+                            "y1": 407,
+                            "y2": 422,
+                            "y3": 422
+                        },
+                        "text": "Self-inflicted injuries, all mechanisms"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 24,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 231,
+                            "y3": 231
+                        },
+                        "text": "Chronic obstructive pulmonary disease"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 205,
+                            "y0": 504,
+                            "y1": 504,
+                            "y2": 518,
+                            "y3": 518
+                        },
+                        "text": "HIV/AIDS"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 560,
+                            "x2": 560,
+                            "x3": 528,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 444,
+                            "x1": 476,
+                            "x2": 476,
+                            "x3": 444,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 362,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 362,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 286,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 491,
+                "width": 300,
+                "x0": 272,
+                "y0": 40
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 291,
+                            "y": 531
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 375,
+                            "y": 531
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 459,
+                            "y": 531
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 543,
+                            "y": 531
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 61
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 93
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 125
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 157
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 189
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 221
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 253
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 286
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 318
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 350
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 382
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 414
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 446
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 478
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 272,
+                            "y": 510
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 398,
+                            "x1": 445,
+                            "x2": 445,
+                            "x3": 398,
+                            "y0": 567,
+                            "y1": 567,
+                            "y2": 584,
+                            "y3": 584
+                        },
+                        "text": "ASYR"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 122,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 122,
+                            "y0": 54,
+                            "y1": 54,
+                            "y2": 67,
+                            "y3": 67
+                        },
+                        "text": "Ischemic heart disease"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 110,
+                            "y0": 86,
+                            "y1": 86,
+                            "y2": 100,
+                            "y3": 100
+                        },
+                        "text": "Cerebrovascular disease"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 96,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 96,
+                            "y0": 182,
+                            "y1": 182,
+                            "y2": 197,
+                            "y3": 197
+                        },
+                        "text": "Hypertensive heart disease"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 94,
+                            "x1": 264,
+                            "x2": 264,
+                            "x3": 94,
+                            "y0": 247,
+                            "y1": 247,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Lower respiratory infections"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 101,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 325,
+                            "y3": 325
+                        },
+                        "text": "Colon and rectum cancers"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 175,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 164,
+                            "y3": 164
+                        },
+                        "text": "Breast Cancer"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 158,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 158,
+                            "y0": 343,
+                            "y1": 343,
+                            "y2": 357,
+                            "y3": 357
+                        },
+                        "text": "Diabetes mellitus"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 160,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 160,
+                            "y0": 375,
+                            "y1": 375,
+                            "y2": 389,
+                            "y3": 389
+                        },
+                        "text": "Pancreas cancer"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 71,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 71,
+                            "y0": 279,
+                            "y1": 279,
+                            "y2": 292,
+                            "y3": 292
+                        },
+                        "text": "Alzheimer and other dementias"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 87,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 87,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 487,
+                            "y3": 487
+                        },
+                        "text": "Drug overdose, unintentional"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 35,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 35,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 134,
+                            "y3": 134
+                        },
+                        "text": "Lung, bronchus, and trachea cancers"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 49,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 49,
+                            "y0": 440,
+                            "y1": 440,
+                            "y2": 455,
+                            "y3": 455
+                        },
+                        "text": "Lymphomas and multiple myeloma"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 33,
+                            "x1": 266,
+                            "x2": 266,
+                            "x3": 33,
+                            "y0": 407,
+                            "y1": 407,
+                            "y2": 422,
+                            "y3": 422
+                        },
+                        "text": "Self-inflicted injuries, all mechanisms"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 24,
+                            "y0": 214,
+                            "y1": 214,
+                            "y2": 231,
+                            "y3": 231
+                        },
+                        "text": "Chronic obstructive pulmonary disease"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 205,
+                            "x1": 265,
+                            "x2": 265,
+                            "x3": 205,
+                            "y0": 504,
+                            "y1": 504,
+                            "y2": 518,
+                            "y3": 518
+                        },
+                        "text": "HIV/AIDS"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 560,
+                            "x2": 560,
+                            "x3": 528,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 444,
+                            "x1": 476,
+                            "x2": 476,
+                            "x3": 444,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "1000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 362,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 362,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 286,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 286,
+                            "y0": 544,
+                            "y1": 544,
+                            "y2": 558,
+                            "y3": 558
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    }
+}

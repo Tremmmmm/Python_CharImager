@@ -1,0 +1,383 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter-line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter-line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 122,
+                        "x2": 122,
+                        "x3": 52,
+                        "y0": 11,
+                        "y1": 11,
+                        "y2": 31,
+                        "y3": 31
+                    },
+                    "text": "Margin"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 535,
+                        "x1": 636,
+                        "x2": 636,
+                        "x3": 535,
+                        "y0": 429,
+                        "y1": 429,
+                        "y2": 481,
+                        "y3": 481
+                    },
+                    "text": "Separating\nhyperplane"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 482,
+                        "x1": 624,
+                        "x2": 624,
+                        "x3": 482,
+                        "y0": 261,
+                        "y1": 261,
+                        "y2": 290,
+                        "y3": 290
+                    },
+                    "text": "Support vectors"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 443,
+                        "x1": 612,
+                        "x2": 612,
+                        "x3": 443,
+                        "y0": 326,
+                        "y1": 326,
+                        "y2": 355,
+                        "y3": 355
+                    },
+                    "text": "(w, O(x)) +b = +1"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 163,
+                        "x1": 332,
+                        "x2": 332,
+                        "x3": 163,
+                        "y0": 430,
+                        "y1": 430,
+                        "y2": 459,
+                        "y3": 459
+                    },
+                    "text": "(w, o(x)) + b=-1"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter-line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 122,
+                            "x2": 122,
+                            "x3": 52,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 31,
+                            "y3": 31
+                        },
+                        "text": "Margin"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 636,
+                            "x2": 636,
+                            "x3": 535,
+                            "y0": 429,
+                            "y1": 429,
+                            "y2": 481,
+                            "y3": 481
+                        },
+                        "text": "Separating\nhyperplane"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 624,
+                            "x2": 624,
+                            "x3": 482,
+                            "y0": 261,
+                            "y1": 261,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "Support vectors"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 443,
+                            "x1": 612,
+                            "x2": 612,
+                            "x3": 443,
+                            "y0": 326,
+                            "y1": 326,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "(w, O(x)) +b = +1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 163,
+                            "y0": 430,
+                            "y1": 430,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "(w, o(x)) + b=-1"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "other"
+                },
+                {
+                    "id": 1,
+                    "role": "other"
+                },
+                {
+                    "id": 2,
+                    "role": "other"
+                },
+                {
+                    "id": 3,
+                    "role": "other"
+                },
+                {
+                    "id": 4,
+                    "role": "other"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter-line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 122,
+                            "x2": 122,
+                            "x3": 52,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 31,
+                            "y3": 31
+                        },
+                        "text": "Margin"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 636,
+                            "x2": 636,
+                            "x3": 535,
+                            "y0": 429,
+                            "y1": 429,
+                            "y2": 481,
+                            "y3": 481
+                        },
+                        "text": "Separating\nhyperplane"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 624,
+                            "x2": 624,
+                            "x3": 482,
+                            "y0": 261,
+                            "y1": 261,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "Support vectors"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 443,
+                            "x1": 612,
+                            "x2": 612,
+                            "x3": 443,
+                            "y0": 326,
+                            "y1": 326,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "(w, O(x)) +b = +1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 163,
+                            "y0": 430,
+                            "y1": 430,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "(w, o(x)) + b=-1"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 492,
+                "width": 549,
+                "x0": 19,
+                "y0": 17
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter-line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 122,
+                            "x2": 122,
+                            "x3": 52,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 31,
+                            "y3": 31
+                        },
+                        "text": "Margin"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 636,
+                            "x2": 636,
+                            "x3": 535,
+                            "y0": 429,
+                            "y1": 429,
+                            "y2": 481,
+                            "y3": 481
+                        },
+                        "text": "Separating\nhyperplane"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 482,
+                            "x1": 624,
+                            "x2": 624,
+                            "x3": 482,
+                            "y0": 261,
+                            "y1": 261,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "Support vectors"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 443,
+                            "x1": 612,
+                            "x2": 612,
+                            "x3": 443,
+                            "y0": 326,
+                            "y1": 326,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "(w, O(x)) +b = +1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 332,
+                            "x2": 332,
+                            "x3": 163,
+                            "y0": 430,
+                            "y1": 430,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "(w, o(x)) + b=-1"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

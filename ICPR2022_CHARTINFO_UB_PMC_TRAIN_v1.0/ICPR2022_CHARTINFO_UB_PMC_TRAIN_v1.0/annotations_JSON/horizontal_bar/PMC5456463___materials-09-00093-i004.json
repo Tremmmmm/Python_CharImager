@@ -1,0 +1,146 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 248,
+                        "x1": 279,
+                        "x2": 279,
+                        "x3": 248,
+                        "y0": 10,
+                        "y1": 10,
+                        "y2": 24,
+                        "y3": 24
+                    },
+                    "text": "93.6"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 23,
+                        "x1": 46,
+                        "x2": 46,
+                        "x3": 23,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 13,
+                        "y3": 13
+                    },
+                    "text": "6.4"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 248,
+                            "x1": 279,
+                            "x2": 279,
+                            "x3": 248,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 24,
+                            "y3": 24
+                        },
+                        "text": "93.6"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 46,
+                            "x2": 46,
+                            "x3": 23,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "6.4"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 248,
+                            "x1": 279,
+                            "x2": 279,
+                            "x3": 248,
+                            "y0": 10,
+                            "y1": 10,
+                            "y2": 24,
+                            "y3": 24
+                        },
+                        "text": "93.6"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 23,
+                            "x1": 46,
+                            "x2": 46,
+                            "x3": 23,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 13,
+                            "y3": 13
+                        },
+                        "text": "6.4"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

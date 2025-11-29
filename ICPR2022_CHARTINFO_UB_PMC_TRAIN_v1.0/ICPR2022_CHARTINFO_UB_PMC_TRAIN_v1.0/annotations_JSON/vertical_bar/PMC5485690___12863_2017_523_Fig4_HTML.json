@@ -1,0 +1,296 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 77,
+                        "x1": 117,
+                        "x2": 117,
+                        "x3": 77,
+                        "y0": 135,
+                        "y1": 135,
+                        "y2": 146,
+                        "y3": 146
+                    },
+                    "text": "100000"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 77,
+                        "x1": 117,
+                        "x2": 117,
+                        "x3": 77,
+                        "y0": 84,
+                        "y1": 84,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "200000"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 77,
+                        "x1": 117,
+                        "x2": 117,
+                        "x3": 77,
+                        "y0": 32,
+                        "y1": 32,
+                        "y2": 43,
+                        "y3": 43
+                    },
+                    "text": "300000"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 62,
+                        "x1": 77,
+                        "x2": 77,
+                        "x3": 62,
+                        "y0": 51,
+                        "y1": 51,
+                        "y2": 178,
+                        "y3": 178
+                    },
+                    "text": "mtDNA copy number"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 109,
+                        "x1": 118,
+                        "x2": 118,
+                        "x3": 109,
+                        "y0": 186,
+                        "y1": 186,
+                        "y2": 198,
+                        "y3": 198
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": -2,
+                        "x1": 155,
+                        "x2": 165,
+                        "x3": 8,
+                        "y0": 359,
+                        "y1": 201,
+                        "y2": 212,
+                        "y3": 369
+                    },
+                    "text": "B. taurus oocytes with B. taurus mtDNA"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 73,
+                        "x1": 234,
+                        "x2": 244,
+                        "x3": 83,
+                        "y0": 361,
+                        "y1": 199,
+                        "y2": 209,
+                        "y3": 371
+                    },
+                    "text": "B. taurus oocytes with B. indicus mtDNA"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 147,
+                        "x1": 312,
+                        "x2": 322,
+                        "x3": 157,
+                        "y0": 365,
+                        "y1": 199,
+                        "y2": 210,
+                        "y3": 375
+                    },
+                    "text": "B. indicus oocytes with B. indicus mtDNA"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 117,
+                            "x2": 117,
+                            "x3": 77,
+                            "y0": 135,
+                            "y1": 135,
+                            "y2": 146,
+                            "y3": 146
+                        },
+                        "text": "100000"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 117,
+                            "x2": 117,
+                            "x3": 77,
+                            "y0": 84,
+                            "y1": 84,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "200000"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 77,
+                            "x1": 117,
+                            "x2": 117,
+                            "x3": 77,
+                            "y0": 32,
+                            "y1": 32,
+                            "y2": 43,
+                            "y3": 43
+                        },
+                        "text": "300000"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 62,
+                            "x1": 77,
+                            "x2": 77,
+                            "x3": 62,
+                            "y0": 51,
+                            "y1": 51,
+                            "y2": 178,
+                            "y3": 178
+                        },
+                        "text": "mtDNA copy number"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 109,
+                            "x1": 118,
+                            "x2": 118,
+                            "x3": 109,
+                            "y0": 186,
+                            "y1": 186,
+                            "y2": 198,
+                            "y3": 198
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": -2,
+                            "x1": 155,
+                            "x2": 165,
+                            "x3": 8,
+                            "y0": 359,
+                            "y1": 201,
+                            "y2": 212,
+                            "y3": 369
+                        },
+                        "text": "B. taurus oocytes with B. taurus mtDNA"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 73,
+                            "x1": 234,
+                            "x2": 244,
+                            "x3": 83,
+                            "y0": 361,
+                            "y1": 199,
+                            "y2": 209,
+                            "y3": 371
+                        },
+                        "text": "B. taurus oocytes with B. indicus mtDNA"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 147,
+                            "x1": 312,
+                            "x2": 322,
+                            "x3": 157,
+                            "y0": 365,
+                            "y1": 199,
+                            "y2": 210,
+                            "y3": 375
+                        },
+                        "text": "B. indicus oocytes with B. indicus mtDNA"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

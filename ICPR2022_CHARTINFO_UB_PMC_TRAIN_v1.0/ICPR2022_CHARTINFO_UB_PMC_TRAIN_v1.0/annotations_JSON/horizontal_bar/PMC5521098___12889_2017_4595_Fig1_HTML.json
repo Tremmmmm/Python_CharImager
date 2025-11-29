@@ -1,0 +1,744 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 173,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 173,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 43,
+                        "y3": 43
+                    },
+                    "text": "Do not eat breakfast daily"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 133,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 133,
+                        "y0": 71,
+                        "y1": 71,
+                        "y2": 83,
+                        "y3": 83
+                    },
+                    "text": "Eats dinner in front of TV >5week"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 98,
+                        "x1": 297,
+                        "x2": 297,
+                        "x3": 98,
+                        "y0": 154,
+                        "y1": 154,
+                        "y2": 168,
+                        "y3": 168
+                    },
+                    "text": "Use e-devices during sleep time (usually)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 82,
+                        "y0": 196,
+                        "y1": 196,
+                        "y2": 209,
+                        "y3": 209
+                    },
+                    "text": "No rules on 'ad libiturn' snacking in the home"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 46,
+                        "x1": 295,
+                        "x2": 295,
+                        "x3": 46,
+                        "y0": 237,
+                        "y1": 237,
+                        "y2": 250,
+                        "y3": 250
+                    },
+                    "text": "Sweet used as a reward for good behavior (usually)"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 101,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 101,
+                        "y0": 320,
+                        "y1": 320,
+                        "y2": 334,
+                        "y3": 334
+                    },
+                    "text": "Soft drink available in the home (usually)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 157,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 157,
+                        "y0": 278,
+                        "y1": 278,
+                        "y2": 291,
+                        "y3": 291
+                    },
+                    "text": "Rules on screen time (never)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 183,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 183,
+                        "y0": 113,
+                        "y1": 113,
+                        "y2": 125,
+                        "y3": 125
+                    },
+                    "text": "Eats fast food > 1/week"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 176,
+                        "x1": 298,
+                        "x2": 298,
+                        "x3": 176,
+                        "y0": 361,
+                        "y1": 361,
+                        "y2": 373,
+                        "y3": 373
+                    },
+                    "text": "Has a TV in the bedroom"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 495,
+                        "x1": 572,
+                        "x2": 572,
+                        "x3": 495,
+                        "y0": 410,
+                        "y1": 410,
+                        "y2": 422,
+                        "y3": 422
+                    },
+                    "text": "Prevalence (%)"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 25,
+                        "x1": 36,
+                        "x2": 36,
+                        "x3": 25,
+                        "y0": 49,
+                        "y1": 49,
+                        "y2": 147,
+                        "y3": 147
+                    },
+                    "text": "Individual behaviors"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 25,
+                        "x1": 37,
+                        "x2": 37,
+                        "x3": 25,
+                        "y0": 200,
+                        "y1": 200,
+                        "y2": 285,
+                        "y3": 285
+                    },
+                    "text": "Parent influences"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 36,
+                        "x2": 36,
+                        "x3": 2,
+                        "y0": 315,
+                        "y1": 315,
+                        "y2": 377,
+                        "y3": 377
+                    },
+                    "text": "Home environment factors"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 691,
+                        "x1": 751,
+                        "x2": 751,
+                        "x3": 691,
+                        "y0": 23,
+                        "y1": 23,
+                        "y2": 35,
+                        "y3": 35
+                    },
+                    "text": "Adolescents"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 692,
+                        "x1": 734,
+                        "x2": 734,
+                        "x3": 692,
+                        "y0": 47,
+                        "y1": 47,
+                        "y2": 58,
+                        "y3": 58
+                    },
+                    "text": "Children"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 301,
+                        "x1": 310,
+                        "x2": 310,
+                        "x3": 301,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 375,
+                        "x1": 389,
+                        "x2": 389,
+                        "x3": 375,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 451,
+                        "x1": 465,
+                        "x2": 465,
+                        "x3": 451,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 527,
+                        "x1": 541,
+                        "x2": 541,
+                        "x3": 527,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "30"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 603,
+                        "x1": 617,
+                        "x2": 617,
+                        "x3": 603,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "40"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 680,
+                        "x1": 693,
+                        "x2": 693,
+                        "x3": 680,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "50"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 756,
+                        "x1": 769,
+                        "x2": 769,
+                        "x3": 756,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 406,
+                        "y3": 406
+                    },
+                    "text": "60"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 173,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 173,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 43,
+                            "y3": 43
+                        },
+                        "text": "Do not eat breakfast daily"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 133,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 133,
+                            "y0": 71,
+                            "y1": 71,
+                            "y2": 83,
+                            "y3": 83
+                        },
+                        "text": "Eats dinner in front of TV >5week"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 98,
+                            "x1": 297,
+                            "x2": 297,
+                            "x3": 98,
+                            "y0": 154,
+                            "y1": 154,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "Use e-devices during sleep time (usually)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 82,
+                            "y0": 196,
+                            "y1": 196,
+                            "y2": 209,
+                            "y3": 209
+                        },
+                        "text": "No rules on 'ad libiturn' snacking in the home"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 46,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 46,
+                            "y0": 237,
+                            "y1": 237,
+                            "y2": 250,
+                            "y3": 250
+                        },
+                        "text": "Sweet used as a reward for good behavior (usually)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 101,
+                            "y0": 320,
+                            "y1": 320,
+                            "y2": 334,
+                            "y3": 334
+                        },
+                        "text": "Soft drink available in the home (usually)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 157,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 157,
+                            "y0": 278,
+                            "y1": 278,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Rules on screen time (never)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 183,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 183,
+                            "y0": 113,
+                            "y1": 113,
+                            "y2": 125,
+                            "y3": 125
+                        },
+                        "text": "Eats fast food > 1/week"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 176,
+                            "x1": 298,
+                            "x2": 298,
+                            "x3": 176,
+                            "y0": 361,
+                            "y1": 361,
+                            "y2": 373,
+                            "y3": 373
+                        },
+                        "text": "Has a TV in the bedroom"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 495,
+                            "x1": 572,
+                            "x2": 572,
+                            "x3": 495,
+                            "y0": 410,
+                            "y1": 410,
+                            "y2": 422,
+                            "y3": 422
+                        },
+                        "text": "Prevalence (%)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 25,
+                            "x1": 36,
+                            "x2": 36,
+                            "x3": 25,
+                            "y0": 49,
+                            "y1": 49,
+                            "y2": 147,
+                            "y3": 147
+                        },
+                        "text": "Individual behaviors"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 25,
+                            "x1": 37,
+                            "x2": 37,
+                            "x3": 25,
+                            "y0": 200,
+                            "y1": 200,
+                            "y2": 285,
+                            "y3": 285
+                        },
+                        "text": "Parent influences"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 36,
+                            "x2": 36,
+                            "x3": 2,
+                            "y0": 315,
+                            "y1": 315,
+                            "y2": 377,
+                            "y3": 377
+                        },
+                        "text": "Home environment factors"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 691,
+                            "x1": 751,
+                            "x2": 751,
+                            "x3": 691,
+                            "y0": 23,
+                            "y1": 23,
+                            "y2": 35,
+                            "y3": 35
+                        },
+                        "text": "Adolescents"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 692,
+                            "x1": 734,
+                            "x2": 734,
+                            "x3": 692,
+                            "y0": 47,
+                            "y1": 47,
+                            "y2": 58,
+                            "y3": 58
+                        },
+                        "text": "Children"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 301,
+                            "x1": 310,
+                            "x2": 310,
+                            "x3": 301,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 375,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 375,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 451,
+                            "x1": 465,
+                            "x2": 465,
+                            "x3": 451,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 527,
+                            "x1": 541,
+                            "x2": 541,
+                            "x3": 527,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "30"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 603,
+                            "x1": 617,
+                            "x2": 617,
+                            "x3": 603,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 680,
+                            "x1": 693,
+                            "x2": 693,
+                            "x3": 680,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "50"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 756,
+                            "x1": 769,
+                            "x2": 769,
+                            "x3": 756,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 406,
+                            "y3": 406
+                        },
+                        "text": "60"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

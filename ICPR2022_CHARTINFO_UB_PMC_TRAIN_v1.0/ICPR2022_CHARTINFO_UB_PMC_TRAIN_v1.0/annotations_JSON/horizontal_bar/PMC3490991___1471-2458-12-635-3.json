@@ -1,0 +1,1959 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 91,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 91,
+                        "y0": 5,
+                        "y1": 5,
+                        "y2": 21,
+                        "y3": 21
+                    },
+                    "text": "Fliers/posters/Ads/Mailouts"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 103,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 103,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 46,
+                        "y3": 46
+                    },
+                    "text": "Newsletters/ Newspapers"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 202,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 202,
+                        "y0": 56,
+                        "y1": 56,
+                        "y2": 68,
+                        "y3": 68
+                    },
+                    "text": "Internet"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 198,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 198,
+                        "y0": 78,
+                        "y1": 78,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "TV/radio"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 24,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 24,
+                        "y0": 103,
+                        "y1": 103,
+                        "y2": 119,
+                        "y3": 119
+                    },
+                    "text": "Promotion via mail to doctor's surgeries"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 155,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 155,
+                        "y0": 127,
+                        "y1": 127,
+                        "y2": 143,
+                        "y3": 143
+                    },
+                    "text": "Media campaign"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 139,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 139,
+                        "y0": 152,
+                        "y1": 152,
+                        "y2": 165,
+                        "y3": 165
+                    },
+                    "text": "Financial incentives"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 20,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 20,
+                        "y0": 176,
+                        "y1": 176,
+                        "y2": 192,
+                        "y3": 192
+                    },
+                    "text": "Free gifts e.g. Pedometers, water bottles"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 251,
+                        "x2": 251,
+                        "x3": 0,
+                        "y0": 321,
+                        "y1": 321,
+                        "y2": 337,
+                        "y3": 337
+                    },
+                    "text": "Info sessions to groups/ health professionals"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 34,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 34,
+                        "y0": 443,
+                        "y1": 443,
+                        "y2": 459,
+                        "y3": 459
+                    },
+                    "text": "Walk promotion through partnerships"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 46,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 46,
+                        "y0": 297,
+                        "y1": 297,
+                        "y2": 313,
+                        "y3": 313
+                    },
+                    "text": "Word of mouth (usually one to one)"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 137,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 137,
+                        "y0": 419,
+                        "y1": 419,
+                        "y2": 431,
+                        "y3": 431
+                    },
+                    "text": "Referral home visits"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 151,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 151,
+                        "y0": 395,
+                        "y1": 395,
+                        "y2": 410,
+                        "y3": 410
+                    },
+                    "text": "Community stalls"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 198,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 198,
+                        "y0": 370,
+                        "y1": 370,
+                        "y2": 383,
+                        "y3": 383
+                    },
+                    "text": "Referrals"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 185,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 185,
+                        "y0": 346,
+                        "y1": 346,
+                        "y2": 359,
+                        "y3": 359
+                    },
+                    "text": "Phone calls"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 218,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 218,
+                        "y0": 249,
+                        "y1": 249,
+                        "y2": 261,
+                        "y3": 261
+                    },
+                    "text": "Email"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 192,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 192,
+                        "y0": 225,
+                        "y1": 225,
+                        "y2": 238,
+                        "y3": 238
+                    },
+                    "text": "Phoneline"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 210,
+                        "x1": 250,
+                        "x2": 250,
+                        "x3": 210,
+                        "y0": 200,
+                        "y1": 200,
+                        "y2": 213,
+                        "y3": 213
+                    },
+                    "text": "Diaries"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 357,
+                        "x1": 495,
+                        "x2": 495,
+                        "x3": 357,
+                        "y0": 494,
+                        "y1": 494,
+                        "y2": 509,
+                        "y3": 509
+                    },
+                    "text": "Number of respondents"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 193,
+                        "x1": 312,
+                        "x2": 312,
+                        "x3": 193,
+                        "y0": 524,
+                        "y1": 524,
+                        "y2": 539,
+                        "y3": 539
+                    },
+                    "text": "Passive methods*"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 383,
+                        "x1": 496,
+                        "x2": 496,
+                        "x3": 383,
+                        "y0": 522,
+                        "y1": 522,
+                        "y2": 539,
+                        "y3": 539
+                    },
+                    "text": "Active methods^{+}"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 257,
+                        "x1": 267,
+                        "x2": 267,
+                        "x3": 257,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 22,
+                    "polygon": {
+                        "x0": 312,
+                        "x1": 321,
+                        "x2": 321,
+                        "x3": 312,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "5"
+                },
+                {
+                    "id": 23,
+                    "polygon": {
+                        "x0": 364,
+                        "x1": 380,
+                        "x2": 380,
+                        "x3": 364,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 24,
+                    "polygon": {
+                        "x0": 419,
+                        "x1": 435,
+                        "x2": 435,
+                        "x3": 419,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 25,
+                    "polygon": {
+                        "x0": 473,
+                        "x1": 490,
+                        "x2": 490,
+                        "x3": 473,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 26,
+                    "polygon": {
+                        "x0": 528,
+                        "x1": 545,
+                        "x2": 545,
+                        "x3": 528,
+                        "y0": 472,
+                        "y1": 472,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "25"
+                },
+                {
+                    "id": 27,
+                    "polygon": {
+                        "x0": 583,
+                        "x1": 600,
+                        "x2": 600,
+                        "x3": 583,
+                        "y0": 473,
+                        "y1": 473,
+                        "y2": 485,
+                        "y3": 485
+                    },
+                    "text": "30"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 91,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 91,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "Fliers/posters/Ads/Mailouts"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 103,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 103,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Newsletters/ Newspapers"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 202,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "Internet"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 78,
+                            "y1": 78,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "TV/radio"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 24,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 119,
+                            "y3": 119
+                        },
+                        "text": "Promotion via mail to doctor's surgeries"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 155,
+                            "y0": 127,
+                            "y1": 127,
+                            "y2": 143,
+                            "y3": 143
+                        },
+                        "text": "Media campaign"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 139,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Financial incentives"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 20,
+                            "y0": 176,
+                            "y1": 176,
+                            "y2": 192,
+                            "y3": 192
+                        },
+                        "text": "Free gifts e.g. Pedometers, water bottles"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 251,
+                            "x2": 251,
+                            "x3": 0,
+                            "y0": 321,
+                            "y1": 321,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "Info sessions to groups/ health professionals"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 34,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 34,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "Walk promotion through partnerships"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 46,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 46,
+                            "y0": 297,
+                            "y1": 297,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "Word of mouth (usually one to one)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 137,
+                            "y0": 419,
+                            "y1": 419,
+                            "y2": 431,
+                            "y3": 431
+                        },
+                        "text": "Referral home visits"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 151,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 151,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 410,
+                            "y3": 410
+                        },
+                        "text": "Community stalls"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 370,
+                            "y1": 370,
+                            "y2": 383,
+                            "y3": 383
+                        },
+                        "text": "Referrals"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 185,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 185,
+                            "y0": 346,
+                            "y1": 346,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Phone calls"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 218,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 218,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 261,
+                            "y3": 261
+                        },
+                        "text": "Email"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 192,
+                            "y0": 225,
+                            "y1": 225,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Phoneline"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 210,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 210,
+                            "y0": 200,
+                            "y1": 200,
+                            "y2": 213,
+                            "y3": 213
+                        },
+                        "text": "Diaries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 357,
+                            "x1": 495,
+                            "x2": 495,
+                            "x3": 357,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 509,
+                            "y3": 509
+                        },
+                        "text": "Number of respondents"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 312,
+                            "x2": 312,
+                            "x3": 193,
+                            "y0": 524,
+                            "y1": 524,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Passive methods*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 383,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 383,
+                            "y0": 522,
+                            "y1": 522,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Active methods^{+}"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 257,
+                            "x1": 267,
+                            "x2": 267,
+                            "x3": 257,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 321,
+                            "x2": 321,
+                            "x3": 312,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 364,
+                            "x1": 380,
+                            "x2": 380,
+                            "x3": 364,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 419,
+                            "x1": 435,
+                            "x2": 435,
+                            "x3": 419,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 490,
+                            "x2": 490,
+                            "x3": 473,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 545,
+                            "x2": 545,
+                            "x3": 528,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "25"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 583,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 583,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 19,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 20,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 22,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 23,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 24,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 25,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 26,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 27,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 91,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 91,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "Fliers/posters/Ads/Mailouts"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 103,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 103,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Newsletters/ Newspapers"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 202,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "Internet"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 78,
+                            "y1": 78,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "TV/radio"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 24,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 119,
+                            "y3": 119
+                        },
+                        "text": "Promotion via mail to doctor's surgeries"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 155,
+                            "y0": 127,
+                            "y1": 127,
+                            "y2": 143,
+                            "y3": 143
+                        },
+                        "text": "Media campaign"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 139,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Financial incentives"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 20,
+                            "y0": 176,
+                            "y1": 176,
+                            "y2": 192,
+                            "y3": 192
+                        },
+                        "text": "Free gifts e.g. Pedometers, water bottles"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 251,
+                            "x2": 251,
+                            "x3": 0,
+                            "y0": 321,
+                            "y1": 321,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "Info sessions to groups/ health professionals"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 34,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 34,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "Walk promotion through partnerships"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 46,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 46,
+                            "y0": 297,
+                            "y1": 297,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "Word of mouth (usually one to one)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 137,
+                            "y0": 419,
+                            "y1": 419,
+                            "y2": 431,
+                            "y3": 431
+                        },
+                        "text": "Referral home visits"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 151,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 151,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 410,
+                            "y3": 410
+                        },
+                        "text": "Community stalls"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 370,
+                            "y1": 370,
+                            "y2": 383,
+                            "y3": 383
+                        },
+                        "text": "Referrals"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 185,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 185,
+                            "y0": 346,
+                            "y1": 346,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Phone calls"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 218,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 218,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 261,
+                            "y3": 261
+                        },
+                        "text": "Email"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 192,
+                            "y0": 225,
+                            "y1": 225,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Phoneline"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 210,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 210,
+                            "y0": 200,
+                            "y1": 200,
+                            "y2": 213,
+                            "y3": 213
+                        },
+                        "text": "Diaries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 357,
+                            "x1": 495,
+                            "x2": 495,
+                            "x3": 357,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 509,
+                            "y3": 509
+                        },
+                        "text": "Number of respondents"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 312,
+                            "x2": 312,
+                            "x3": 193,
+                            "y0": 524,
+                            "y1": 524,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Passive methods*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 383,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 383,
+                            "y0": 522,
+                            "y1": 522,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Active methods^{+}"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 257,
+                            "x1": 267,
+                            "x2": 267,
+                            "x3": 257,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 321,
+                            "x2": 321,
+                            "x3": 312,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 364,
+                            "x1": 380,
+                            "x2": 380,
+                            "x3": 364,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 419,
+                            "x1": 435,
+                            "x2": 435,
+                            "x3": 419,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 490,
+                            "x2": 490,
+                            "x3": 473,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 545,
+                            "x2": 545,
+                            "x3": 528,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "25"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 583,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 583,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 463,
+                "width": 331,
+                "x0": 261,
+                "y0": 0
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 13
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 38
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 62
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 86
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 111
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 135
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 158
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 184
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 329
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 451
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 305
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 425
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 402
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 376
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 352
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 255
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 232
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 206
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 21,
+                        "tick_pt": {
+                            "x": 261,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "tick_pt": {
+                            "x": 316,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 23,
+                        "tick_pt": {
+                            "x": 372,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 24,
+                        "tick_pt": {
+                            "x": 427,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 25,
+                        "tick_pt": {
+                            "x": 482,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "tick_pt": {
+                            "x": 537,
+                            "y": 463
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "tick_pt": {
+                            "x": 592,
+                            "y": 463
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 91,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 91,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "Fliers/posters/Ads/Mailouts"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 103,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 103,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 46,
+                            "y3": 46
+                        },
+                        "text": "Newsletters/ Newspapers"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 202,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 202,
+                            "y0": 56,
+                            "y1": 56,
+                            "y2": 68,
+                            "y3": 68
+                        },
+                        "text": "Internet"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 78,
+                            "y1": 78,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "TV/radio"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 24,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 24,
+                            "y0": 103,
+                            "y1": 103,
+                            "y2": 119,
+                            "y3": 119
+                        },
+                        "text": "Promotion via mail to doctor's surgeries"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 155,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 155,
+                            "y0": 127,
+                            "y1": 127,
+                            "y2": 143,
+                            "y3": 143
+                        },
+                        "text": "Media campaign"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 139,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 139,
+                            "y0": 152,
+                            "y1": 152,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Financial incentives"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 20,
+                            "y0": 176,
+                            "y1": 176,
+                            "y2": 192,
+                            "y3": 192
+                        },
+                        "text": "Free gifts e.g. Pedometers, water bottles"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 251,
+                            "x2": 251,
+                            "x3": 0,
+                            "y0": 321,
+                            "y1": 321,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "Info sessions to groups/ health professionals"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 34,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 34,
+                            "y0": 443,
+                            "y1": 443,
+                            "y2": 459,
+                            "y3": 459
+                        },
+                        "text": "Walk promotion through partnerships"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 46,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 46,
+                            "y0": 297,
+                            "y1": 297,
+                            "y2": 313,
+                            "y3": 313
+                        },
+                        "text": "Word of mouth (usually one to one)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 137,
+                            "y0": 419,
+                            "y1": 419,
+                            "y2": 431,
+                            "y3": 431
+                        },
+                        "text": "Referral home visits"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 151,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 151,
+                            "y0": 395,
+                            "y1": 395,
+                            "y2": 410,
+                            "y3": 410
+                        },
+                        "text": "Community stalls"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 198,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 198,
+                            "y0": 370,
+                            "y1": 370,
+                            "y2": 383,
+                            "y3": 383
+                        },
+                        "text": "Referrals"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 185,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 185,
+                            "y0": 346,
+                            "y1": 346,
+                            "y2": 359,
+                            "y3": 359
+                        },
+                        "text": "Phone calls"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 218,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 218,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 261,
+                            "y3": 261
+                        },
+                        "text": "Email"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 192,
+                            "y0": 225,
+                            "y1": 225,
+                            "y2": 238,
+                            "y3": 238
+                        },
+                        "text": "Phoneline"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 210,
+                            "x1": 250,
+                            "x2": 250,
+                            "x3": 210,
+                            "y0": 200,
+                            "y1": 200,
+                            "y2": 213,
+                            "y3": 213
+                        },
+                        "text": "Diaries"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 357,
+                            "x1": 495,
+                            "x2": 495,
+                            "x3": 357,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 509,
+                            "y3": 509
+                        },
+                        "text": "Number of respondents"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 193,
+                            "x1": 312,
+                            "x2": 312,
+                            "x3": 193,
+                            "y0": 524,
+                            "y1": 524,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Passive methods*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 383,
+                            "x1": 496,
+                            "x2": 496,
+                            "x3": 383,
+                            "y0": 522,
+                            "y1": 522,
+                            "y2": 539,
+                            "y3": 539
+                        },
+                        "text": "Active methods^{+}"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 257,
+                            "x1": 267,
+                            "x2": 267,
+                            "x3": 257,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 321,
+                            "x2": 321,
+                            "x3": 312,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 364,
+                            "x1": 380,
+                            "x2": 380,
+                            "x3": 364,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 419,
+                            "x1": 435,
+                            "x2": 435,
+                            "x3": 419,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 473,
+                            "x1": 490,
+                            "x2": 490,
+                            "x3": 473,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 528,
+                            "x1": 545,
+                            "x2": 545,
+                            "x3": 528,
+                            "y0": 472,
+                            "y1": 472,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "25"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 583,
+                            "x1": 600,
+                            "x2": 600,
+                            "x3": 583,
+                            "y0": 473,
+                            "y1": 473,
+                            "y2": 485,
+                            "y3": 485
+                        },
+                        "text": "30"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 32,
+                        "x0": 151,
+                        "y0": 529
+                    },
+                    "id": 19
+                },
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 33,
+                        "x0": 349,
+                        "y0": 529
+                    },
+                    "id": 20
+                }
+            ]
+        }
+    },
+    "task6": null
+}

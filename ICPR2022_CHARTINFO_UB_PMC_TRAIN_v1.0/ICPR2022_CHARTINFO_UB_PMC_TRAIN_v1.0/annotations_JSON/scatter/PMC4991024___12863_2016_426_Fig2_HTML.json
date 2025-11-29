@@ -1,0 +1,238 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 21,
+                        "x2": 21,
+                        "x3": 1,
+                        "y0": 11,
+                        "y1": 11,
+                        "y2": 125,
+                        "y3": 125
+                    },
+                    "text": "G allele signal"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 233,
+                        "x1": 346,
+                        "x2": 346,
+                        "x3": 233,
+                        "y0": 329,
+                        "y1": 329,
+                        "y2": 345,
+                        "y3": 345
+                    },
+                    "text": "Aallele signal"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 186,
+                        "x1": 342,
+                        "x2": 342,
+                        "x3": 186,
+                        "y0": 235,
+                        "y1": 235,
+                        "y2": 250,
+                        "y3": 250
+                    },
+                    "text": "A Cluster = Q clade"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 101,
+                        "x1": 284,
+                        "x2": 284,
+                        "x3": 101,
+                        "y0": 12,
+                        "y1": 12,
+                        "y2": 26,
+                        "y3": 26
+                    },
+                    "text": "G Cluster = other taxa"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 1,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 125,
+                            "y3": 125
+                        },
+                        "text": "G allele signal"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 346,
+                            "x2": 346,
+                            "x3": 233,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 345,
+                            "y3": 345
+                        },
+                        "text": "Aallele signal"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 186,
+                            "x1": 342,
+                            "x2": 342,
+                            "x3": 186,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 250,
+                            "y3": 250
+                        },
+                        "text": "A Cluster = Q clade"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 284,
+                            "x2": 284,
+                            "x3": 101,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "G Cluster = other taxa"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "value_label"
+                },
+                {
+                    "id": 3,
+                    "role": "value_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 21,
+                            "x2": 21,
+                            "x3": 1,
+                            "y0": 11,
+                            "y1": 11,
+                            "y2": 125,
+                            "y3": 125
+                        },
+                        "text": "G allele signal"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 233,
+                            "x1": 346,
+                            "x2": 346,
+                            "x3": 233,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 345,
+                            "y3": 345
+                        },
+                        "text": "Aallele signal"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 186,
+                            "x1": 342,
+                            "x2": 342,
+                            "x3": 186,
+                            "y0": 235,
+                            "y1": 235,
+                            "y2": 250,
+                            "y3": 250
+                        },
+                        "text": "A Cluster = Q clade"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 101,
+                            "x1": 284,
+                            "x2": 284,
+                            "x3": 101,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 26,
+                            "y3": 26
+                        },
+                        "text": "G Cluster = other taxa"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

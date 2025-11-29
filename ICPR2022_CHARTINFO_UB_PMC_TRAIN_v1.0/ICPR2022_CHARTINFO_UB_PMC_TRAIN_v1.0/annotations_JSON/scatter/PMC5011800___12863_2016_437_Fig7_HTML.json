@@ -1,0 +1,232 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 187,
+                        "x1": 389,
+                        "x2": 389,
+                        "x3": 187,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "Principal Coordinates (PCoA)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 12,
+                        "x2": 12,
+                        "x3": 0,
+                        "y0": 145,
+                        "y1": 145,
+                        "y2": 196,
+                        "y3": 196
+                    },
+                    "text": "Coord. 2"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 242,
+                        "x1": 293,
+                        "x2": 293,
+                        "x3": 242,
+                        "y0": 323,
+                        "y1": 323,
+                        "y2": 336,
+                        "y3": 336
+                    },
+                    "text": "Coord.1"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 536,
+                        "x1": 567,
+                        "x2": 567,
+                        "x3": 536,
+                        "y0": 149,
+                        "y1": 149,
+                        "y2": 163,
+                        "y3": 163
+                    },
+                    "text": "Pop1"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 536,
+                        "x1": 567,
+                        "x2": 567,
+                        "x3": 536,
+                        "y0": 174,
+                        "y1": 174,
+                        "y2": 189,
+                        "y3": 189
+                    },
+                    "text": "Pop2"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 536,
+                        "x1": 567,
+                        "x2": 567,
+                        "x3": 536,
+                        "y0": 199,
+                        "y1": 199,
+                        "y2": 214,
+                        "y3": 214
+                    },
+                    "text": "Pop3"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 187,
+                            "x1": 389,
+                            "x2": 389,
+                            "x3": 187,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "Principal Coordinates (PCoA)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 12,
+                            "x2": 12,
+                            "x3": 0,
+                            "y0": 145,
+                            "y1": 145,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "Coord. 2"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 242,
+                            "x1": 293,
+                            "x2": 293,
+                            "x3": 242,
+                            "y0": 323,
+                            "y1": 323,
+                            "y2": 336,
+                            "y3": 336
+                        },
+                        "text": "Coord.1"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 536,
+                            "x1": 567,
+                            "x2": 567,
+                            "x3": 536,
+                            "y0": 149,
+                            "y1": 149,
+                            "y2": 163,
+                            "y3": 163
+                        },
+                        "text": "Pop1"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 536,
+                            "x1": 567,
+                            "x2": 567,
+                            "x3": 536,
+                            "y0": 174,
+                            "y1": 174,
+                            "y2": 189,
+                            "y3": 189
+                        },
+                        "text": "Pop2"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 536,
+                            "x1": 567,
+                            "x2": 567,
+                            "x3": 536,
+                            "y0": 199,
+                            "y1": 199,
+                            "y2": 214,
+                            "y3": 214
+                        },
+                        "text": "Pop3"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 4,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 5,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

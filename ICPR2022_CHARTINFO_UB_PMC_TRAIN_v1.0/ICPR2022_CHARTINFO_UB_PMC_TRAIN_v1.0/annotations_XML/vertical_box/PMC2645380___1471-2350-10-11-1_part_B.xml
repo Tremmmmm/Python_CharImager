@@ -1,0 +1,23 @@
+<ImageInfo>
+    <PanelTree>
+        <PanelTreeNode>
+            <X1>0</X1>
+            <Y1>0</Y1>
+            <X2>295</X2>
+            <Y2>208</Y2>
+        </PanelTreeNode>
+    </PanelTree>
+    <Panels>
+        <ChartInfo>
+            <Type orientation="vertical">box</Type>
+            <Text>
+            </Text>
+            <Properties>
+                <VERIFIED_01_CLASS>1596518886.3741753</VERIFIED_01_CLASS>
+            </Properties>
+        </ChartInfo>
+    </Panels>
+    <Properties>
+        <VERIFIED_01_PANELS>1596518876.9902277</VERIFIED_01_PANELS>
+    </Properties>
+</ImageInfo>

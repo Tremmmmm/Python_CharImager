@@ -1,0 +1,1804 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 116,
+                        "x1": 420,
+                        "x2": 420,
+                        "x3": 116,
+                        "y0": 5,
+                        "y1": 5,
+                        "y2": 21,
+                        "y3": 21
+                    },
+                    "text": "SEEING THE MARKETER\u2019S PERSPECTIVE"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 169,
+                        "x1": 416,
+                        "x2": 416,
+                        "x3": 169,
+                        "y0": 188,
+                        "y1": 188,
+                        "y2": 203,
+                        "y3": 203
+                    },
+                    "text": "RESPECT FOR THE COMMUNITY"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 27,
+                        "x1": 415,
+                        "x2": 415,
+                        "x3": 27,
+                        "y0": 388,
+                        "y1": 388,
+                        "y2": 403,
+                        "y3": 403
+                    },
+                    "text": "FOOD ENVIRONMENT AS A SOCIAL JUSTICE ISSUE"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 152,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 152,
+                        "y0": 28,
+                        "y1": 28,
+                        "y2": 65,
+                        "y3": 65
+                    },
+                    "text": "People do what they have to do to sell/\ngood business tactic"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 149,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 149,
+                        "y0": 69,
+                        "y1": 69,
+                        "y2": 85,
+                        "y3": 85
+                    },
+                    "text": "We should be able to eat what we want"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 113,
+                        "x1": 420,
+                        "x2": 420,
+                        "x3": 113,
+                        "y0": 88,
+                        "y1": 88,
+                        "y2": 127,
+                        "y3": 127
+                    },
+                    "text": "If I want it, lam going to get it/\nhigher prices will not deter bad eating habits"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 159,
+                        "x1": 420,
+                        "x2": 420,
+                        "x3": 159,
+                        "y0": 130,
+                        "y1": 130,
+                        "y2": 148,
+                        "y3": 148
+                    },
+                    "text": "It\u2019s about demand, not a fairness issue"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 277,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 277,
+                        "y0": 150,
+                        "y1": 150,
+                        "y2": 166,
+                        "y3": 166
+                    },
+                    "text": "It\u2019s about the money"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 80,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 80,
+                        "y0": 231,
+                        "y1": 231,
+                        "y2": 249,
+                        "y3": 249
+                    },
+                    "text": "We need better examples of Blacks eating healthy"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 220,
+                        "x1": 420,
+                        "x2": 420,
+                        "x3": 220,
+                        "y0": 251,
+                        "y1": 251,
+                        "y2": 290,
+                        "y3": 290
+                    },
+                    "text": "They are trying to kill us fast/\nthey just don't care"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 117,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 117,
+                        "y0": 292,
+                        "y1": 292,
+                        "y2": 310,
+                        "y3": 310
+                    },
+                    "text": "If you tax, they should go to help community"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 163,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 163,
+                        "y0": 312,
+                        "y1": 312,
+                        "y2": 330,
+                        "y3": 330
+                    },
+                    "text": "It\u2019s principle- we should not pay more"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 195,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 195,
+                        "y0": 333,
+                        "y1": 333,
+                        "y2": 350,
+                        "y3": 350
+                    },
+                    "text": "They assume we want unhealthy"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 154,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 154,
+                        "y0": 413,
+                        "y1": 413,
+                        "y2": 428,
+                        "y3": 428
+                    },
+                    "text": "Some communities have less of a voice"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 237,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 237,
+                        "y0": 434,
+                        "y1": 434,
+                        "y2": 450,
+                        "y3": 450
+                    },
+                    "text": "We need healthier options"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 247,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 247,
+                        "y0": 454,
+                        "y1": 454,
+                        "y2": 471,
+                        "y3": 471
+                    },
+                    "text": "I didn\u2019t realize the impact"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 137,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 137,
+                        "y0": 475,
+                        "y1": 475,
+                        "y2": 490,
+                        "y3": 490
+                    },
+                    "text": "The booklet made me do some research*"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 143,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 143,
+                        "y0": 494,
+                        "y1": 494,
+                        "y2": 533,
+                        "y3": 533
+                    },
+                    "text": "No \"Whole Foods\" in our neighborhood/\ntrapped in our neighborhood"
+                },
+                {
+                    "id": 22,
+                    "polygon": {
+                        "x0": 203,
+                        "x1": 418,
+                        "x2": 418,
+                        "x3": 203,
+                        "y0": 212,
+                        "y1": 212,
+                        "y2": 227,
+                        "y3": 227
+                    },
+                    "text": "RESPECT FOR THE COMMUNITY"
+                },
+                {
+                    "id": 23,
+                    "polygon": {
+                        "x0": 18,
+                        "x1": 143,
+                        "x2": 143,
+                        "x3": 18,
+                        "y0": 543,
+                        "y1": 543,
+                        "y2": 557,
+                        "y3": 557
+                    },
+                    "text": "Post-Sensitization"
+                },
+                {
+                    "id": 24,
+                    "polygon": {
+                        "x0": 178,
+                        "x1": 295,
+                        "x2": 295,
+                        "x3": 178,
+                        "y0": 543,
+                        "y1": 543,
+                        "y2": 557,
+                        "y3": 557
+                    },
+                    "text": "Pre-Sensitization"
+                },
+                {
+                    "id": 25,
+                    "polygon": {
+                        "x0": 427,
+                        "x1": 439,
+                        "x2": 439,
+                        "x3": 427,
+                        "y0": 548,
+                        "y1": 548,
+                        "y2": 562,
+                        "y3": 562
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 26,
+                    "polygon": {
+                        "x0": 511,
+                        "x1": 521,
+                        "x2": 521,
+                        "x3": 511,
+                        "y0": 548,
+                        "y1": 548,
+                        "y2": 562,
+                        "y3": 562
+                    },
+                    "text": "2"
+                },
+                {
+                    "id": 27,
+                    "polygon": {
+                        "x0": 593,
+                        "x1": 604,
+                        "x2": 604,
+                        "x3": 593,
+                        "y0": 548,
+                        "y1": 548,
+                        "y2": 562,
+                        "y3": 562
+                    },
+                    "text": "4"
+                },
+                {
+                    "id": 28,
+                    "polygon": {
+                        "x0": 677,
+                        "x1": 688,
+                        "x2": 688,
+                        "x3": 677,
+                        "y0": 548,
+                        "y1": 548,
+                        "y2": 562,
+                        "y3": 562
+                    },
+                    "text": "6"
+                },
+                {
+                    "id": 29,
+                    "polygon": {
+                        "x0": 759,
+                        "x1": 770,
+                        "x2": 770,
+                        "x3": 759,
+                        "y0": 548,
+                        "y1": 548,
+                        "y2": 562,
+                        "y3": 562
+                    },
+                    "text": "8"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 116,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "SEEING THE MARKETER\u2019S PERSPECTIVE"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 169,
+                            "x1": 416,
+                            "x2": 416,
+                            "x3": 169,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 27,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 27,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 403,
+                            "y3": 403
+                        },
+                        "text": "FOOD ENVIRONMENT AS A SOCIAL JUSTICE ISSUE"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 152,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 152,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "People do what they have to do to sell/\ngood business tactic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 149,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "We should be able to eat what we want"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 113,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 127,
+                            "y3": 127
+                        },
+                        "text": "If I want it, lam going to get it/\nhigher prices will not deter bad eating habits"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 159,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 159,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "It\u2019s about demand, not a fairness issue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 277,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "It\u2019s about the money"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 80,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 80,
+                            "y0": 231,
+                            "y1": 231,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "We need better examples of Blacks eating healthy"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 220,
+                            "y0": 251,
+                            "y1": 251,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "They are trying to kill us fast/\nthey just don't care"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 117,
+                            "y0": 292,
+                            "y1": 292,
+                            "y2": 310,
+                            "y3": 310
+                        },
+                        "text": "If you tax, they should go to help community"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 163,
+                            "y0": 312,
+                            "y1": 312,
+                            "y2": 330,
+                            "y3": 330
+                        },
+                        "text": "It\u2019s principle- we should not pay more"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 195,
+                            "y0": 333,
+                            "y1": 333,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "They assume we want unhealthy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 154,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 154,
+                            "y0": 413,
+                            "y1": 413,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Some communities have less of a voice"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 237,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 237,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "We need healthier options"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 247,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 247,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 471,
+                            "y3": 471
+                        },
+                        "text": "I didn\u2019t realize the impact"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 137,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 490,
+                            "y3": 490
+                        },
+                        "text": "The booklet made me do some research*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 143,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "No \"Whole Foods\" in our neighborhood/\ntrapped in our neighborhood"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 203,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 203,
+                            "y0": 212,
+                            "y1": 212,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 18,
+                            "x1": 143,
+                            "x2": 143,
+                            "x3": 18,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Post-Sensitization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 178,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Pre-Sensitization"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 427,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 427,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 511,
+                            "x1": 521,
+                            "x2": 521,
+                            "x3": 511,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 604,
+                            "x2": 604,
+                            "x3": 593,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 677,
+                            "x1": 688,
+                            "x2": 688,
+                            "x3": 677,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "6"
+                    },
+                    {
+                        "id": 29,
+                        "polygon": {
+                            "x0": 759,
+                            "x1": 770,
+                            "x2": 770,
+                            "x3": 759,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "8"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_grouping"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 22,
+                    "role": "other"
+                },
+                {
+                    "id": 23,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 24,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 25,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 26,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 27,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 28,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 29,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 116,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "SEEING THE MARKETER\u2019S PERSPECTIVE"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 169,
+                            "x1": 416,
+                            "x2": 416,
+                            "x3": 169,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 27,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 27,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 403,
+                            "y3": 403
+                        },
+                        "text": "FOOD ENVIRONMENT AS A SOCIAL JUSTICE ISSUE"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 152,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 152,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "People do what they have to do to sell/\ngood business tactic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 149,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "We should be able to eat what we want"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 113,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 127,
+                            "y3": 127
+                        },
+                        "text": "If I want it, lam going to get it/\nhigher prices will not deter bad eating habits"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 159,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 159,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "It\u2019s about demand, not a fairness issue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 277,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "It\u2019s about the money"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 80,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 80,
+                            "y0": 231,
+                            "y1": 231,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "We need better examples of Blacks eating healthy"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 220,
+                            "y0": 251,
+                            "y1": 251,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "They are trying to kill us fast/\nthey just don't care"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 117,
+                            "y0": 292,
+                            "y1": 292,
+                            "y2": 310,
+                            "y3": 310
+                        },
+                        "text": "If you tax, they should go to help community"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 163,
+                            "y0": 312,
+                            "y1": 312,
+                            "y2": 330,
+                            "y3": 330
+                        },
+                        "text": "It\u2019s principle- we should not pay more"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 195,
+                            "y0": 333,
+                            "y1": 333,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "They assume we want unhealthy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 154,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 154,
+                            "y0": 413,
+                            "y1": 413,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Some communities have less of a voice"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 237,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 237,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "We need healthier options"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 247,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 247,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 471,
+                            "y3": 471
+                        },
+                        "text": "I didn\u2019t realize the impact"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 137,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 490,
+                            "y3": 490
+                        },
+                        "text": "The booklet made me do some research*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 143,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "No \"Whole Foods\" in our neighborhood/\ntrapped in our neighborhood"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 203,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 203,
+                            "y0": 212,
+                            "y1": 212,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 18,
+                            "x1": 143,
+                            "x2": 143,
+                            "x3": 18,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Post-Sensitization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 178,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Pre-Sensitization"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 427,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 427,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 511,
+                            "x1": 521,
+                            "x2": 521,
+                            "x3": 511,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 604,
+                            "x2": 604,
+                            "x3": 593,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 677,
+                            "x1": 688,
+                            "x2": 688,
+                            "x3": 677,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "6"
+                    },
+                    {
+                        "id": 29,
+                        "polygon": {
+                            "x0": 759,
+                            "x1": 770,
+                            "x2": 770,
+                            "x3": 759,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "8"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 528,
+                "width": 334,
+                "x0": 432,
+                "y0": 6
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 47
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 77
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 108
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 139
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 158
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 240
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 270
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 301
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 321
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 342
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 420
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 442
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 462
+                        }
+                    },
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 482
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 514
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 25,
+                        "tick_pt": {
+                            "x": 432,
+                            "y": 534
+                        }
+                    },
+                    {
+                        "id": 26,
+                        "tick_pt": {
+                            "x": 516,
+                            "y": 534
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "tick_pt": {
+                            "x": 599,
+                            "y": 534
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "tick_pt": {
+                            "x": 683,
+                            "y": 534
+                        }
+                    },
+                    {
+                        "id": 29,
+                        "tick_pt": {
+                            "x": 766,
+                            "y": 534
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 116,
+                            "y0": 5,
+                            "y1": 5,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "SEEING THE MARKETER\u2019S PERSPECTIVE"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 169,
+                            "x1": 416,
+                            "x2": 416,
+                            "x3": 169,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 203,
+                            "y3": 203
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 27,
+                            "x1": 415,
+                            "x2": 415,
+                            "x3": 27,
+                            "y0": 388,
+                            "y1": 388,
+                            "y2": 403,
+                            "y3": 403
+                        },
+                        "text": "FOOD ENVIRONMENT AS A SOCIAL JUSTICE ISSUE"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 152,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 152,
+                            "y0": 28,
+                            "y1": 28,
+                            "y2": 65,
+                            "y3": 65
+                        },
+                        "text": "People do what they have to do to sell/\ngood business tactic"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 149,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 149,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "We should be able to eat what we want"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 113,
+                            "y0": 88,
+                            "y1": 88,
+                            "y2": 127,
+                            "y3": 127
+                        },
+                        "text": "If I want it, lam going to get it/\nhigher prices will not deter bad eating habits"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 159,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 159,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 148,
+                            "y3": 148
+                        },
+                        "text": "It\u2019s about demand, not a fairness issue"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 277,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 277,
+                            "y0": 150,
+                            "y1": 150,
+                            "y2": 166,
+                            "y3": 166
+                        },
+                        "text": "It\u2019s about the money"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 80,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 80,
+                            "y0": 231,
+                            "y1": 231,
+                            "y2": 249,
+                            "y3": 249
+                        },
+                        "text": "We need better examples of Blacks eating healthy"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 220,
+                            "x1": 420,
+                            "x2": 420,
+                            "x3": 220,
+                            "y0": 251,
+                            "y1": 251,
+                            "y2": 290,
+                            "y3": 290
+                        },
+                        "text": "They are trying to kill us fast/\nthey just don't care"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 117,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 117,
+                            "y0": 292,
+                            "y1": 292,
+                            "y2": 310,
+                            "y3": 310
+                        },
+                        "text": "If you tax, they should go to help community"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 163,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 163,
+                            "y0": 312,
+                            "y1": 312,
+                            "y2": 330,
+                            "y3": 330
+                        },
+                        "text": "It\u2019s principle- we should not pay more"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 195,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 195,
+                            "y0": 333,
+                            "y1": 333,
+                            "y2": 350,
+                            "y3": 350
+                        },
+                        "text": "They assume we want unhealthy"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 154,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 154,
+                            "y0": 413,
+                            "y1": 413,
+                            "y2": 428,
+                            "y3": 428
+                        },
+                        "text": "Some communities have less of a voice"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 237,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 237,
+                            "y0": 434,
+                            "y1": 434,
+                            "y2": 450,
+                            "y3": 450
+                        },
+                        "text": "We need healthier options"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 247,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 247,
+                            "y0": 454,
+                            "y1": 454,
+                            "y2": 471,
+                            "y3": 471
+                        },
+                        "text": "I didn\u2019t realize the impact"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 137,
+                            "y0": 475,
+                            "y1": 475,
+                            "y2": 490,
+                            "y3": 490
+                        },
+                        "text": "The booklet made me do some research*"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 143,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 143,
+                            "y0": 494,
+                            "y1": 494,
+                            "y2": 533,
+                            "y3": 533
+                        },
+                        "text": "No \"Whole Foods\" in our neighborhood/\ntrapped in our neighborhood"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 203,
+                            "x1": 418,
+                            "x2": 418,
+                            "x3": 203,
+                            "y0": 212,
+                            "y1": 212,
+                            "y2": 227,
+                            "y3": 227
+                        },
+                        "text": "RESPECT FOR THE COMMUNITY"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 18,
+                            "x1": 143,
+                            "x2": 143,
+                            "x3": 18,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Post-Sensitization"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 178,
+                            "x1": 295,
+                            "x2": 295,
+                            "x3": 178,
+                            "y0": 543,
+                            "y1": 543,
+                            "y2": 557,
+                            "y3": 557
+                        },
+                        "text": "Pre-Sensitization"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 427,
+                            "x1": 439,
+                            "x2": 439,
+                            "x3": 427,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 511,
+                            "x1": 521,
+                            "x2": 521,
+                            "x3": 511,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "2"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 593,
+                            "x1": 604,
+                            "x2": 604,
+                            "x3": 593,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "4"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 677,
+                            "x1": 688,
+                            "x2": 688,
+                            "x3": 677,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "6"
+                    },
+                    {
+                        "id": 29,
+                        "polygon": {
+                            "x0": 759,
+                            "x1": 770,
+                            "x2": 770,
+                            "x3": 759,
+                            "y0": 548,
+                            "y1": 548,
+                            "y2": 562,
+                            "y3": 562
+                        },
+                        "text": "8"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 14,
+                        "x0": 4,
+                        "y0": 545
+                    },
+                    "id": 23
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 11,
+                        "x0": 165,
+                        "y0": 545
+                    },
+                    "id": 24
+                }
+            ]
+        }
+    },
+    "task6": null
+}

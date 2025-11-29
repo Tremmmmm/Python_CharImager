@@ -1,0 +1,968 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 294,
+                        "x2": 294,
+                        "x3": 2,
+                        "y0": 68,
+                        "y1": 68,
+                        "y2": 104,
+                        "y3": 104
+                    },
+                    "text": "general exposure to occupational and other work realated diseases"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 294,
+                        "x2": 294,
+                        "x3": 1,
+                        "y0": 171,
+                        "y1": 171,
+                        "y2": 228,
+                        "y3": 228
+                    },
+                    "text": "risk of a disease of the respiratory system caused by exposure to animal origin dust"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 47,
+                        "x1": 294,
+                        "x2": 294,
+                        "x3": 47,
+                        "y0": 292,
+                        "y1": 292,
+                        "y2": 332,
+                        "y3": 332
+                    },
+                    "text": "risk of a skin disease caused by moisture, dirt, and detergents"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 5,
+                        "x1": 289,
+                        "x2": 289,
+                        "x3": 5,
+                        "y0": 385,
+                        "y1": 385,
+                        "y2": 461,
+                        "y3": 461
+                    },
+                    "text": "risk of a disease of the musculoskeletal system caused by a strain in the back or upper and lower li"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 735,
+                        "x2": 735,
+                        "x3": 11,
+                        "y0": 504,
+                        "y1": 504,
+                        "y2": 541,
+                        "y3": 541
+                    },
+                    "text": "Note: If the frequency does not add up to 228 in each line, the remaining cases are not shown due to"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 295,
+                        "x1": 321,
+                        "x2": 321,
+                        "x3": 295,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "0%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 351,
+                        "x1": 387,
+                        "x2": 387,
+                        "x3": 351,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 411,
+                        "x1": 448,
+                        "x2": 448,
+                        "x3": 411,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "40%"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 472,
+                        "x1": 509,
+                        "x2": 509,
+                        "x3": 472,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "60%"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 533,
+                        "x1": 570,
+                        "x2": 570,
+                        "x3": 533,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "80%"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 590,
+                        "x1": 634,
+                        "x2": 634,
+                        "x3": 590,
+                        "y0": 1,
+                        "y1": 1,
+                        "y2": 17,
+                        "y3": 17
+                    },
+                    "text": "100%"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 376,
+                        "x1": 405,
+                        "x2": 405,
+                        "x3": 376,
+                        "y0": 79,
+                        "y1": 79,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "123"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 391,
+                        "x1": 421,
+                        "x2": 421,
+                        "x3": 391,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "146"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 405,
+                        "x1": 435,
+                        "x2": 435,
+                        "x3": 405,
+                        "y0": 416,
+                        "y1": 416,
+                        "y2": 432,
+                        "y3": 432
+                    },
+                    "text": "167"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 586,
+                        "x1": 616,
+                        "x2": 616,
+                        "x3": 586,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "172"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 349,
+                        "x1": 370,
+                        "x2": 370,
+                        "x3": 349,
+                        "y0": 191,
+                        "y1": 191,
+                        "y2": 207,
+                        "y3": 207
+                    },
+                    "text": "77"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 456,
+                        "x1": 477,
+                        "x2": 477,
+                        "x3": 456,
+                        "y0": 191,
+                        "y1": 191,
+                        "y2": 207,
+                        "y3": 207
+                    },
+                    "text": "83"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 555,
+                        "x1": 576,
+                        "x2": 576,
+                        "x3": 555,
+                        "y0": 191,
+                        "y1": 191,
+                        "y2": 207,
+                        "y3": 207
+                    },
+                    "text": "66"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 513,
+                        "x1": 534,
+                        "x2": 534,
+                        "x3": 513,
+                        "y0": 79,
+                        "y1": 79,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "77"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 581,
+                        "x1": 602,
+                        "x2": 602,
+                        "x3": 581,
+                        "y0": 79,
+                        "y1": 79,
+                        "y2": 94,
+                        "y3": 94
+                    },
+                    "text": "25"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 534,
+                        "x1": 555,
+                        "x2": 555,
+                        "x3": 534,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "63"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 555,
+                        "x1": 576,
+                        "x2": 576,
+                        "x3": 555,
+                        "y0": 416,
+                        "y1": 416,
+                        "y2": 432,
+                        "y3": 432
+                    },
+                    "text": "52"
+                },
+                {
+                    "id": 22,
+                    "polygon": {
+                        "x0": 600,
+                        "x1": 611,
+                        "x2": 611,
+                        "x3": 600,
+                        "y0": 416,
+                        "y1": 416,
+                        "y2": 432,
+                        "y3": 432
+                    },
+                    "text": "8"
+                },
+                {
+                    "id": 23,
+                    "polygon": {
+                        "x0": 634,
+                        "x1": 698,
+                        "x2": 698,
+                        "x3": 634,
+                        "y0": 423,
+                        "y1": 423,
+                        "y2": 439,
+                        "y3": 439
+                    },
+                    "text": "can't tell"
+                },
+                {
+                    "id": 24,
+                    "polygon": {
+                        "x0": 634,
+                        "x1": 725,
+                        "x2": 725,
+                        "x3": 634,
+                        "y0": 364,
+                        "y1": 364,
+                        "y2": 404,
+                        "y3": 404
+                    },
+                    "text": "increases significantly"
+                },
+                {
+                    "id": 25,
+                    "polygon": {
+                        "x0": 634,
+                        "x1": 731,
+                        "x2": 731,
+                        "x3": 634,
+                        "y0": 306,
+                        "y1": 306,
+                        "y2": 342,
+                        "y3": 342
+                    },
+                    "text": "increases to some extent"
+                },
+                {
+                    "id": 26,
+                    "polygon": {
+                        "x0": 633,
+                        "x1": 736,
+                        "x2": 736,
+                        "x3": 633,
+                        "y0": 247,
+                        "y1": 247,
+                        "y2": 283,
+                        "y3": 283
+                    },
+                    "text": "no significant difference"
+                },
+                {
+                    "id": 27,
+                    "polygon": {
+                        "x0": 634,
+                        "x1": 731,
+                        "x2": 731,
+                        "x3": 634,
+                        "y0": 188,
+                        "y1": 188,
+                        "y2": 224,
+                        "y3": 224
+                    },
+                    "text": "reduces to some extent"
+                },
+                {
+                    "id": 28,
+                    "polygon": {
+                        "x0": 634,
+                        "x1": 726,
+                        "x2": 726,
+                        "x3": 634,
+                        "y0": 130,
+                        "y1": 130,
+                        "y2": 168,
+                        "y3": 168
+                    },
+                    "text": "reduces significantly"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 294,
+                            "x2": 294,
+                            "x3": 2,
+                            "y0": 68,
+                            "y1": 68,
+                            "y2": 104,
+                            "y3": 104
+                        },
+                        "text": "general exposure to occupational and other work realated diseases"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 294,
+                            "x2": 294,
+                            "x3": 1,
+                            "y0": 171,
+                            "y1": 171,
+                            "y2": 228,
+                            "y3": 228
+                        },
+                        "text": "risk of a disease of the respiratory system caused by exposure to animal origin dust"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 294,
+                            "x2": 294,
+                            "x3": 47,
+                            "y0": 292,
+                            "y1": 292,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "risk of a skin disease caused by moisture, dirt, and detergents"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 5,
+                            "x1": 289,
+                            "x2": 289,
+                            "x3": 5,
+                            "y0": 385,
+                            "y1": 385,
+                            "y2": 461,
+                            "y3": 461
+                        },
+                        "text": "risk of a disease of the musculoskeletal system caused by a strain in the back or upper and lower li"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 735,
+                            "x2": 735,
+                            "x3": 11,
+                            "y0": 504,
+                            "y1": 504,
+                            "y2": 541,
+                            "y3": 541
+                        },
+                        "text": "Note: If the frequency does not add up to 228 in each line, the remaining cases are not shown due to"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 295,
+                            "x1": 321,
+                            "x2": 321,
+                            "x3": 295,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 351,
+                            "x1": 387,
+                            "x2": 387,
+                            "x3": 351,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 411,
+                            "x1": 448,
+                            "x2": 448,
+                            "x3": 411,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 472,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 472,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 533,
+                            "x1": 570,
+                            "x2": 570,
+                            "x3": 533,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 590,
+                            "x1": 634,
+                            "x2": 634,
+                            "x3": 590,
+                            "y0": 1,
+                            "y1": 1,
+                            "y2": 17,
+                            "y3": 17
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 376,
+                            "x1": 405,
+                            "x2": 405,
+                            "x3": 376,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "123"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 391,
+                            "x1": 421,
+                            "x2": 421,
+                            "x3": 391,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "146"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 405,
+                            "x1": 435,
+                            "x2": 435,
+                            "x3": 405,
+                            "y0": 416,
+                            "y1": 416,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "167"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 586,
+                            "x1": 616,
+                            "x2": 616,
+                            "x3": 586,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "172"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 349,
+                            "x1": 370,
+                            "x2": 370,
+                            "x3": 349,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "77"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 456,
+                            "x1": 477,
+                            "x2": 477,
+                            "x3": 456,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "83"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 555,
+                            "x1": 576,
+                            "x2": 576,
+                            "x3": 555,
+                            "y0": 191,
+                            "y1": 191,
+                            "y2": 207,
+                            "y3": 207
+                        },
+                        "text": "66"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 513,
+                            "x1": 534,
+                            "x2": 534,
+                            "x3": 513,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "77"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 581,
+                            "x1": 602,
+                            "x2": 602,
+                            "x3": 581,
+                            "y0": 79,
+                            "y1": 79,
+                            "y2": 94,
+                            "y3": 94
+                        },
+                        "text": "25"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 534,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 534,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "63"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 555,
+                            "x1": 576,
+                            "x2": 576,
+                            "x3": 555,
+                            "y0": 416,
+                            "y1": 416,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "52"
+                    },
+                    {
+                        "id": 22,
+                        "polygon": {
+                            "x0": 600,
+                            "x1": 611,
+                            "x2": 611,
+                            "x3": 600,
+                            "y0": 416,
+                            "y1": 416,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "8"
+                    },
+                    {
+                        "id": 23,
+                        "polygon": {
+                            "x0": 634,
+                            "x1": 698,
+                            "x2": 698,
+                            "x3": 634,
+                            "y0": 423,
+                            "y1": 423,
+                            "y2": 439,
+                            "y3": 439
+                        },
+                        "text": "can't tell"
+                    },
+                    {
+                        "id": 24,
+                        "polygon": {
+                            "x0": 634,
+                            "x1": 725,
+                            "x2": 725,
+                            "x3": 634,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 404,
+                            "y3": 404
+                        },
+                        "text": "increases significantly"
+                    },
+                    {
+                        "id": 25,
+                        "polygon": {
+                            "x0": 634,
+                            "x1": 731,
+                            "x2": 731,
+                            "x3": 634,
+                            "y0": 306,
+                            "y1": 306,
+                            "y2": 342,
+                            "y3": 342
+                        },
+                        "text": "increases to some extent"
+                    },
+                    {
+                        "id": 26,
+                        "polygon": {
+                            "x0": 633,
+                            "x1": 736,
+                            "x2": 736,
+                            "x3": 633,
+                            "y0": 247,
+                            "y1": 247,
+                            "y2": 283,
+                            "y3": 283
+                        },
+                        "text": "no significant difference"
+                    },
+                    {
+                        "id": 27,
+                        "polygon": {
+                            "x0": 634,
+                            "x1": 731,
+                            "x2": 731,
+                            "x3": 634,
+                            "y0": 188,
+                            "y1": 188,
+                            "y2": 224,
+                            "y3": 224
+                        },
+                        "text": "reduces to some extent"
+                    },
+                    {
+                        "id": 28,
+                        "polygon": {
+                            "x0": 634,
+                            "x1": 726,
+                            "x2": 726,
+                            "x3": 634,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 168,
+                            "y3": 168
+                        },
+                        "text": "reduces significantly"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "other"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "value_label"
+                },
+                {
+                    "id": 12,
+                    "role": "value_label"
+                },
+                {
+                    "id": 13,
+                    "role": "value_label"
+                },
+                {
+                    "id": 14,
+                    "role": "value_label"
+                },
+                {
+                    "id": 15,
+                    "role": "value_label"
+                },
+                {
+                    "id": 16,
+                    "role": "value_label"
+                },
+                {
+                    "id": 17,
+                    "role": "value_label"
+                },
+                {
+                    "id": 18,
+                    "role": "value_label"
+                },
+                {
+                    "id": 19,
+                    "role": "value_label"
+                },
+                {
+                    "id": 20,
+                    "role": "value_label"
+                },
+                {
+                    "id": 21,
+                    "role": "value_label"
+                },
+                {
+                    "id": 22,
+                    "role": "value_label"
+                },
+                {
+                    "id": 23,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 24,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 25,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 26,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 27,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 28,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

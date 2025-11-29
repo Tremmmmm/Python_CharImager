@@ -1,0 +1,312 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 341,
+                        "x1": 509,
+                        "x2": 509,
+                        "x3": 341,
+                        "y0": 461,
+                        "y1": 461,
+                        "y2": 497,
+                        "y3": 497
+                    },
+                    "text": "Strain (%)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 602,
+                        "x1": 729,
+                        "x2": 729,
+                        "x3": 602,
+                        "y0": 258,
+                        "y1": 258,
+                        "y2": 280,
+                        "y3": 280
+                    },
+                    "text": "IV-EOS Ref"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 602,
+                        "x1": 615,
+                        "x2": 615,
+                        "x3": 602,
+                        "y0": 298,
+                        "y1": 298,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "II"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 600,
+                        "x1": 639,
+                        "x2": 639,
+                        "x3": 600,
+                        "y0": 336,
+                        "y1": 336,
+                        "y2": 357,
+                        "y3": 357
+                    },
+                    "text": "VIII"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 7,
+                        "x1": 47,
+                        "x2": 47,
+                        "x3": 7,
+                        "y0": 120,
+                        "y1": 120,
+                        "y2": 339,
+                        "y3": 339
+                    },
+                    "text": "Stress (MPa)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 341,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 497,
+                            "y3": 497
+                        },
+                        "text": "Strain (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 602,
+                            "x1": 729,
+                            "x2": 729,
+                            "x3": 602,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "IV-EOS Ref"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 602,
+                            "x1": 615,
+                            "x2": 615,
+                            "x3": 602,
+                            "y0": 298,
+                            "y1": 298,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "II"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 600,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 600,
+                            "y0": 336,
+                            "y1": 336,
+                            "y2": 357,
+                            "y3": 357
+                        },
+                        "text": "VIII"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 7,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 339,
+                            "y3": 339
+                        },
+                        "text": "Stress (MPa)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 2,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 3,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 4,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 341,
+                            "x1": 509,
+                            "x2": 509,
+                            "x3": 341,
+                            "y0": 461,
+                            "y1": 461,
+                            "y2": 497,
+                            "y3": 497
+                        },
+                        "text": "Strain (%)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 602,
+                            "x1": 729,
+                            "x2": 729,
+                            "x3": 602,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "IV-EOS Ref"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 602,
+                            "x1": 615,
+                            "x2": 615,
+                            "x3": 602,
+                            "y0": 298,
+                            "y1": 298,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "II"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 600,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 600,
+                            "y0": 336,
+                            "y1": 336,
+                            "y2": 357,
+                            "y3": 357
+                        },
+                        "text": "VIII"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 7,
+                            "x1": 47,
+                            "x2": 47,
+                            "x3": 7,
+                            "y0": 120,
+                            "y1": 120,
+                            "y2": 339,
+                            "y3": 339
+                        },
+                        "text": "Stress (MPa)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 60,
+                        "x0": 536,
+                        "y0": 263
+                    },
+                    "id": 1
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 60,
+                        "x0": 535,
+                        "y0": 298
+                    },
+                    "id": 2
+                },
+                {
+                    "bb": {
+                        "height": 13,
+                        "width": 60,
+                        "x0": 535,
+                        "y0": 338
+                    },
+                    "id": 3
+                }
+            ]
+        }
+    },
+    "task6": null
+}

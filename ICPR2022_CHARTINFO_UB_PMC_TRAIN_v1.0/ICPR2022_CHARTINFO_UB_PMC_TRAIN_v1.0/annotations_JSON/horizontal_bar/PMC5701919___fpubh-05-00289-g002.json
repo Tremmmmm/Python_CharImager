@@ -1,0 +1,1423 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 2,
+                        "y0": 171,
+                        "y1": 171,
+                        "y2": 183,
+                        "y3": 183
+                    },
+                    "text": "Incidence of Hib non-pneumonia non-menigitis (NPNM) in population <5 yr"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 59,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 59,
+                        "y0": 223,
+                        "y1": 223,
+                        "y2": 236,
+                        "y3": 236
+                    },
+                    "text": "Incidence of Hib meningitis in population >= 1 - <5 years old"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 68,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 68,
+                        "y0": 118,
+                        "y1": 118,
+                        "y2": 130,
+                        "y3": 130
+                    },
+                    "text": "Medical care cost per hospitalized Hib pneumonia episode"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 72,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 72,
+                        "y0": 250,
+                        "y1": 250,
+                        "y2": 262,
+                        "y3": 262
+                    },
+                    "text": "Medical care cost per hospitalized Hib meningitis episode"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 90,
+                        "x1": 308,
+                        "x2": 308,
+                        "x3": 90,
+                        "y0": 144,
+                        "y1": 144,
+                        "y2": 156,
+                        "y3": 156
+                    },
+                    "text": "Incidence of Hib meningitis in poputation < 1 year old"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 85,
+                        "x1": 308,
+                        "x2": 308,
+                        "x3": 85,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 315,
+                        "y3": 315
+                    },
+                    "text": "Vaccine effectiveness for meningitis: 1<dose exposure"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 105,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 105,
+                        "y0": 39,
+                        "y1": 39,
+                        "y2": 51,
+                        "y3": 51
+                    },
+                    "text": "Pneumonia per episode (direct non-medical cost)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 110,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 110,
+                        "y0": 197,
+                        "y1": 197,
+                        "y2": 210,
+                        "y3": 210
+                    },
+                    "text": "Meningitis per episode (direct non-medical cost)"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 111,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 111,
+                        "y0": 12,
+                        "y1": 12,
+                        "y2": 25,
+                        "y3": 25
+                    },
+                    "text": "Incidence of Hib pneumonia in population < 5 yr"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 181,
+                        "x1": 306,
+                        "x2": 306,
+                        "x3": 181,
+                        "y0": 91,
+                        "y1": 91,
+                        "y2": 102,
+                        "y3": 102
+                    },
+                    "text": "Discount rate: health outcome"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 191,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 191,
+                        "y0": 276,
+                        "y1": 276,
+                        "y2": 288,
+                        "y3": 288
+                    },
+                    "text": "Meningitis: 3-dose exposure"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 192,
+                        "x1": 309,
+                        "x2": 309,
+                        "x3": 192,
+                        "y0": 65,
+                        "y1": 65,
+                        "y2": 75,
+                        "y3": 75
+                    },
+                    "text": "Discount rate: cost outcome"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 565,
+                        "x1": 669,
+                        "x2": 669,
+                        "x3": 565,
+                        "y0": 177,
+                        "y1": 177,
+                        "y2": 200,
+                        "y3": 200
+                    },
+                    "text": "Decreased\nvalue of input\nparameter"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 565,
+                        "x1": 665,
+                        "x2": 665,
+                        "x3": 565,
+                        "y0": 147,
+                        "y1": 147,
+                        "y2": 169,
+                        "y3": 169
+                    },
+                    "text": "Increased value of input\nparameter"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 526,
+                        "x1": 552,
+                        "x2": 552,
+                        "x3": 526,
+                        "y0": 13,
+                        "y1": 13,
+                        "y2": 24,
+                        "y3": 24
+                    },
+                    "text": "6,335"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 679,
+                        "x1": 705,
+                        "x2": 705,
+                        "x3": 679,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 338,
+                        "y3": 338
+                    },
+                    "text": "2,000"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 586,
+                        "x1": 611,
+                        "x2": 611,
+                        "x3": 586,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 338,
+                        "y3": 338
+                    },
+                    "text": "1,500"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 492,
+                        "x1": 517,
+                        "x2": 517,
+                        "x3": 492,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 337,
+                        "y3": 337
+                    },
+                    "text": "1,000"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 401,
+                        "x1": 419,
+                        "x2": 419,
+                        "x3": 401,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 337,
+                        "y3": 337
+                    },
+                    "text": "500"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 312,
+                        "x1": 319,
+                        "x2": 319,
+                        "x3": 312,
+                        "y0": 327,
+                        "y1": 327,
+                        "y2": 337,
+                        "y3": 337
+                    },
+                    "text": "0"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 2,
+                            "y0": 171,
+                            "y1": 171,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "Incidence of Hib non-pneumonia non-menigitis (NPNM) in population <5 yr"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 59,
+                            "y0": 223,
+                            "y1": 223,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Incidence of Hib meningitis in population >= 1 - <5 years old"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 68,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 68,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 130,
+                            "y3": 130
+                        },
+                        "text": "Medical care cost per hospitalized Hib pneumonia episode"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 72,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 72,
+                            "y0": 250,
+                            "y1": 250,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Medical care cost per hospitalized Hib meningitis episode"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 90,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "Incidence of Hib meningitis in poputation < 1 year old"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 85,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 85,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 315,
+                            "y3": 315
+                        },
+                        "text": "Vaccine effectiveness for meningitis: 1<dose exposure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 105,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 105,
+                            "y0": 39,
+                            "y1": 39,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "Pneumonia per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 110,
+                            "y0": 197,
+                            "y1": 197,
+                            "y2": 210,
+                            "y3": 210
+                        },
+                        "text": "Meningitis per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 111,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "Incidence of Hib pneumonia in population < 5 yr"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 306,
+                            "x2": 306,
+                            "x3": 181,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 102,
+                            "y3": 102
+                        },
+                        "text": "Discount rate: health outcome"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 191,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 191,
+                            "y0": 276,
+                            "y1": 276,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Meningitis: 3-dose exposure"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 192,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Discount rate: cost outcome"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 669,
+                            "x2": 669,
+                            "x3": 565,
+                            "y0": 177,
+                            "y1": 177,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Decreased\nvalue of input\nparameter"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 565,
+                            "y0": 147,
+                            "y1": 147,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "Increased value of input\nparameter"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 526,
+                            "x1": 552,
+                            "x2": 552,
+                            "x3": 526,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 24,
+                            "y3": 24
+                        },
+                        "text": "6,335"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 679,
+                            "x1": 705,
+                            "x2": 705,
+                            "x3": 679,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "2,000"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 586,
+                            "x1": 611,
+                            "x2": 611,
+                            "x3": 586,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "1,500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 517,
+                            "x2": 517,
+                            "x3": 492,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "1,000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 401,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 312,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 14,
+                    "role": "value_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 2,
+                            "y0": 171,
+                            "y1": 171,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "Incidence of Hib non-pneumonia non-menigitis (NPNM) in population <5 yr"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 59,
+                            "y0": 223,
+                            "y1": 223,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Incidence of Hib meningitis in population >= 1 - <5 years old"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 68,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 68,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 130,
+                            "y3": 130
+                        },
+                        "text": "Medical care cost per hospitalized Hib pneumonia episode"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 72,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 72,
+                            "y0": 250,
+                            "y1": 250,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Medical care cost per hospitalized Hib meningitis episode"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 90,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "Incidence of Hib meningitis in poputation < 1 year old"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 85,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 85,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 315,
+                            "y3": 315
+                        },
+                        "text": "Vaccine effectiveness for meningitis: 1<dose exposure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 105,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 105,
+                            "y0": 39,
+                            "y1": 39,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "Pneumonia per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 110,
+                            "y0": 197,
+                            "y1": 197,
+                            "y2": 210,
+                            "y3": 210
+                        },
+                        "text": "Meningitis per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 111,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "Incidence of Hib pneumonia in population < 5 yr"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 306,
+                            "x2": 306,
+                            "x3": 181,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 102,
+                            "y3": 102
+                        },
+                        "text": "Discount rate: health outcome"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 191,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 191,
+                            "y0": 276,
+                            "y1": 276,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Meningitis: 3-dose exposure"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 192,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Discount rate: cost outcome"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 669,
+                            "x2": 669,
+                            "x3": 565,
+                            "y0": 177,
+                            "y1": 177,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Decreased\nvalue of input\nparameter"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 565,
+                            "y0": 147,
+                            "y1": 147,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "Increased value of input\nparameter"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 526,
+                            "x1": 552,
+                            "x2": 552,
+                            "x3": 526,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 24,
+                            "y3": 24
+                        },
+                        "text": "6,335"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 679,
+                            "x1": 705,
+                            "x2": 705,
+                            "x3": 679,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "2,000"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 586,
+                            "x1": 611,
+                            "x2": 611,
+                            "x3": 586,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "1,500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 517,
+                            "x2": 517,
+                            "x3": 492,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "1,000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 401,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 312,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 318,
+                "width": 381,
+                "x0": 313,
+                "y0": 5
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 177
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 124
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 256
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 150
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 309
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 45
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 204
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 18
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 96
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 282
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 70
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 19,
+                        "tick_pt": {
+                            "x": 313,
+                            "y": 323
+                        }
+                    },
+                    {
+                        "id": 18,
+                        "tick_pt": {
+                            "x": 409,
+                            "y": 323
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "tick_pt": {
+                            "x": 504,
+                            "y": 323
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 599,
+                            "y": 323
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 694,
+                            "y": 323
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 2,
+                            "y0": 171,
+                            "y1": 171,
+                            "y2": 183,
+                            "y3": 183
+                        },
+                        "text": "Incidence of Hib non-pneumonia non-menigitis (NPNM) in population <5 yr"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 59,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 59,
+                            "y0": 223,
+                            "y1": 223,
+                            "y2": 236,
+                            "y3": 236
+                        },
+                        "text": "Incidence of Hib meningitis in population >= 1 - <5 years old"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 68,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 68,
+                            "y0": 118,
+                            "y1": 118,
+                            "y2": 130,
+                            "y3": 130
+                        },
+                        "text": "Medical care cost per hospitalized Hib pneumonia episode"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 72,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 72,
+                            "y0": 250,
+                            "y1": 250,
+                            "y2": 262,
+                            "y3": 262
+                        },
+                        "text": "Medical care cost per hospitalized Hib meningitis episode"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 90,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 156,
+                            "y3": 156
+                        },
+                        "text": "Incidence of Hib meningitis in poputation < 1 year old"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 85,
+                            "x1": 308,
+                            "x2": 308,
+                            "x3": 85,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 315,
+                            "y3": 315
+                        },
+                        "text": "Vaccine effectiveness for meningitis: 1<dose exposure"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 105,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 105,
+                            "y0": 39,
+                            "y1": 39,
+                            "y2": 51,
+                            "y3": 51
+                        },
+                        "text": "Pneumonia per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 110,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 110,
+                            "y0": 197,
+                            "y1": 197,
+                            "y2": 210,
+                            "y3": 210
+                        },
+                        "text": "Meningitis per episode (direct non-medical cost)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 111,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 25,
+                            "y3": 25
+                        },
+                        "text": "Incidence of Hib pneumonia in population < 5 yr"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 306,
+                            "x2": 306,
+                            "x3": 181,
+                            "y0": 91,
+                            "y1": 91,
+                            "y2": 102,
+                            "y3": 102
+                        },
+                        "text": "Discount rate: health outcome"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 191,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 191,
+                            "y0": 276,
+                            "y1": 276,
+                            "y2": 288,
+                            "y3": 288
+                        },
+                        "text": "Meningitis: 3-dose exposure"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 192,
+                            "x1": 309,
+                            "x2": 309,
+                            "x3": 192,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 75,
+                            "y3": 75
+                        },
+                        "text": "Discount rate: cost outcome"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 669,
+                            "x2": 669,
+                            "x3": 565,
+                            "y0": 177,
+                            "y1": 177,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Decreased\nvalue of input\nparameter"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 565,
+                            "x1": 665,
+                            "x2": 665,
+                            "x3": 565,
+                            "y0": 147,
+                            "y1": 147,
+                            "y2": 169,
+                            "y3": 169
+                        },
+                        "text": "Increased value of input\nparameter"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 526,
+                            "x1": 552,
+                            "x2": 552,
+                            "x3": 526,
+                            "y0": 13,
+                            "y1": 13,
+                            "y2": 24,
+                            "y3": 24
+                        },
+                        "text": "6,335"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 679,
+                            "x1": 705,
+                            "x2": 705,
+                            "x3": 679,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "2,000"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 586,
+                            "x1": 611,
+                            "x2": 611,
+                            "x3": 586,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 338,
+                            "y3": 338
+                        },
+                        "text": "1,500"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 492,
+                            "x1": 517,
+                            "x2": 517,
+                            "x3": 492,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "1,000"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 401,
+                            "x1": 419,
+                            "x2": 419,
+                            "x3": 401,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "500"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 312,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 312,
+                            "y0": 327,
+                            "y1": 327,
+                            "y2": 337,
+                            "y3": 337
+                        },
+                        "text": "0"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 6,
+                        "width": 6,
+                        "x0": 559,
+                        "y0": 180
+                    },
+                    "id": 12
+                },
+                {
+                    "bb": {
+                        "height": 7,
+                        "width": 6,
+                        "x0": 559,
+                        "y0": 149
+                    },
+                    "id": 13
+                }
+            ]
+        }
+    },
+    "task6": null
+}

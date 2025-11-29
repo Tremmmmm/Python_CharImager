@@ -1,0 +1,376 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 288,
+                        "x1": 364,
+                        "x2": 364,
+                        "x3": 288,
+                        "y0": 329,
+                        "y1": 329,
+                        "y2": 347,
+                        "y3": 347
+                    },
+                    "text": "Coord. 1"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 16,
+                        "x2": 16,
+                        "x3": 0,
+                        "y0": 130,
+                        "y1": 130,
+                        "y2": 204,
+                        "y3": 204
+                    },
+                    "text": "Coord. 2"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 188,
+                        "x1": 382,
+                        "x2": 382,
+                        "x3": 188,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 21,
+                        "y3": 21
+                    },
+                    "text": "Principal Coordinates"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 142,
+                        "x1": 235,
+                        "x2": 235,
+                        "x3": 142,
+                        "y0": 60,
+                        "y1": 60,
+                        "y2": 78,
+                        "y3": 78
+                    },
+                    "text": "Woodland"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 113,
+                        "x1": 210,
+                        "x2": 210,
+                        "x3": 113,
+                        "y0": 230,
+                        "y1": 230,
+                        "y2": 245,
+                        "y3": 245
+                    },
+                    "text": "UCD-OKV"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 104,
+                        "x1": 161,
+                        "x2": 161,
+                        "x3": 104,
+                        "y0": 267,
+                        "y1": 267,
+                        "y2": 285,
+                        "y3": 285
+                    },
+                    "text": "Col-2"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 533,
+                        "x1": 588,
+                        "x2": 588,
+                        "x3": 533,
+                        "y0": 226,
+                        "y1": 226,
+                        "y2": 243,
+                        "y3": 243
+                    },
+                    "text": "Col-1"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 364,
+                            "x2": 364,
+                            "x3": 288,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 347,
+                            "y3": 347
+                        },
+                        "text": "Coord. 1"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 16,
+                            "x2": 16,
+                            "x3": 0,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 204,
+                            "y3": 204
+                        },
+                        "text": "Coord. 2"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 188,
+                            "x1": 382,
+                            "x2": 382,
+                            "x3": 188,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "Principal Coordinates"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 235,
+                            "x2": 235,
+                            "x3": 142,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 78,
+                            "y3": 78
+                        },
+                        "text": "Woodland"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 113,
+                            "y0": 230,
+                            "y1": 230,
+                            "y2": 245,
+                            "y3": 245
+                        },
+                        "text": "UCD-OKV"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 161,
+                            "x2": 161,
+                            "x3": 104,
+                            "y0": 267,
+                            "y1": 267,
+                            "y2": 285,
+                            "y3": 285
+                        },
+                        "text": "Col-2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 533,
+                            "x1": 588,
+                            "x2": 588,
+                            "x3": 533,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "Col-1"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 3,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 4,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 5,
+                    "role": "mark_label"
+                },
+                {
+                    "id": 6,
+                    "role": "mark_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 288,
+                            "x1": 364,
+                            "x2": 364,
+                            "x3": 288,
+                            "y0": 329,
+                            "y1": 329,
+                            "y2": 347,
+                            "y3": 347
+                        },
+                        "text": "Coord. 1"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 16,
+                            "x2": 16,
+                            "x3": 0,
+                            "y0": 130,
+                            "y1": 130,
+                            "y2": 204,
+                            "y3": 204
+                        },
+                        "text": "Coord. 2"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 188,
+                            "x1": 382,
+                            "x2": 382,
+                            "x3": 188,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 21,
+                            "y3": 21
+                        },
+                        "text": "Principal Coordinates"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 142,
+                            "x1": 235,
+                            "x2": 235,
+                            "x3": 142,
+                            "y0": 60,
+                            "y1": 60,
+                            "y2": 78,
+                            "y3": 78
+                        },
+                        "text": "Woodland"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 113,
+                            "x1": 210,
+                            "x2": 210,
+                            "x3": 113,
+                            "y0": 230,
+                            "y1": 230,
+                            "y2": 245,
+                            "y3": 245
+                        },
+                        "text": "UCD-OKV"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 104,
+                            "x1": 161,
+                            "x2": 161,
+                            "x3": 104,
+                            "y0": 267,
+                            "y1": 267,
+                            "y2": 285,
+                            "y3": 285
+                        },
+                        "text": "Col-2"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 533,
+                            "x1": 588,
+                            "x2": 588,
+                            "x3": 533,
+                            "y0": 226,
+                            "y1": 226,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "Col-1"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

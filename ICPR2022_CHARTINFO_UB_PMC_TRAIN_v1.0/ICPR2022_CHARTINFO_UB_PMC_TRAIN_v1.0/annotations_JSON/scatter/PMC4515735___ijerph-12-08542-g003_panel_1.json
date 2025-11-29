@@ -1,0 +1,312 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "scatter"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 343,
+                        "x1": 371,
+                        "x2": 371,
+                        "x3": 343,
+                        "y0": 420,
+                        "y1": 420,
+                        "y2": 431,
+                        "y3": 431
+                    },
+                    "text": "Time"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 52,
+                        "x1": 66,
+                        "x2": 66,
+                        "x3": 52,
+                        "y0": 142,
+                        "y1": 142,
+                        "y2": 291,
+                        "y3": 291
+                    },
+                    "text": "Dust concentration, mg/m3"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 667,
+                        "x1": 716,
+                        "x2": 716,
+                        "x3": 667,
+                        "y0": 210,
+                        "y1": 210,
+                        "y2": 222,
+                        "y3": 222
+                    },
+                    "text": "Inhalable"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 666,
+                        "x1": 713,
+                        "x2": 713,
+                        "x3": 666,
+                        "y0": 233,
+                        "y1": 233,
+                        "y2": 245,
+                        "y3": 245
+                    },
+                    "text": "Thoracic"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 667,
+                        "x1": 722,
+                        "x2": 722,
+                        "x3": 667,
+                        "y0": 256,
+                        "y1": 256,
+                        "y2": 270,
+                        "y3": 270
+                    },
+                    "text": "Respirable"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 371,
+                            "x2": 371,
+                            "x3": 343,
+                            "y0": 420,
+                            "y1": 420,
+                            "y2": 431,
+                            "y3": 431
+                        },
+                        "text": "Time"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 66,
+                            "x2": 66,
+                            "x3": 52,
+                            "y0": 142,
+                            "y1": 142,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Dust concentration, mg/m3"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 667,
+                            "x1": 716,
+                            "x2": 716,
+                            "x3": 667,
+                            "y0": 210,
+                            "y1": 210,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Inhalable"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 666,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 666,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 245,
+                            "y3": 245
+                        },
+                        "text": "Thoracic"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 667,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 667,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 270,
+                            "y3": 270
+                        },
+                        "text": "Respirable"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 3,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 4,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "scatter"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 343,
+                            "x1": 371,
+                            "x2": 371,
+                            "x3": 343,
+                            "y0": 420,
+                            "y1": 420,
+                            "y2": 431,
+                            "y3": 431
+                        },
+                        "text": "Time"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 52,
+                            "x1": 66,
+                            "x2": 66,
+                            "x3": 52,
+                            "y0": 142,
+                            "y1": 142,
+                            "y2": 291,
+                            "y3": 291
+                        },
+                        "text": "Dust concentration, mg/m3"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 667,
+                            "x1": 716,
+                            "x2": 716,
+                            "x3": 667,
+                            "y0": 210,
+                            "y1": 210,
+                            "y2": 222,
+                            "y3": 222
+                        },
+                        "text": "Inhalable"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 666,
+                            "x1": 713,
+                            "x2": 713,
+                            "x3": 666,
+                            "y0": 233,
+                            "y1": 233,
+                            "y2": 245,
+                            "y3": 245
+                        },
+                        "text": "Thoracic"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 667,
+                            "x1": 722,
+                            "x2": 722,
+                            "x3": 667,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 270,
+                            "y3": 270
+                        },
+                        "text": "Respirable"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 11,
+                        "x0": 656,
+                        "y0": 211
+                    },
+                    "id": 2
+                },
+                {
+                    "bb": {
+                        "height": 10,
+                        "width": 10,
+                        "x0": 656,
+                        "y0": 235
+                    },
+                    "id": 3
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 11,
+                        "x0": 656,
+                        "y0": 258
+                    },
+                    "id": 4
+                }
+            ]
+        }
+    },
+    "task6": null
+}

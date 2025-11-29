@@ -1,0 +1,14 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": null,
+    "task3": null,
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

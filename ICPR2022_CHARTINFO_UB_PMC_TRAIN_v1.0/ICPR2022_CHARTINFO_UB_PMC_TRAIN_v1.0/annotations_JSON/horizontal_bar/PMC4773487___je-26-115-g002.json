@@ -1,0 +1,1138 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 76,
+                        "x1": 319,
+                        "x2": 319,
+                        "x3": 76,
+                        "y0": 65,
+                        "y1": 65,
+                        "y2": 84,
+                        "y3": 84
+                    },
+                    "text": "Would call an ambulance (n=2,263)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 26,
+                        "x1": 43,
+                        "x2": 43,
+                        "x3": 26,
+                        "y0": 69,
+                        "y1": 69,
+                        "y2": 80,
+                        "y3": 80
+                    },
+                    "text": "Pre"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 20,
+                        "x1": 43,
+                        "x2": 43,
+                        "x3": 20,
+                        "y0": 185,
+                        "y1": 185,
+                        "y2": 196,
+                        "y3": 196
+                    },
+                    "text": "Post"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 47,
+                        "x1": 64,
+                        "x2": 64,
+                        "x3": 47,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "0%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 114,
+                        "x1": 136,
+                        "x2": 136,
+                        "x3": 114,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "20%"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 183,
+                        "x1": 206,
+                        "x2": 206,
+                        "x3": 183,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "40%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 253,
+                        "x1": 276,
+                        "x2": 276,
+                        "x3": 253,
+                        "y0": 259,
+                        "y1": 259,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "60%"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 323,
+                        "x1": 346,
+                        "x2": 346,
+                        "x3": 323,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "80%"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 390,
+                        "x1": 417,
+                        "x2": 417,
+                        "x3": 390,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 271,
+                        "y3": 271
+                    },
+                    "text": "100%"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 170,
+                        "x1": 327,
+                        "x2": 327,
+                        "x3": 170,
+                        "y0": 287,
+                        "y1": 287,
+                        "y2": 300,
+                        "y3": 300
+                    },
+                    "text": "Proportion of respondents"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 478,
+                        "x1": 736,
+                        "x2": 736,
+                        "x3": 478,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 32,
+                        "y3": 32
+                    },
+                    "text": "Response remained not \"Call an ambulance\"\n(n=193)"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 478,
+                        "x1": 757,
+                        "x2": 757,
+                        "x3": 478,
+                        "y0": 37,
+                        "y1": 37,
+                        "y2": 70,
+                        "y3": 70
+                    },
+                    "text": "Changed their answer from \"Call an ambulance\" to one of the others (n=354)"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 478,
+                        "x1": 741,
+                        "x2": 741,
+                        "x3": 478,
+                        "y0": 75,
+                        "y1": 75,
+                        "y2": 107,
+                        "y3": 107
+                    },
+                    "text": "Changed their answer from one of the others to \"Call an ambulance\" (n=312)"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 479,
+                        "x1": 714,
+                        "x2": 714,
+                        "x3": 479,
+                        "y0": 112,
+                        "y1": 112,
+                        "y2": 144,
+                        "y3": 144
+                    },
+                    "text": "Response remained \"Call an ambulance\" (n=1,909)"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 353,
+                        "x1": 388,
+                        "x2": 388,
+                        "x3": 353,
+                        "y0": 64,
+                        "y1": 64,
+                        "y2": 89,
+                        "y3": 89
+                    },
+                    "text": "Other\n(n=505)"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 2,
+                        "x1": 13,
+                        "x2": 13,
+                        "x3": 2,
+                        "y0": 94,
+                        "y1": 94,
+                        "y2": 165,
+                        "y3": 165
+                    },
+                    "text": "Intervention"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 76,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 76,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Would call an ambulance (n=2,263)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 26,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Pre"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 20,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "Post"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 64,
+                            "x2": 64,
+                            "x3": 47,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 136,
+                            "x2": 136,
+                            "x3": 114,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 183,
+                            "x1": 206,
+                            "x2": 206,
+                            "x3": 183,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 276,
+                            "x2": 276,
+                            "x3": 253,
+                            "y0": 259,
+                            "y1": 259,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 323,
+                            "x1": 346,
+                            "x2": 346,
+                            "x3": 323,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 390,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 390,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 170,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 170,
+                            "y0": 287,
+                            "y1": 287,
+                            "y2": 300,
+                            "y3": 300
+                        },
+                        "text": "Proportion of respondents"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 736,
+                            "x2": 736,
+                            "x3": 478,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Response remained not \"Call an ambulance\"\n(n=193)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 757,
+                            "x2": 757,
+                            "x3": 478,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 70,
+                            "y3": 70
+                        },
+                        "text": "Changed their answer from \"Call an ambulance\" to one of the others (n=354)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 741,
+                            "x2": 741,
+                            "x3": 478,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 107,
+                            "y3": 107
+                        },
+                        "text": "Changed their answer from one of the others to \"Call an ambulance\" (n=312)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 479,
+                            "x1": 714,
+                            "x2": 714,
+                            "x3": 479,
+                            "y0": 112,
+                            "y1": 112,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Response remained \"Call an ambulance\" (n=1,909)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 353,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 353,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 89,
+                            "y3": 89
+                        },
+                        "text": "Other\n(n=505)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 13,
+                            "x2": 13,
+                            "x3": 2,
+                            "y0": 94,
+                            "y1": 94,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Intervention"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "value_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 10,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 11,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 12,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 14,
+                    "role": "value_label"
+                },
+                {
+                    "id": 15,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 76,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 76,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Would call an ambulance (n=2,263)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 26,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Pre"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 20,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "Post"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 64,
+                            "x2": 64,
+                            "x3": 47,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 136,
+                            "x2": 136,
+                            "x3": 114,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 183,
+                            "x1": 206,
+                            "x2": 206,
+                            "x3": 183,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 276,
+                            "x2": 276,
+                            "x3": 253,
+                            "y0": 259,
+                            "y1": 259,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 323,
+                            "x1": 346,
+                            "x2": 346,
+                            "x3": 323,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 390,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 390,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 170,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 170,
+                            "y0": 287,
+                            "y1": 287,
+                            "y2": 300,
+                            "y3": 300
+                        },
+                        "text": "Proportion of respondents"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 736,
+                            "x2": 736,
+                            "x3": 478,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Response remained not \"Call an ambulance\"\n(n=193)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 757,
+                            "x2": 757,
+                            "x3": 478,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 70,
+                            "y3": 70
+                        },
+                        "text": "Changed their answer from \"Call an ambulance\" to one of the others (n=354)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 741,
+                            "x2": 741,
+                            "x3": 478,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 107,
+                            "y3": 107
+                        },
+                        "text": "Changed their answer from one of the others to \"Call an ambulance\" (n=312)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 479,
+                            "x1": 714,
+                            "x2": 714,
+                            "x3": 479,
+                            "y0": 112,
+                            "y1": 112,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Response remained \"Call an ambulance\" (n=1,909)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 353,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 353,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 89,
+                            "y3": 89
+                        },
+                        "text": "Other\n(n=505)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 13,
+                            "x2": 13,
+                            "x3": 2,
+                            "y0": 94,
+                            "y1": 94,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Intervention"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 233,
+                "width": 349,
+                "x0": 57,
+                "y0": 18
+            },
+            "axes": {
+                "_x-tick-type": "markers",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 18
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 135
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 57,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 127,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 196,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 266,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 336,
+                            "y": 251
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 406,
+                            "y": 251
+                        }
+                    }
+                ],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 76,
+                            "x1": 319,
+                            "x2": 319,
+                            "x3": 76,
+                            "y0": 65,
+                            "y1": 65,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Would call an ambulance (n=2,263)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 26,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 26,
+                            "y0": 69,
+                            "y1": 69,
+                            "y2": 80,
+                            "y3": 80
+                        },
+                        "text": "Pre"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 20,
+                            "x1": 43,
+                            "x2": 43,
+                            "x3": 20,
+                            "y0": 185,
+                            "y1": 185,
+                            "y2": 196,
+                            "y3": 196
+                        },
+                        "text": "Post"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 47,
+                            "x1": 64,
+                            "x2": 64,
+                            "x3": 47,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 114,
+                            "x1": 136,
+                            "x2": 136,
+                            "x3": 114,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "20%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 183,
+                            "x1": 206,
+                            "x2": 206,
+                            "x3": 183,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "40%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 276,
+                            "x2": 276,
+                            "x3": 253,
+                            "y0": 259,
+                            "y1": 259,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "60%"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 323,
+                            "x1": 346,
+                            "x2": 346,
+                            "x3": 323,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "80%"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 390,
+                            "x1": 417,
+                            "x2": 417,
+                            "x3": 390,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 271,
+                            "y3": 271
+                        },
+                        "text": "100%"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 170,
+                            "x1": 327,
+                            "x2": 327,
+                            "x3": 170,
+                            "y0": 287,
+                            "y1": 287,
+                            "y2": 300,
+                            "y3": 300
+                        },
+                        "text": "Proportion of respondents"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 736,
+                            "x2": 736,
+                            "x3": 478,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 32,
+                            "y3": 32
+                        },
+                        "text": "Response remained not \"Call an ambulance\"\n(n=193)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 757,
+                            "x2": 757,
+                            "x3": 478,
+                            "y0": 37,
+                            "y1": 37,
+                            "y2": 70,
+                            "y3": 70
+                        },
+                        "text": "Changed their answer from \"Call an ambulance\" to one of the others (n=354)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 478,
+                            "x1": 741,
+                            "x2": 741,
+                            "x3": 478,
+                            "y0": 75,
+                            "y1": 75,
+                            "y2": 107,
+                            "y3": 107
+                        },
+                        "text": "Changed their answer from one of the others to \"Call an ambulance\" (n=312)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 479,
+                            "x1": 714,
+                            "x2": 714,
+                            "x3": 479,
+                            "y0": 112,
+                            "y1": 112,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "Response remained \"Call an ambulance\" (n=1,909)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 353,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 353,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 89,
+                            "y3": 89
+                        },
+                        "text": "Other\n(n=505)"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 2,
+                            "x1": 13,
+                            "x2": 13,
+                            "x3": 2,
+                            "y0": 94,
+                            "y1": 94,
+                            "y2": 165,
+                            "y3": 165
+                        },
+                        "text": "Intervention"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 21,
+                        "x0": 441,
+                        "y0": 4
+                    },
+                    "id": 10
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 21,
+                        "x0": 442,
+                        "y0": 41
+                    },
+                    "id": 11
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 21,
+                        "x0": 442,
+                        "y0": 79
+                    },
+                    "id": 12
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 21,
+                        "x0": 442,
+                        "y0": 116
+                    },
+                    "id": 13
+                }
+            ]
+        }
+    },
+    "task6": null
+}

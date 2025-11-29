@@ -1,0 +1,328 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 37,
+                        "x1": 62,
+                        "x2": 62,
+                        "x3": 37,
+                        "y0": 58,
+                        "y1": 58,
+                        "y2": 76,
+                        "y3": 76
+                    },
+                    "text": "1.5"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 53,
+                        "x1": 59,
+                        "x2": 59,
+                        "x3": 53,
+                        "y0": 160,
+                        "y1": 160,
+                        "y2": 177,
+                        "y3": 177
+                    },
+                    "text": "1"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 36,
+                        "x1": 62,
+                        "x2": 62,
+                        "x3": 36,
+                        "y0": 262,
+                        "y1": 262,
+                        "y2": 280,
+                        "y3": 280
+                    },
+                    "text": "0.5"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 51,
+                        "x1": 63,
+                        "x2": 63,
+                        "x3": 51,
+                        "y0": 364,
+                        "y1": 364,
+                        "y2": 382,
+                        "y3": 382
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 138,
+                        "x1": 184,
+                        "x2": 184,
+                        "x3": 138,
+                        "y0": 386,
+                        "y1": 386,
+                        "y2": 497,
+                        "y3": 497
+                    },
+                    "text": "Children 2008 (ref 11)"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 297,
+                        "x1": 343,
+                        "x2": 343,
+                        "x3": 297,
+                        "y0": 386,
+                        "y1": 386,
+                        "y2": 497,
+                        "y3": 497
+                    },
+                    "text": "Children 2011 (ref 12)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 456,
+                        "x1": 502,
+                        "x2": 502,
+                        "x3": 456,
+                        "y0": 386,
+                        "y1": 386,
+                        "y2": 497,
+                        "y3": 497
+                    },
+                    "text": "Children 2012 (ref 13)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 591,
+                        "x1": 685,
+                        "x2": 685,
+                        "x3": 591,
+                        "y0": 387,
+                        "y1": 387,
+                        "y2": 465,
+                        "y3": 465
+                    },
+                    "text": "Children,2014 (current study)"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 3,
+                        "x1": 52,
+                        "x2": 52,
+                        "x3": 3,
+                        "y0": 19,
+                        "y1": 19,
+                        "y2": 360,
+                        "y3": 360
+                    },
+                    "text": "GM concentration of BPA in urine (ng/mL)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 37,
+                            "x1": 62,
+                            "x2": 62,
+                            "x3": 37,
+                            "y0": 58,
+                            "y1": 58,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "1.5"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 53,
+                            "x1": 59,
+                            "x2": 59,
+                            "x3": 53,
+                            "y0": 160,
+                            "y1": 160,
+                            "y2": 177,
+                            "y3": 177
+                        },
+                        "text": "1"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 36,
+                            "x1": 62,
+                            "x2": 62,
+                            "x3": 36,
+                            "y0": 262,
+                            "y1": 262,
+                            "y2": 280,
+                            "y3": 280
+                        },
+                        "text": "0.5"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 51,
+                            "x1": 63,
+                            "x2": 63,
+                            "x3": 51,
+                            "y0": 364,
+                            "y1": 364,
+                            "y2": 382,
+                            "y3": 382
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 138,
+                            "x1": 184,
+                            "x2": 184,
+                            "x3": 138,
+                            "y0": 386,
+                            "y1": 386,
+                            "y2": 497,
+                            "y3": 497
+                        },
+                        "text": "Children 2008 (ref 11)"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 297,
+                            "x1": 343,
+                            "x2": 343,
+                            "x3": 297,
+                            "y0": 386,
+                            "y1": 386,
+                            "y2": 497,
+                            "y3": 497
+                        },
+                        "text": "Children 2011 (ref 12)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 456,
+                            "x1": 502,
+                            "x2": 502,
+                            "x3": 456,
+                            "y0": 386,
+                            "y1": 386,
+                            "y2": 497,
+                            "y3": 497
+                        },
+                        "text": "Children 2012 (ref 13)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 591,
+                            "x1": 685,
+                            "x2": 685,
+                            "x3": 591,
+                            "y0": 387,
+                            "y1": 387,
+                            "y2": 465,
+                            "y3": 465
+                        },
+                        "text": "Children,2014 (current study)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 3,
+                            "x1": 52,
+                            "x2": 52,
+                            "x3": 3,
+                            "y0": 19,
+                            "y1": 19,
+                            "y2": 360,
+                            "y3": 360
+                        },
+                        "text": "GM concentration of BPA in urine (ng/mL)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

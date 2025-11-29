@@ -1,0 +1,744 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 186,
+                        "x1": 353,
+                        "x2": 353,
+                        "x3": 186,
+                        "y0": 14,
+                        "y1": 14,
+                        "y2": 34,
+                        "y3": 34
+                    },
+                    "text": "(a| 3-early recommendation with retention of the\nreminder-based system"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 34,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 34,
+                        "y0": 36,
+                        "y1": 36,
+                        "y2": 55,
+                        "y3": 55
+                    },
+                    "text": "Re-screening compliance after 4th year (baseline\nassumption vs. perfect compliance)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 34,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 34,
+                        "y0": 57,
+                        "y1": 57,
+                        "y2": 76,
+                        "y3": 76
+                    },
+                    "text": "Re-screening compliance after 5th year (baseline\nassumption vs. perfect compliance)"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 11,
+                        "y0": 77,
+                        "y1": 77,
+                        "y2": 96,
+                        "y3": 96
+                    },
+                    "text": "Re-screening compliance after 10 years (0.3 p.a. in 10-69\nyears and 0 p.a. in 70+ years vs. 0.3 p.a. in all ages)"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 28,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 28,
+                        "y0": 98,
+                        "y1": 98,
+                        "y2": 116,
+                        "y3": 116
+                    },
+                    "text": "Cytology test characteristics (various alternate test characteristics (1))"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 19,
+                        "x1": 182,
+                        "x2": 182,
+                        "x3": 19,
+                        "y0": 119,
+                        "y1": 119,
+                        "y2": 137,
+                        "y3": 137
+                    },
+                    "text": "CIN3 to invasive cnacer progression rate (0.8% p.a. vs. 2.6% p.a.)"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 116,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 116,
+                        "y0": 144,
+                        "y1": 144,
+                        "y2": 154,
+                        "y3": 154
+                    },
+                    "text": "Early re-screening (2%)"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 6,
+                        "x1": 182,
+                        "x2": 182,
+                        "x3": 6,
+                        "y0": 160,
+                        "y1": 160,
+                        "y2": 178,
+                        "y3": 178
+                    },
+                    "text": "Screening initiation (all commenced at age 20 vs. baseline\nage-specific initiation)"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 18,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 18,
+                        "y0": 181,
+                        "y1": 181,
+                        "y2": 199,
+                        "y3": 199
+                    },
+                    "text": "Colposcopy age standardised attendance (perfect vs.\n75%)"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 11,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 11,
+                        "y0": 201,
+                        "y1": 201,
+                        "y2": 220,
+                        "y3": 220
+                    },
+                    "text": "Pre-cancer natural history (less aggresive parameter set\nvs. more aggresive parameter set)"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 19,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 19,
+                        "y0": 222,
+                        "y1": 222,
+                        "y2": 240,
+                        "y3": 240
+                    },
+                    "text": "Progression of undetected cancer (calibrated baseline\nparameter set vs. alternative parameter set)"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 25,
+                        "x1": 182,
+                        "x2": 182,
+                        "x3": 25,
+                        "y0": 243,
+                        "y1": 243,
+                        "y2": 261,
+                        "y3": 261
+                    },
+                    "text": "Colposcopy test characteristics (perfect accuracy vs.\nbaseline assumption)"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 75,
+                        "x1": 183,
+                        "x2": 183,
+                        "x3": 75,
+                        "y0": 268,
+                        "y1": 268,
+                        "y2": 277,
+                        "y3": 277
+                    },
+                    "text": "HPV incidence (halved vs. doubled)"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 182,
+                        "x2": 182,
+                        "x3": 15,
+                        "y0": 284,
+                        "y1": 284,
+                        "y2": 302,
+                        "y3": 302
+                    },
+                    "text": "Cancer survival, time to cure for survivors (5 years vs. 10 years)"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 221,
+                        "x1": 311,
+                        "x2": 311,
+                        "x3": 221,
+                        "y0": 322,
+                        "y1": 322,
+                        "y2": 330,
+                        "y3": 330
+                    },
+                    "text": "% incremental cancer cases"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 181,
+                        "x1": 195,
+                        "x2": 195,
+                        "x3": 181,
+                        "y0": 310,
+                        "y1": 310,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "-2%"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 208,
+                        "x1": 223,
+                        "x2": 223,
+                        "x3": 208,
+                        "y0": 310,
+                        "y1": 310,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "-1%"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 237,
+                        "x1": 249,
+                        "x2": 249,
+                        "x3": 237,
+                        "y0": 311,
+                        "y1": 311,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "0%"
+                },
+                {
+                    "id": 18,
+                    "polygon": {
+                        "x0": 265,
+                        "x1": 276,
+                        "x2": 276,
+                        "x3": 265,
+                        "y0": 311,
+                        "y1": 311,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "1%"
+                },
+                {
+                    "id": 19,
+                    "polygon": {
+                        "x0": 292,
+                        "x1": 303,
+                        "x2": 303,
+                        "x3": 292,
+                        "y0": 310,
+                        "y1": 310,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "2%"
+                },
+                {
+                    "id": 20,
+                    "polygon": {
+                        "x0": 319,
+                        "x1": 331,
+                        "x2": 331,
+                        "x3": 319,
+                        "y0": 310,
+                        "y1": 310,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "3%"
+                },
+                {
+                    "id": 21,
+                    "polygon": {
+                        "x0": 346,
+                        "x1": 358,
+                        "x2": 358,
+                        "x3": 346,
+                        "y0": 311,
+                        "y1": 311,
+                        "y2": 319,
+                        "y3": 319
+                    },
+                    "text": "4%"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 186,
+                            "x1": 353,
+                            "x2": 353,
+                            "x3": 186,
+                            "y0": 14,
+                            "y1": 14,
+                            "y2": 34,
+                            "y3": 34
+                        },
+                        "text": "(a| 3-early recommendation with retention of the\nreminder-based system"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 34,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 34,
+                            "y0": 36,
+                            "y1": 36,
+                            "y2": 55,
+                            "y3": 55
+                        },
+                        "text": "Re-screening compliance after 4th year (baseline\nassumption vs. perfect compliance)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 34,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 34,
+                            "y0": 57,
+                            "y1": 57,
+                            "y2": 76,
+                            "y3": 76
+                        },
+                        "text": "Re-screening compliance after 5th year (baseline\nassumption vs. perfect compliance)"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 11,
+                            "y0": 77,
+                            "y1": 77,
+                            "y2": 96,
+                            "y3": 96
+                        },
+                        "text": "Re-screening compliance after 10 years (0.3 p.a. in 10-69\nyears and 0 p.a. in 70+ years vs. 0.3 p.a. in all ages)"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 28,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 28,
+                            "y0": 98,
+                            "y1": 98,
+                            "y2": 116,
+                            "y3": 116
+                        },
+                        "text": "Cytology test characteristics (various alternate test characteristics (1))"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 182,
+                            "x2": 182,
+                            "x3": 19,
+                            "y0": 119,
+                            "y1": 119,
+                            "y2": 137,
+                            "y3": 137
+                        },
+                        "text": "CIN3 to invasive cnacer progression rate (0.8% p.a. vs. 2.6% p.a.)"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 116,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 116,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 154,
+                            "y3": 154
+                        },
+                        "text": "Early re-screening (2%)"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 6,
+                            "x1": 182,
+                            "x2": 182,
+                            "x3": 6,
+                            "y0": 160,
+                            "y1": 160,
+                            "y2": 178,
+                            "y3": 178
+                        },
+                        "text": "Screening initiation (all commenced at age 20 vs. baseline\nage-specific initiation)"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 18,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 18,
+                            "y0": 181,
+                            "y1": 181,
+                            "y2": 199,
+                            "y3": 199
+                        },
+                        "text": "Colposcopy age standardised attendance (perfect vs.\n75%)"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 11,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 11,
+                            "y0": 201,
+                            "y1": 201,
+                            "y2": 220,
+                            "y3": 220
+                        },
+                        "text": "Pre-cancer natural history (less aggresive parameter set\nvs. more aggresive parameter set)"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 19,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 19,
+                            "y0": 222,
+                            "y1": 222,
+                            "y2": 240,
+                            "y3": 240
+                        },
+                        "text": "Progression of undetected cancer (calibrated baseline\nparameter set vs. alternative parameter set)"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 25,
+                            "x1": 182,
+                            "x2": 182,
+                            "x3": 25,
+                            "y0": 243,
+                            "y1": 243,
+                            "y2": 261,
+                            "y3": 261
+                        },
+                        "text": "Colposcopy test characteristics (perfect accuracy vs.\nbaseline assumption)"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 75,
+                            "x1": 183,
+                            "x2": 183,
+                            "x3": 75,
+                            "y0": 268,
+                            "y1": 268,
+                            "y2": 277,
+                            "y3": 277
+                        },
+                        "text": "HPV incidence (halved vs. doubled)"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 182,
+                            "x2": 182,
+                            "x3": 15,
+                            "y0": 284,
+                            "y1": 284,
+                            "y2": 302,
+                            "y3": 302
+                        },
+                        "text": "Cancer survival, time to cure for survivors (5 years vs. 10 years)"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 221,
+                            "x1": 311,
+                            "x2": 311,
+                            "x3": 221,
+                            "y0": 322,
+                            "y1": 322,
+                            "y2": 330,
+                            "y3": 330
+                        },
+                        "text": "% incremental cancer cases"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 181,
+                            "x1": 195,
+                            "x2": 195,
+                            "x3": 181,
+                            "y0": 310,
+                            "y1": 310,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "-2%"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 208,
+                            "x1": 223,
+                            "x2": 223,
+                            "x3": 208,
+                            "y0": 310,
+                            "y1": 310,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "-1%"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 237,
+                            "x1": 249,
+                            "x2": 249,
+                            "x3": 237,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "0%"
+                    },
+                    {
+                        "id": 18,
+                        "polygon": {
+                            "x0": 265,
+                            "x1": 276,
+                            "x2": 276,
+                            "x3": 265,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "1%"
+                    },
+                    {
+                        "id": 19,
+                        "polygon": {
+                            "x0": 292,
+                            "x1": 303,
+                            "x2": 303,
+                            "x3": 292,
+                            "y0": 310,
+                            "y1": 310,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "2%"
+                    },
+                    {
+                        "id": 20,
+                        "polygon": {
+                            "x0": 319,
+                            "x1": 331,
+                            "x2": 331,
+                            "x3": 319,
+                            "y0": 310,
+                            "y1": 310,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "3%"
+                    },
+                    {
+                        "id": 21,
+                        "polygon": {
+                            "x0": 346,
+                            "x1": 358,
+                            "x2": 358,
+                            "x3": 346,
+                            "y0": 311,
+                            "y1": 311,
+                            "y2": 319,
+                            "y3": 319
+                        },
+                        "text": "4%"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "other"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 18,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 19,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 20,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 21,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

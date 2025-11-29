@@ -1,0 +1,1289 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 137,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 137,
+                        "y0": 66,
+                        "y1": 66,
+                        "y2": 85,
+                        "y3": 85
+                    },
+                    "text": "Signal transduction"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 145,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 145,
+                        "y0": 105,
+                        "y1": 105,
+                        "y2": 123,
+                        "y3": 123
+                    },
+                    "text": "Immune response"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 99,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 99,
+                        "y0": 183,
+                        "y1": 183,
+                        "y2": 200,
+                        "y3": 200
+                    },
+                    "text": "Innate immune response"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 48,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 48,
+                        "y0": 376,
+                        "y1": 376,
+                        "y2": 393,
+                        "y3": 393
+                    },
+                    "text": "Extracellular matrix organiation"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 130,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 130,
+                        "y0": 414,
+                        "y1": 414,
+                        "y2": 432,
+                        "y3": 432
+                    },
+                    "text": "Leukocyte migration"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 111,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 111,
+                        "y0": 337,
+                        "y1": 337,
+                        "y2": 355,
+                        "y3": 355
+                    },
+                    "text": "Inflammatory response"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 50,
+                        "x1": 269,
+                        "x2": 269,
+                        "x3": 50,
+                        "y0": 298,
+                        "y1": 298,
+                        "y2": 316,
+                        "y3": 316
+                    },
+                    "text": "Regulation of immune response"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 0,
+                        "y0": 260,
+                        "y1": 260,
+                        "y2": 277,
+                        "y3": 277
+                    },
+                    "text": "Cell surface receptor signaling pathway"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 145,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 145,
+                        "y0": 221,
+                        "y1": 221,
+                        "y2": 239,
+                        "y3": 239
+                    },
+                    "text": "Blood coagulation"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 174,
+                        "x1": 270,
+                        "x2": 270,
+                        "x3": 174,
+                        "y0": 144,
+                        "y1": 144,
+                        "y2": 159,
+                        "y3": 159
+                    },
+                    "text": "Cell adhesion"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 497,
+                        "x1": 551,
+                        "x2": 551,
+                        "x3": 497,
+                        "y0": 393,
+                        "y1": 393,
+                        "y2": 408,
+                        "y3": 408
+                    },
+                    "text": "CDome"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 497,
+                        "x1": 628,
+                        "x2": 628,
+                        "x3": 497,
+                        "y0": 412,
+                        "y1": 412,
+                        "y2": 430,
+                        "y3": 430
+                    },
+                    "text": "All surface protiens"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 278,
+                        "x1": 289,
+                        "x2": 289,
+                        "x3": 278,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 344,
+                        "x1": 354,
+                        "x2": 354,
+                        "x3": 344,
+                        "y0": 31,
+                        "y1": 31,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "5"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 403,
+                        "x1": 421,
+                        "x2": 421,
+                        "x3": 403,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "10"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 470,
+                        "x1": 488,
+                        "x2": 488,
+                        "x3": 470,
+                        "y0": 31,
+                        "y1": 31,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "15"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 535,
+                        "x1": 555,
+                        "x2": 555,
+                        "x3": 535,
+                        "y0": 30,
+                        "y1": 30,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 197,
+                        "x1": 485,
+                        "x2": 485,
+                        "x3": 197,
+                        "y0": 0,
+                        "y1": 0,
+                        "y2": 19,
+                        "y3": 19
+                    },
+                    "text": "Percent of protiens involved in"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 137,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "Signal transduction"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 105,
+                            "y1": 105,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Immune response"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 99,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 99,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Innate immune response"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 48,
+                            "y0": 376,
+                            "y1": 376,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Extracellular matrix organiation"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 130,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "Leukocyte migration"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 111,
+                            "y0": 337,
+                            "y1": 337,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "Inflammatory response"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 50,
+                            "y0": 298,
+                            "y1": 298,
+                            "y2": 316,
+                            "y3": 316
+                        },
+                        "text": "Regulation of immune response"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 0,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 277,
+                            "y3": 277
+                        },
+                        "text": "Cell surface receptor signaling pathway"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 221,
+                            "y1": 221,
+                            "y2": 239,
+                            "y3": 239
+                        },
+                        "text": "Blood coagulation"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 174,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "Cell adhesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 551,
+                            "x2": 551,
+                            "x3": 497,
+                            "y0": 393,
+                            "y1": 393,
+                            "y2": 408,
+                            "y3": 408
+                        },
+                        "text": "CDome"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 628,
+                            "x2": 628,
+                            "x3": 497,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 430,
+                            "y3": 430
+                        },
+                        "text": "All surface protiens"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 278,
+                            "x1": 289,
+                            "x2": 289,
+                            "x3": 278,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 344,
+                            "x1": 354,
+                            "x2": 354,
+                            "x3": 344,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 403,
+                            "x1": 421,
+                            "x2": 421,
+                            "x3": 403,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 488,
+                            "x2": 488,
+                            "x3": 470,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 535,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 485,
+                            "x2": 485,
+                            "x3": 197,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "Percent of protiens involved in"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 11,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "chart_title"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 137,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "Signal transduction"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 105,
+                            "y1": 105,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Immune response"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 99,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 99,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Innate immune response"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 48,
+                            "y0": 376,
+                            "y1": 376,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Extracellular matrix organiation"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 130,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "Leukocyte migration"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 111,
+                            "y0": 337,
+                            "y1": 337,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "Inflammatory response"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 50,
+                            "y0": 298,
+                            "y1": 298,
+                            "y2": 316,
+                            "y3": 316
+                        },
+                        "text": "Regulation of immune response"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 0,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 277,
+                            "y3": 277
+                        },
+                        "text": "Cell surface receptor signaling pathway"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 221,
+                            "y1": 221,
+                            "y2": 239,
+                            "y3": 239
+                        },
+                        "text": "Blood coagulation"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 174,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "Cell adhesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 551,
+                            "x2": 551,
+                            "x3": 497,
+                            "y0": 393,
+                            "y1": 393,
+                            "y2": 408,
+                            "y3": 408
+                        },
+                        "text": "CDome"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 628,
+                            "x2": 628,
+                            "x3": 497,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 430,
+                            "y3": 430
+                        },
+                        "text": "All surface protiens"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 278,
+                            "x1": 289,
+                            "x2": 289,
+                            "x3": 278,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 344,
+                            "x1": 354,
+                            "x2": 354,
+                            "x3": 344,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 403,
+                            "x1": 421,
+                            "x2": 421,
+                            "x3": 403,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 488,
+                            "x2": 488,
+                            "x3": 470,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 535,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 485,
+                            "x2": 485,
+                            "x3": 197,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "Percent of protiens involved in"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 386,
+                "width": 264,
+                "x0": 283,
+                "y0": 54
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": null,
+                "_y2-tick-type": "markers",
+                "x-axis": [
+                    {
+                        "id": 0,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 76
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 114
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 192
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 384
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 423
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 346
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 307
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 268
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 230
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 152
+                        }
+                    }
+                ],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": [
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 283,
+                            "y": 54
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 349,
+                            "y": 54
+                        }
+                    },
+                    {
+                        "id": 14,
+                        "tick_pt": {
+                            "x": 414,
+                            "y": 54
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "tick_pt": {
+                            "x": 480,
+                            "y": 54
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "tick_pt": {
+                            "x": 545,
+                            "y": 54
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 137,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 137,
+                            "y0": 66,
+                            "y1": 66,
+                            "y2": 85,
+                            "y3": 85
+                        },
+                        "text": "Signal transduction"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 105,
+                            "y1": 105,
+                            "y2": 123,
+                            "y3": 123
+                        },
+                        "text": "Immune response"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 99,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 99,
+                            "y0": 183,
+                            "y1": 183,
+                            "y2": 200,
+                            "y3": 200
+                        },
+                        "text": "Innate immune response"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 48,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 48,
+                            "y0": 376,
+                            "y1": 376,
+                            "y2": 393,
+                            "y3": 393
+                        },
+                        "text": "Extracellular matrix organiation"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 130,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 130,
+                            "y0": 414,
+                            "y1": 414,
+                            "y2": 432,
+                            "y3": 432
+                        },
+                        "text": "Leukocyte migration"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 111,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 111,
+                            "y0": 337,
+                            "y1": 337,
+                            "y2": 355,
+                            "y3": 355
+                        },
+                        "text": "Inflammatory response"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 50,
+                            "x1": 269,
+                            "x2": 269,
+                            "x3": 50,
+                            "y0": 298,
+                            "y1": 298,
+                            "y2": 316,
+                            "y3": 316
+                        },
+                        "text": "Regulation of immune response"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 0,
+                            "y0": 260,
+                            "y1": 260,
+                            "y2": 277,
+                            "y3": 277
+                        },
+                        "text": "Cell surface receptor signaling pathway"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 145,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 145,
+                            "y0": 221,
+                            "y1": 221,
+                            "y2": 239,
+                            "y3": 239
+                        },
+                        "text": "Blood coagulation"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 270,
+                            "x2": 270,
+                            "x3": 174,
+                            "y0": 144,
+                            "y1": 144,
+                            "y2": 159,
+                            "y3": 159
+                        },
+                        "text": "Cell adhesion"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 551,
+                            "x2": 551,
+                            "x3": 497,
+                            "y0": 393,
+                            "y1": 393,
+                            "y2": 408,
+                            "y3": 408
+                        },
+                        "text": "CDome"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 497,
+                            "x1": 628,
+                            "x2": 628,
+                            "x3": 497,
+                            "y0": 412,
+                            "y1": 412,
+                            "y2": 430,
+                            "y3": 430
+                        },
+                        "text": "All surface protiens"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 278,
+                            "x1": 289,
+                            "x2": 289,
+                            "x3": 278,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 344,
+                            "x1": 354,
+                            "x2": 354,
+                            "x3": 344,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "5"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 403,
+                            "x1": 421,
+                            "x2": 421,
+                            "x3": 403,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "10"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 470,
+                            "x1": 488,
+                            "x2": 488,
+                            "x3": 470,
+                            "y0": 31,
+                            "y1": 31,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "15"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 535,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 535,
+                            "y0": 30,
+                            "y1": 30,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 197,
+                            "x1": 485,
+                            "x2": 485,
+                            "x3": 197,
+                            "y0": 0,
+                            "y1": 0,
+                            "y2": 19,
+                            "y3": 19
+                        },
+                        "text": "Percent of protiens involved in"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 18,
+                        "x0": 471,
+                        "y0": 394
+                    },
+                    "id": 10
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 18,
+                        "x0": 471,
+                        "y0": 414
+                    },
+                    "id": 11
+                }
+            ]
+        }
+    },
+    "task6": null
+}

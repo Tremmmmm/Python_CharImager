@@ -1,0 +1,192 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "line"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 244,
+                        "x1": 598,
+                        "x2": 598,
+                        "x3": 244,
+                        "y0": 50,
+                        "y1": 50,
+                        "y2": 111,
+                        "y3": 111
+                    },
+                    "text": "Effect of weight percentage/\n(rising with arrow)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 95,
+                        "x2": 95,
+                        "x3": 82,
+                        "y0": 15,
+                        "y1": 15,
+                        "y2": 33,
+                        "y3": 33
+                    },
+                    "text": "S"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 709,
+                        "x1": 728,
+                        "x2": 728,
+                        "x3": 709,
+                        "y0": 408,
+                        "y1": 408,
+                        "y2": 426,
+                        "y3": 426
+                    },
+                    "text": "N"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 244,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 244,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 111,
+                            "y3": 111
+                        },
+                        "text": "Effect of weight percentage/\n(rising with arrow)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 95,
+                            "x2": 95,
+                            "x3": 82,
+                            "y0": 15,
+                            "y1": 15,
+                            "y2": 33,
+                            "y3": 33
+                        },
+                        "text": "S"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 709,
+                            "x1": 728,
+                            "x2": 728,
+                            "x3": 709,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 426,
+                            "y3": 426
+                        },
+                        "text": "N"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "other"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "line"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 244,
+                            "x1": 598,
+                            "x2": 598,
+                            "x3": 244,
+                            "y0": 50,
+                            "y1": 50,
+                            "y2": 111,
+                            "y3": 111
+                        },
+                        "text": "Effect of weight percentage/\n(rising with arrow)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 95,
+                            "x2": 95,
+                            "x3": 82,
+                            "y0": 15,
+                            "y1": 15,
+                            "y2": 33,
+                            "y3": 33
+                        },
+                        "text": "S"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 709,
+                            "x1": 728,
+                            "x2": 728,
+                            "x3": 709,
+                            "y0": 408,
+                            "y1": 408,
+                            "y2": 426,
+                            "y3": 426
+                        },
+                        "text": "N"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": []
+        }
+    },
+    "task6": null
+}

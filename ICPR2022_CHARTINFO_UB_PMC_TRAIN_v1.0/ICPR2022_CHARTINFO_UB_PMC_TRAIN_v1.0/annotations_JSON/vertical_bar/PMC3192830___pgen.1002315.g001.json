@@ -1,0 +1,328 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 126,
+                        "x1": 154,
+                        "x2": 154,
+                        "x3": 126,
+                        "y0": 275,
+                        "y1": 275,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "WT"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 194,
+                        "x1": 246,
+                        "x2": 246,
+                        "x3": 194,
+                        "y0": 275,
+                        "y1": 275,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "mus81"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 337,
+                        "x1": 426,
+                        "x2": 426,
+                        "x3": 337,
+                        "y0": 274,
+                        "y1": 274,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "mus81 Gen"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 285,
+                        "x1": 317,
+                        "x2": 317,
+                        "x3": 285,
+                        "y0": 274,
+                        "y1": 274,
+                        "y2": 289,
+                        "y3": 289
+                    },
+                    "text": "Gen"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 54,
+                        "x1": 82,
+                        "x2": 82,
+                        "x3": 54,
+                        "y0": 42,
+                        "y1": 42,
+                        "y2": 56,
+                        "y3": 56
+                    },
+                    "text": "600"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 54,
+                        "x1": 82,
+                        "x2": 82,
+                        "x3": 54,
+                        "y0": 114,
+                        "y1": 114,
+                        "y2": 128,
+                        "y3": 128
+                    },
+                    "text": "400"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 55,
+                        "x1": 82,
+                        "x2": 82,
+                        "x3": 55,
+                        "y0": 184,
+                        "y1": 184,
+                        "y2": 198,
+                        "y3": 198
+                    },
+                    "text": "200"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 72,
+                        "x1": 82,
+                        "x2": 82,
+                        "x3": 72,
+                        "y0": 256,
+                        "y1": 256,
+                        "y2": 270,
+                        "y3": 270
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 38,
+                        "x2": 38,
+                        "x3": 1,
+                        "y0": 52,
+                        "y1": 52,
+                        "y2": 250,
+                        "y3": 250
+                    },
+                    "text": "Mean cleaved caspase-3- positive cells / imaginal disc"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 126,
+                            "x1": 154,
+                            "x2": 154,
+                            "x3": 126,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "WT"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 194,
+                            "x1": 246,
+                            "x2": 246,
+                            "x3": 194,
+                            "y0": 275,
+                            "y1": 275,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "mus81"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 337,
+                            "x1": 426,
+                            "x2": 426,
+                            "x3": 337,
+                            "y0": 274,
+                            "y1": 274,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "mus81 Gen"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 285,
+                            "x1": 317,
+                            "x2": 317,
+                            "x3": 285,
+                            "y0": 274,
+                            "y1": 274,
+                            "y2": 289,
+                            "y3": 289
+                        },
+                        "text": "Gen"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 82,
+                            "x2": 82,
+                            "x3": 54,
+                            "y0": 42,
+                            "y1": 42,
+                            "y2": 56,
+                            "y3": 56
+                        },
+                        "text": "600"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 54,
+                            "x1": 82,
+                            "x2": 82,
+                            "x3": 54,
+                            "y0": 114,
+                            "y1": 114,
+                            "y2": 128,
+                            "y3": 128
+                        },
+                        "text": "400"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 55,
+                            "x1": 82,
+                            "x2": 82,
+                            "x3": 55,
+                            "y0": 184,
+                            "y1": 184,
+                            "y2": 198,
+                            "y3": 198
+                        },
+                        "text": "200"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 72,
+                            "x1": 82,
+                            "x2": 82,
+                            "x3": 72,
+                            "y0": 256,
+                            "y1": 256,
+                            "y2": 270,
+                            "y3": 270
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 38,
+                            "x2": 38,
+                            "x3": 1,
+                            "y0": 52,
+                            "y1": 52,
+                            "y2": 250,
+                            "y3": 250
+                        },
+                        "text": "Mean cleaved caspase-3- positive cells / imaginal disc"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "axis_title"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

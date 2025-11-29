@@ -1,0 +1,23 @@
+<ImageInfo>
+    <PanelTree>
+        <PanelTreeNode>
+            <X1>0</X1>
+            <Y1>0</Y1>
+            <X2>792</X2>
+            <Y2>821</Y2>
+        </PanelTreeNode>
+    </PanelTree>
+    <Panels>
+        <ChartInfo>
+            <Type orientation="">scatter</Type>
+            <Text>
+            </Text>
+            <Properties>
+                <VERIFIED_01_CLASS>1594273107.662273</VERIFIED_01_CLASS>
+            </Properties>
+        </ChartInfo>
+    </Panels>
+    <Properties>
+        <VERIFIED_01_PANELS>1557884230.2114084</VERIFIED_01_PANELS>
+    </Properties>
+</ImageInfo>

@@ -1,0 +1,616 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 135,
+                        "x1": 161,
+                        "x2": 161,
+                        "x3": 135,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "0.0%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 212,
+                        "x1": 244,
+                        "x2": 244,
+                        "x3": 212,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "20.0%"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 293,
+                        "x1": 325,
+                        "x2": 325,
+                        "x3": 293,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "40.0%"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 373,
+                        "x1": 404,
+                        "x2": 404,
+                        "x3": 373,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "60.0%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 454,
+                        "x1": 485,
+                        "x2": 485,
+                        "x3": 454,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "80.0%"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 532,
+                        "x1": 565,
+                        "x2": 565,
+                        "x3": 532,
+                        "y0": 283,
+                        "y1": 283,
+                        "y2": 294,
+                        "y3": 294
+                    },
+                    "text": "100.0%"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 199,
+                        "x1": 240,
+                        "x2": 240,
+                        "x3": 199,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 316,
+                        "y3": 316
+                    },
+                    "text": "Hispanic"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 258,
+                        "x1": 341,
+                        "x2": 341,
+                        "x3": 258,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 314,
+                        "y3": 314
+                    },
+                    "text": "African American"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 359,
+                        "x1": 388,
+                        "x2": 388,
+                        "x3": 359,
+                        "y0": 303,
+                        "y1": 303,
+                        "y2": 314,
+                        "y3": 314
+                    },
+                    "text": "White"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 15,
+                        "x1": 136,
+                        "x2": 136,
+                        "x3": 15,
+                        "y0": 248,
+                        "y1": 248,
+                        "y2": 273,
+                        "y3": 273
+                    },
+                    "text": "Donovan & Tucker (2000)\nBreast cancer genetic risk"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 17,
+                        "x1": 139,
+                        "x2": 139,
+                        "x3": 17,
+                        "y0": 64,
+                        "y1": 64,
+                        "y2": 89,
+                        "y3": 89
+                    },
+                    "text": "Vadaparampil et al. (2010)\nHBOC genetics"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 17,
+                        "x1": 137,
+                        "x2": 137,
+                        "x3": 17,
+                        "y0": 95,
+                        "y1": 95,
+                        "y2": 120,
+                        "y3": 120
+                    },
+                    "text": "Weinrich et al. (2007)\nHereditary prostate cancer"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 32,
+                        "x1": 139,
+                        "x2": 139,
+                        "x3": 32,
+                        "y0": 187,
+                        "y1": 187,
+                        "y2": 212,
+                        "y3": 212
+                    },
+                    "text": "Thompson et al. (2002)\nBreast cancer genetics"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 17,
+                        "x1": 139,
+                        "x2": 139,
+                        "x3": 17,
+                        "y0": 33,
+                        "y1": 33,
+                        "y2": 59,
+                        "y3": 59
+                    },
+                    "text": "Vadaparampil et al. (2011)\nHBOC genetics"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 38,
+                        "x1": 140,
+                        "x2": 140,
+                        "x3": 38,
+                        "y0": 217,
+                        "y1": 217,
+                        "y2": 243,
+                        "y3": 243
+                    },
+                    "text": "Kinney et al. (2001)\nBreast cancer genetics"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 46,
+                        "x1": 140,
+                        "x2": 140,
+                        "x3": 46,
+                        "y0": 3,
+                        "y1": 3,
+                        "y2": 28,
+                        "y3": 28
+                    },
+                    "text": "Sussner et al. (2013)\nGenetic counselling"
+                },
+                {
+                    "id": 16,
+                    "polygon": {
+                        "x0": 0,
+                        "x1": 137,
+                        "x2": 137,
+                        "x3": 0,
+                        "y0": 125,
+                        "y1": 125,
+                        "y2": 151,
+                        "y3": 151
+                    },
+                    "text": "Kinney et al. (2006)\nCancer genetics, GT acceptors"
+                },
+                {
+                    "id": 17,
+                    "polygon": {
+                        "x0": 79,
+                        "x1": 139,
+                        "x2": 139,
+                        "x3": 79,
+                        "y0": 163,
+                        "y1": 163,
+                        "y2": 174,
+                        "y3": 174
+                    },
+                    "text": "GT decliners"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 135,
+                            "x1": 161,
+                            "x2": 161,
+                            "x3": 135,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "0.0%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 212,
+                            "x1": 244,
+                            "x2": 244,
+                            "x3": 212,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "20.0%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 293,
+                            "x1": 325,
+                            "x2": 325,
+                            "x3": 293,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "40.0%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 373,
+                            "x1": 404,
+                            "x2": 404,
+                            "x3": 373,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "60.0%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 454,
+                            "x1": 485,
+                            "x2": 485,
+                            "x3": 454,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "80.0%"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 532,
+                            "x1": 565,
+                            "x2": 565,
+                            "x3": 532,
+                            "y0": 283,
+                            "y1": 283,
+                            "y2": 294,
+                            "y3": 294
+                        },
+                        "text": "100.0%"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 199,
+                            "x1": 240,
+                            "x2": 240,
+                            "x3": 199,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 316,
+                            "y3": 316
+                        },
+                        "text": "Hispanic"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 258,
+                            "x1": 341,
+                            "x2": 341,
+                            "x3": 258,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "African American"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 359,
+                            "x1": 388,
+                            "x2": 388,
+                            "x3": 359,
+                            "y0": 303,
+                            "y1": 303,
+                            "y2": 314,
+                            "y3": 314
+                        },
+                        "text": "White"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 15,
+                            "x1": 136,
+                            "x2": 136,
+                            "x3": 15,
+                            "y0": 248,
+                            "y1": 248,
+                            "y2": 273,
+                            "y3": 273
+                        },
+                        "text": "Donovan & Tucker (2000)\nBreast cancer genetic risk"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 139,
+                            "x2": 139,
+                            "x3": 17,
+                            "y0": 64,
+                            "y1": 64,
+                            "y2": 89,
+                            "y3": 89
+                        },
+                        "text": "Vadaparampil et al. (2010)\nHBOC genetics"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 137,
+                            "x2": 137,
+                            "x3": 17,
+                            "y0": 95,
+                            "y1": 95,
+                            "y2": 120,
+                            "y3": 120
+                        },
+                        "text": "Weinrich et al. (2007)\nHereditary prostate cancer"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 32,
+                            "x1": 139,
+                            "x2": 139,
+                            "x3": 32,
+                            "y0": 187,
+                            "y1": 187,
+                            "y2": 212,
+                            "y3": 212
+                        },
+                        "text": "Thompson et al. (2002)\nBreast cancer genetics"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 17,
+                            "x1": 139,
+                            "x2": 139,
+                            "x3": 17,
+                            "y0": 33,
+                            "y1": 33,
+                            "y2": 59,
+                            "y3": 59
+                        },
+                        "text": "Vadaparampil et al. (2011)\nHBOC genetics"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 38,
+                            "x1": 140,
+                            "x2": 140,
+                            "x3": 38,
+                            "y0": 217,
+                            "y1": 217,
+                            "y2": 243,
+                            "y3": 243
+                        },
+                        "text": "Kinney et al. (2001)\nBreast cancer genetics"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 46,
+                            "x1": 140,
+                            "x2": 140,
+                            "x3": 46,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 28,
+                            "y3": 28
+                        },
+                        "text": "Sussner et al. (2013)\nGenetic counselling"
+                    },
+                    {
+                        "id": 16,
+                        "polygon": {
+                            "x0": 0,
+                            "x1": 137,
+                            "x2": 137,
+                            "x3": 0,
+                            "y0": 125,
+                            "y1": 125,
+                            "y2": 151,
+                            "y3": 151
+                        },
+                        "text": "Kinney et al. (2006)\nCancer genetics, GT acceptors"
+                    },
+                    {
+                        "id": 17,
+                        "polygon": {
+                            "x0": 79,
+                            "x1": 139,
+                            "x2": 139,
+                            "x3": 79,
+                            "y0": 163,
+                            "y1": 163,
+                            "y2": 174,
+                            "y3": 174
+                        },
+                        "text": "GT decliners"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 7,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 8,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 15,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 16,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 17,
+                    "role": "tick_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

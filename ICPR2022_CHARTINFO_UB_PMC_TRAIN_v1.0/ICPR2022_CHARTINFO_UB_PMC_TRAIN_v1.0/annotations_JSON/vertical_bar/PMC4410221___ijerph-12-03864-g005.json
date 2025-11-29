@@ -1,0 +1,296 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 82,
+                        "x1": 140,
+                        "x2": 140,
+                        "x3": 82,
+                        "y0": 16,
+                        "y1": 16,
+                        "y2": 41,
+                        "y3": 41
+                    },
+                    "text": "76%"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 316,
+                        "x1": 374,
+                        "x2": 374,
+                        "x3": 316,
+                        "y0": 19,
+                        "y1": 19,
+                        "y2": 45,
+                        "y3": 45
+                    },
+                    "text": "70%"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 153,
+                        "x1": 211,
+                        "x2": 211,
+                        "x3": 153,
+                        "y0": 200,
+                        "y1": 200,
+                        "y2": 225,
+                        "y3": 225
+                    },
+                    "text": "24%"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 384,
+                        "x1": 442,
+                        "x2": 442,
+                        "x3": 384,
+                        "y0": 177,
+                        "y1": 177,
+                        "y2": 202,
+                        "y3": 202
+                    },
+                    "text": "30%"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 45,
+                        "x1": 244,
+                        "x2": 244,
+                        "x3": 45,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 447,
+                        "y3": 447
+                    },
+                    "text": "Skin problems, last 30 days*"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 270,
+                        "x1": 468,
+                        "x2": 468,
+                        "x3": 270,
+                        "y0": 377,
+                        "y1": 377,
+                        "y2": 444,
+                        "y3": 444
+                    },
+                    "text": "Skin problems, last 6 months"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 557,
+                        "x1": 701,
+                        "x2": 701,
+                        "x3": 557,
+                        "y0": 193,
+                        "y1": 193,
+                        "y2": 219,
+                        "y3": 219
+                    },
+                    "text": "Local wells"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 557,
+                        "x1": 639,
+                        "x2": 639,
+                        "x3": 557,
+                        "y0": 249,
+                        "y1": 249,
+                        "y2": 274,
+                        "y3": 274
+                    },
+                    "text": "EPWU"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 82,
+                            "x1": 140,
+                            "x2": 140,
+                            "x3": 82,
+                            "y0": 16,
+                            "y1": 16,
+                            "y2": 41,
+                            "y3": 41
+                        },
+                        "text": "76%"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 316,
+                            "x1": 374,
+                            "x2": 374,
+                            "x3": 316,
+                            "y0": 19,
+                            "y1": 19,
+                            "y2": 45,
+                            "y3": 45
+                        },
+                        "text": "70%"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 153,
+                            "x1": 211,
+                            "x2": 211,
+                            "x3": 153,
+                            "y0": 200,
+                            "y1": 200,
+                            "y2": 225,
+                            "y3": 225
+                        },
+                        "text": "24%"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 384,
+                            "x1": 442,
+                            "x2": 442,
+                            "x3": 384,
+                            "y0": 177,
+                            "y1": 177,
+                            "y2": 202,
+                            "y3": 202
+                        },
+                        "text": "30%"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 45,
+                            "x1": 244,
+                            "x2": 244,
+                            "x3": 45,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 447,
+                            "y3": 447
+                        },
+                        "text": "Skin problems, last 30 days*"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 270,
+                            "x1": 468,
+                            "x2": 468,
+                            "x3": 270,
+                            "y0": 377,
+                            "y1": 377,
+                            "y2": 444,
+                            "y3": 444
+                        },
+                        "text": "Skin problems, last 6 months"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 557,
+                            "x1": 701,
+                            "x2": 701,
+                            "x3": 557,
+                            "y0": 193,
+                            "y1": 193,
+                            "y2": 219,
+                            "y3": 219
+                        },
+                        "text": "Local wells"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 557,
+                            "x1": 639,
+                            "x2": 639,
+                            "x3": 557,
+                            "y0": 249,
+                            "y1": 249,
+                            "y2": 274,
+                            "y3": 274
+                        },
+                        "text": "EPWU"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "value_label"
+                },
+                {
+                    "id": 1,
+                    "role": "value_label"
+                },
+                {
+                    "id": 2,
+                    "role": "value_label"
+                },
+                {
+                    "id": 3,
+                    "role": "value_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 7,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

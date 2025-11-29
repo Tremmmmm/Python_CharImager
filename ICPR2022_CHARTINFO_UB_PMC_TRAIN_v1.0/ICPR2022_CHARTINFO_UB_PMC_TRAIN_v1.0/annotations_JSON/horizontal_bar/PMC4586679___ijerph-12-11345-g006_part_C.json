@@ -1,0 +1,552 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 1,
+                        "x1": 34,
+                        "x2": 34,
+                        "x3": 1,
+                        "y0": 3,
+                        "y1": 3,
+                        "y2": 43,
+                        "y3": 43
+                    },
+                    "text": "C)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 144,
+                        "x1": 357,
+                        "x2": 357,
+                        "x3": 144,
+                        "y0": 44,
+                        "y1": 44,
+                        "y2": 58,
+                        "y3": 58
+                    },
+                    "text": "J. Education of health risks and mitigation"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 162,
+                        "x1": 357,
+                        "x2": 357,
+                        "x3": 162,
+                        "y0": 87,
+                        "y1": 87,
+                        "y2": 101,
+                        "y3": 101
+                    },
+                    "text": "L. High-yield mercury free alternatives"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 253,
+                        "x1": 358,
+                        "x2": 358,
+                        "x3": 253,
+                        "y0": 129,
+                        "y1": 129,
+                        "y2": 144,
+                        "y3": 144
+                    },
+                    "text": "I. Diversify economy"
+                },
+                {
+                    "id": 4,
+                    "polygon": {
+                        "x0": 200,
+                        "x1": 357,
+                        "x2": 357,
+                        "x3": 200,
+                        "y0": 172,
+                        "y1": 172,
+                        "y2": 187,
+                        "y3": 187
+                    },
+                    "text": "F. Increased miner registration"
+                },
+                {
+                    "id": 5,
+                    "polygon": {
+                        "x0": 128,
+                        "x1": 357,
+                        "x2": 357,
+                        "x3": 128,
+                        "y0": 215,
+                        "y1": 215,
+                        "y2": 229,
+                        "y3": 229
+                    },
+                    "text": "A. National framework with stakeholder input"
+                },
+                {
+                    "id": 6,
+                    "polygon": {
+                        "x0": 90,
+                        "x1": 357,
+                        "x2": 357,
+                        "x3": 90,
+                        "y0": 258,
+                        "y1": 258,
+                        "y2": 272,
+                        "y3": 272
+                    },
+                    "text": "K. Use mining proceeds to improve health/education"
+                },
+                {
+                    "id": 7,
+                    "polygon": {
+                        "x0": 372,
+                        "x1": 381,
+                        "x2": 381,
+                        "x3": 372,
+                        "y0": 293,
+                        "y1": 293,
+                        "y2": 305,
+                        "y3": 305
+                    },
+                    "text": "0"
+                },
+                {
+                    "id": 8,
+                    "polygon": {
+                        "x0": 460,
+                        "x1": 475,
+                        "x2": 475,
+                        "x3": 460,
+                        "y0": 293,
+                        "y1": 293,
+                        "y2": 305,
+                        "y3": 305
+                    },
+                    "text": "20"
+                },
+                {
+                    "id": 9,
+                    "polygon": {
+                        "x0": 551,
+                        "x1": 566,
+                        "x2": 566,
+                        "x3": 551,
+                        "y0": 293,
+                        "y1": 293,
+                        "y2": 305,
+                        "y3": 305
+                    },
+                    "text": "40"
+                },
+                {
+                    "id": 10,
+                    "polygon": {
+                        "x0": 642,
+                        "x1": 657,
+                        "x2": 657,
+                        "x3": 642,
+                        "y0": 293,
+                        "y1": 293,
+                        "y2": 305,
+                        "y3": 305
+                    },
+                    "text": "60"
+                },
+                {
+                    "id": 11,
+                    "polygon": {
+                        "x0": 493,
+                        "x1": 555,
+                        "x2": 555,
+                        "x3": 493,
+                        "y0": 304,
+                        "y1": 304,
+                        "y2": 315,
+                        "y3": 315
+                    },
+                    "text": "Weighted score"
+                },
+                {
+                    "id": 12,
+                    "polygon": {
+                        "x0": 710,
+                        "x1": 766,
+                        "x2": 766,
+                        "x3": 710,
+                        "y0": 134,
+                        "y1": 134,
+                        "y2": 146,
+                        "y3": 146
+                    },
+                    "text": "Stakeholder"
+                },
+                {
+                    "id": 13,
+                    "polygon": {
+                        "x0": 710,
+                        "x1": 776,
+                        "x2": 776,
+                        "x3": 710,
+                        "y0": 145,
+                        "y1": 145,
+                        "y2": 157,
+                        "y3": 157
+                    },
+                    "text": "Human Health"
+                },
+                {
+                    "id": 14,
+                    "polygon": {
+                        "x0": 710,
+                        "x1": 783,
+                        "x2": 783,
+                        "x3": 710,
+                        "y0": 157,
+                        "y1": 157,
+                        "y2": 170,
+                        "y3": 170
+                    },
+                    "text": "Natural Science"
+                },
+                {
+                    "id": 15,
+                    "polygon": {
+                        "x0": 711,
+                        "x1": 778,
+                        "x2": 778,
+                        "x3": 711,
+                        "y0": 171,
+                        "y1": 171,
+                        "y2": 182,
+                        "y3": 182
+                    },
+                    "text": "Social Science"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 1,
+                            "x1": 34,
+                            "x2": 34,
+                            "x3": 1,
+                            "y0": 3,
+                            "y1": 3,
+                            "y2": 43,
+                            "y3": 43
+                        },
+                        "text": "C)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 144,
+                            "x1": 357,
+                            "x2": 357,
+                            "x3": 144,
+                            "y0": 44,
+                            "y1": 44,
+                            "y2": 58,
+                            "y3": 58
+                        },
+                        "text": "J. Education of health risks and mitigation"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 162,
+                            "x1": 357,
+                            "x2": 357,
+                            "x3": 162,
+                            "y0": 87,
+                            "y1": 87,
+                            "y2": 101,
+                            "y3": 101
+                        },
+                        "text": "L. High-yield mercury free alternatives"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 253,
+                            "x1": 358,
+                            "x2": 358,
+                            "x3": 253,
+                            "y0": 129,
+                            "y1": 129,
+                            "y2": 144,
+                            "y3": 144
+                        },
+                        "text": "I. Diversify economy"
+                    },
+                    {
+                        "id": 4,
+                        "polygon": {
+                            "x0": 200,
+                            "x1": 357,
+                            "x2": 357,
+                            "x3": 200,
+                            "y0": 172,
+                            "y1": 172,
+                            "y2": 187,
+                            "y3": 187
+                        },
+                        "text": "F. Increased miner registration"
+                    },
+                    {
+                        "id": 5,
+                        "polygon": {
+                            "x0": 128,
+                            "x1": 357,
+                            "x2": 357,
+                            "x3": 128,
+                            "y0": 215,
+                            "y1": 215,
+                            "y2": 229,
+                            "y3": 229
+                        },
+                        "text": "A. National framework with stakeholder input"
+                    },
+                    {
+                        "id": 6,
+                        "polygon": {
+                            "x0": 90,
+                            "x1": 357,
+                            "x2": 357,
+                            "x3": 90,
+                            "y0": 258,
+                            "y1": 258,
+                            "y2": 272,
+                            "y3": 272
+                        },
+                        "text": "K. Use mining proceeds to improve health/education"
+                    },
+                    {
+                        "id": 7,
+                        "polygon": {
+                            "x0": 372,
+                            "x1": 381,
+                            "x2": 381,
+                            "x3": 372,
+                            "y0": 293,
+                            "y1": 293,
+                            "y2": 305,
+                            "y3": 305
+                        },
+                        "text": "0"
+                    },
+                    {
+                        "id": 8,
+                        "polygon": {
+                            "x0": 460,
+                            "x1": 475,
+                            "x2": 475,
+                            "x3": 460,
+                            "y0": 293,
+                            "y1": 293,
+                            "y2": 305,
+                            "y3": 305
+                        },
+                        "text": "20"
+                    },
+                    {
+                        "id": 9,
+                        "polygon": {
+                            "x0": 551,
+                            "x1": 566,
+                            "x2": 566,
+                            "x3": 551,
+                            "y0": 293,
+                            "y1": 293,
+                            "y2": 305,
+                            "y3": 305
+                        },
+                        "text": "40"
+                    },
+                    {
+                        "id": 10,
+                        "polygon": {
+                            "x0": 642,
+                            "x1": 657,
+                            "x2": 657,
+                            "x3": 642,
+                            "y0": 293,
+                            "y1": 293,
+                            "y2": 305,
+                            "y3": 305
+                        },
+                        "text": "60"
+                    },
+                    {
+                        "id": 11,
+                        "polygon": {
+                            "x0": 493,
+                            "x1": 555,
+                            "x2": 555,
+                            "x3": 493,
+                            "y0": 304,
+                            "y1": 304,
+                            "y2": 315,
+                            "y3": 315
+                        },
+                        "text": "Weighted score"
+                    },
+                    {
+                        "id": 12,
+                        "polygon": {
+                            "x0": 710,
+                            "x1": 766,
+                            "x2": 766,
+                            "x3": 710,
+                            "y0": 134,
+                            "y1": 134,
+                            "y2": 146,
+                            "y3": 146
+                        },
+                        "text": "Stakeholder"
+                    },
+                    {
+                        "id": 13,
+                        "polygon": {
+                            "x0": 710,
+                            "x1": 776,
+                            "x2": 776,
+                            "x3": 710,
+                            "y0": 145,
+                            "y1": 145,
+                            "y2": 157,
+                            "y3": 157
+                        },
+                        "text": "Human Health"
+                    },
+                    {
+                        "id": 14,
+                        "polygon": {
+                            "x0": 710,
+                            "x1": 783,
+                            "x2": 783,
+                            "x3": 710,
+                            "y0": 157,
+                            "y1": 157,
+                            "y2": 170,
+                            "y3": 170
+                        },
+                        "text": "Natural Science"
+                    },
+                    {
+                        "id": 15,
+                        "polygon": {
+                            "x0": 711,
+                            "x1": 778,
+                            "x2": 778,
+                            "x3": 711,
+                            "y0": 171,
+                            "y1": 171,
+                            "y2": 182,
+                            "y3": 182
+                        },
+                        "text": "Social Science"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "other"
+                },
+                {
+                    "id": 1,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 2,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 12,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": null,
+    "task5": null,
+    "task6": null
+}

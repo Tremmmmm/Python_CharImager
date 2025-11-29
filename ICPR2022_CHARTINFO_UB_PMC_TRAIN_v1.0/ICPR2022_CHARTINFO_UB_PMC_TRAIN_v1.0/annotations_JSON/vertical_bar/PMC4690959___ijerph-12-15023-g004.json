@@ -1,0 +1,342 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "id": 0,
+                    "polygon": {
+                        "x0": 303,
+                        "x1": 618,
+                        "x2": 618,
+                        "x3": 303,
+                        "y0": 349,
+                        "y1": 349,
+                        "y2": 382,
+                        "y3": 382
+                    },
+                    "text": "Incubation period (day)"
+                },
+                {
+                    "id": 1,
+                    "polygon": {
+                        "x0": 16,
+                        "x1": 87,
+                        "x2": 87,
+                        "x3": 16,
+                        "y0": 12,
+                        "y1": 12,
+                        "y2": 332,
+                        "y3": 332
+                    },
+                    "text": "Cyanobacterial cell\ndensities (*10^5 cell/mL)"
+                },
+                {
+                    "id": 2,
+                    "polygon": {
+                        "x0": 174,
+                        "x1": 457,
+                        "x2": 457,
+                        "x3": 174,
+                        "y0": 20,
+                        "y1": 20,
+                        "y2": 50,
+                        "y3": 50
+                    },
+                    "text": "Photocatalysis reaction"
+                },
+                {
+                    "id": 3,
+                    "polygon": {
+                        "x0": 175,
+                        "x1": 602,
+                        "x2": 602,
+                        "x3": 175,
+                        "y0": 53,
+                        "y1": 53,
+                        "y2": 84,
+                        "y3": 84
+                    },
+                    "text": "Dark reaction (Ag-TiO_{2}/DM only)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 303,
+                            "x1": 618,
+                            "x2": 618,
+                            "x3": 303,
+                            "y0": 349,
+                            "y1": 349,
+                            "y2": 382,
+                            "y3": 382
+                        },
+                        "text": "Incubation period (day)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 87,
+                            "x2": 87,
+                            "x3": 16,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "Cyanobacterial cell\ndensities (*10^5 cell/mL)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 457,
+                            "x2": 457,
+                            "x3": 174,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "Photocatalysis reaction"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 602,
+                            "x2": 602,
+                            "x3": 175,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Dark reaction (Ag-TiO_{2}/DM only)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 3,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 303,
+                            "x1": 618,
+                            "x2": 618,
+                            "x3": 303,
+                            "y0": 349,
+                            "y1": 349,
+                            "y2": 382,
+                            "y3": 382
+                        },
+                        "text": "Incubation period (day)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 87,
+                            "x2": 87,
+                            "x3": 16,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "Cyanobacterial cell\ndensities (*10^5 cell/mL)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 457,
+                            "x2": 457,
+                            "x3": 174,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "Photocatalysis reaction"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 602,
+                            "x2": 602,
+                            "x3": 175,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Dark reaction (Ag-TiO_{2}/DM only)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 317,
+                "width": 656,
+                "x0": 115,
+                "y0": 10
+            },
+            "axes": {
+                "_x-tick-type": "separators",
+                "_x2-tick-type": null,
+                "_y-tick-type": "markers",
+                "_y2-tick-type": null,
+                "x-axis": [],
+                "x-axis-2": [],
+                "y-axis": [],
+                "y-axis-2": []
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "id": 0,
+                        "polygon": {
+                            "x0": 303,
+                            "x1": 618,
+                            "x2": 618,
+                            "x3": 303,
+                            "y0": 349,
+                            "y1": 349,
+                            "y2": 382,
+                            "y3": 382
+                        },
+                        "text": "Incubation period (day)"
+                    },
+                    {
+                        "id": 1,
+                        "polygon": {
+                            "x0": 16,
+                            "x1": 87,
+                            "x2": 87,
+                            "x3": 16,
+                            "y0": 12,
+                            "y1": 12,
+                            "y2": 332,
+                            "y3": 332
+                        },
+                        "text": "Cyanobacterial cell\ndensities (*10^5 cell/mL)"
+                    },
+                    {
+                        "id": 2,
+                        "polygon": {
+                            "x0": 174,
+                            "x1": 457,
+                            "x2": 457,
+                            "x3": 174,
+                            "y0": 20,
+                            "y1": 20,
+                            "y2": 50,
+                            "y3": 50
+                        },
+                        "text": "Photocatalysis reaction"
+                    },
+                    {
+                        "id": 3,
+                        "polygon": {
+                            "x0": 175,
+                            "x1": 602,
+                            "x2": 602,
+                            "x3": 175,
+                            "y0": 53,
+                            "y1": 53,
+                            "y2": 84,
+                            "y3": 84
+                        },
+                        "text": "Dark reaction (Ag-TiO_{2}/DM only)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 21,
+                        "x0": 150,
+                        "y0": 23
+                    },
+                    "id": 2
+                },
+                {
+                    "bb": {
+                        "height": 20,
+                        "width": 21,
+                        "x0": 150,
+                        "y0": 57
+                    },
+                    "id": 3
+                }
+            ]
+        }
+    },
+    "task6": null
+}

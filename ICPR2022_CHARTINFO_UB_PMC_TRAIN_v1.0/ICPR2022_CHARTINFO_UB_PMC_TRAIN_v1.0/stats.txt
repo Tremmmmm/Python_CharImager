@@ -1,0 +1,16 @@
+chart_type      task_1  task_2  task_3  task_4  task_5  task_6
+horizontal bar  788     733     733     610     623     496
+vertical bar    5454    1899    1899    1632    1658    1321
+vertical box    763     601     601     516     518     449
+horizontal interval     156     1       1       1       1       0
+vertical interval       489     3       3       3       3       0
+manhattan       176     0       0       0       0       0
+map     533     0       0       0       0       0
+surface 155     0       0       0       0       0
+venn    75      0       0       0       0       0
+scatter 1350    931     931     870     896     541
+pie     242     0       0       0       0       0
+line    10556   2236    2236    1917    1947    1486
+scatter-line    1818    67      67      65      66      0
+area    172     0       0       0       0       0
+heatmap 197     0       0       0       0       0

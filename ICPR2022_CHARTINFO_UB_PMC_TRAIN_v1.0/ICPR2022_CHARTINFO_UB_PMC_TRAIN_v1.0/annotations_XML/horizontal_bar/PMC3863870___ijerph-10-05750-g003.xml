@@ -1,0 +1,1183 @@
+<ImageInfo>
+    <PanelTree>
+        <PanelTreeNode>
+            <X1>0</X1>
+            <Y1>0</Y1>
+            <X2>728</X2>
+            <Y2>401</Y2>
+        </PanelTreeNode>
+    </PanelTree>
+    <Panels>
+        <ChartInfo>
+            <Type orientation="horizontal">bar</Type>
+            <Text>
+                <TextInfo>
+                    <Id>0</Id>
+                    <Polygon>
+                        <Point>
+                            <X>20.0</X>
+                            <Y>9.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>9.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>24.0</Y>
+                        </Point>
+                        <Point>
+                            <X>20.0</X>
+                            <Y>24.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Place of residence</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>1</Id>
+                    <Polygon>
+                        <Point>
+                            <X>54.0</X>
+                            <Y>36.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>36.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>53.0</Y>
+                        </Point>
+                        <Point>
+                            <X>54.0</X>
+                            <Y>53.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Race/ ethinicity</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>2</Id>
+                    <Polygon>
+                        <Point>
+                            <X>35.0</X>
+                            <Y>63.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>63.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>78.0</Y>
+                        </Point>
+                        <Point>
+                            <X>35.0</X>
+                            <Y>78.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Economic status</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>3</Id>
+                    <Polygon>
+                        <Point>
+                            <X>85.0</X>
+                            <Y>89.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>89.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>105.0</Y>
+                        </Point>
+                        <Point>
+                            <X>85.0</X>
+                            <Y>105.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Education</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>4</Id>
+                    <Polygon>
+                        <Point>
+                            <X>103.0</X>
+                            <Y>116.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>116.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>132.0</Y>
+                        </Point>
+                        <Point>
+                            <X>103.0</X>
+                            <Y>132.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Gender</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>5</Id>
+                    <Polygon>
+                        <Point>
+                            <X>73.0</X>
+                            <Y>143.0</Y>
+                        </Point>
+                        <Point>
+                            <X>160.0</X>
+                            <Y>143.0</Y>
+                        </Point>
+                        <Point>
+                            <X>160.0</X>
+                            <Y>162.0</Y>
+                        </Point>
+                        <Point>
+                            <X>73.0</X>
+                            <Y>162.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Occipation</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>6</Id>
+                    <Polygon>
+                        <Point>
+                            <X>13.0</X>
+                            <Y>170.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>170.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>188.0</Y>
+                        </Point>
+                        <Point>
+                            <X>13.0</X>
+                            <Y>188.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Insurance coverage</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>7</Id>
+                    <Polygon>
+                        <Point>
+                            <X>59.0</X>
+                            <Y>197.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>197.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>212.0</Y>
+                        </Point>
+                        <Point>
+                            <X>59.0</X>
+                            <Y>212.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Martial status</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>8</Id>
+                    <Polygon>
+                        <Point>
+                            <X>59.0</X>
+                            <Y>224.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>224.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>242.0</Y>
+                        </Point>
+                        <Point>
+                            <X>59.0</X>
+                            <Y>242.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Social Capital</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>9</Id>
+                    <Polygon>
+                        <Point>
+                            <X>6.0</X>
+                            <Y>250.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>250.0</Y>
+                        </Point>
+                        <Point>
+                            <X>162.0</X>
+                            <Y>266.0</Y>
+                        </Point>
+                        <Point>
+                            <X>6.0</X>
+                            <Y>266.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Sociocultultural factors</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>10</Id>
+                    <Polygon>
+                        <Point>
+                            <X>98.0</X>
+                            <Y>278.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>278.0</Y>
+                        </Point>
+                        <Point>
+                            <X>161.0</X>
+                            <Y>296.0</Y>
+                        </Point>
+                        <Point>
+                            <X>98.0</X>
+                            <Y>296.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>Housing</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>11</Id>
+                    <Polygon>
+                        <Point>
+                            <X>175.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>186.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>186.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>175.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>0</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>12</Id>
+                    <Polygon>
+                        <Point>
+                            <X>243.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>254.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>254.0</X>
+                            <Y>351.0</Y>
+                        </Point>
+                        <Point>
+                            <X>243.0</X>
+                            <Y>351.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>5</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>13</Id>
+                    <Polygon>
+                        <Point>
+                            <X>306.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>325.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>325.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>306.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>10</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>14</Id>
+                    <Polygon>
+                        <Point>
+                            <X>373.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>392.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>392.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>373.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>15</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>15</Id>
+                    <Polygon>
+                        <Point>
+                            <X>439.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>458.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>458.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>439.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>20</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>16</Id>
+                    <Polygon>
+                        <Point>
+                            <X>506.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>526.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>526.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>506.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>25</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>17</Id>
+                    <Polygon>
+                        <Point>
+                            <X>573.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>337.0</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                        <Point>
+                            <X>573.0</X>
+                            <Y>352.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>tick-label</Type>
+                    <Value>30</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>18</Id>
+                    <Polygon>
+                        <Point>
+                            <X>313.0</X>
+                            <Y>378.0</Y>
+                        </Point>
+                        <Point>
+                            <X>452.0</X>
+                            <Y>378.0</Y>
+                        </Point>
+                        <Point>
+                            <X>452.0</X>
+                            <Y>393.0</Y>
+                        </Point>
+                        <Point>
+                            <X>313.0</X>
+                            <Y>393.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>axis-title</Type>
+                    <Value>Number of studies</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>19</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>84.0</Y>
+                        </Point>
+                        <Point>
+                            <X>702.0</X>
+                            <Y>84.0</Y>
+                        </Point>
+                        <Point>
+                            <X>702.0</X>
+                            <Y>97.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>97.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Microsimulation</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>20</Id>
+                    <Polygon>
+                        <Point>
+                            <X>603.0</X>
+                            <Y>101.0</Y>
+                        </Point>
+                        <Point>
+                            <X>685.0</X>
+                            <Y>101.0</Y>
+                        </Point>
+                        <Point>
+                            <X>685.0</X>
+                            <Y>114.0</Y>
+                        </Point>
+                        <Point>
+                            <X>603.0</X>
+                            <Y>114.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Agent based</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>21</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>117.0</Y>
+                        </Point>
+                        <Point>
+                            <X>657.0</X>
+                            <Y>117.0</Y>
+                        </Point>
+                        <Point>
+                            <X>657.0</X>
+                            <Y>130.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>130.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Network</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>22</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>133.0</Y>
+                        </Point>
+                        <Point>
+                            <X>700.0</X>
+                            <Y>133.0</Y>
+                        </Point>
+                        <Point>
+                            <X>700.0</X>
+                            <Y>146.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>146.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>State transition</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>23</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>150.0</Y>
+                        </Point>
+                        <Point>
+                            <X>683.0</X>
+                            <Y>150.0</Y>
+                        </Point>
+                        <Point>
+                            <X>683.0</X>
+                            <Y>164.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>164.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Optimization</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>24</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>166.0</Y>
+                        </Point>
+                        <Point>
+                            <X>711.0</X>
+                            <Y>166.0</Y>
+                        </Point>
+                        <Point>
+                            <X>711.0</X>
+                            <Y>179.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>179.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Risk assesment</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>25</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>215.0</Y>
+                        </Point>
+                        <Point>
+                            <X>710.0</X>
+                            <Y>215.0</Y>
+                        </Point>
+                        <Point>
+                            <X>710.0</X>
+                            <Y>228.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>228.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Behavioral/stress</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>26</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>182.0</Y>
+                        </Point>
+                        <Point>
+                            <X>668.0</X>
+                            <Y>182.0</Y>
+                        </Point>
+                        <Point>
+                            <X>668.0</X>
+                            <Y>196.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>196.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Projection</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>27</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>232.0</Y>
+                        </Point>
+                        <Point>
+                            <X>660.0</X>
+                            <Y>232.0</Y>
+                        </Point>
+                        <Point>
+                            <X>660.0</X>
+                            <Y>245.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>245.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Diffusion</Value>
+                </TextInfo>
+                <TextInfo>
+                    <Id>28</Id>
+                    <Polygon>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>199.0</Y>
+                        </Point>
+                        <Point>
+                            <X>643.0</X>
+                            <Y>199.0</Y>
+                        </Point>
+                        <Point>
+                            <X>643.0</X>
+                            <Y>212.0</Y>
+                        </Point>
+                        <Point>
+                            <X>604.0</X>
+                            <Y>212.0</Y>
+                        </Point>
+                    </Polygon>
+                    <Type>legend-label</Type>
+                    <Value>Game</Value>
+                </TextInfo>
+            </Text>
+            <Legend>
+                <MarkPerLabel>
+                    <TextId>19</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>582.6666666666666</X>
+                            <Y>85.69047619047619</Y>
+                        </Point>
+                        <Point>
+                            <X>592.6666666666666</X>
+                            <Y>85.69047619047619</Y>
+                        </Point>
+                        <Point>
+                            <X>592.6666666666666</X>
+                            <Y>95.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>582.6666666666666</X>
+                            <Y>95.02380952380952</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>20</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>102.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>102.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>111.35714285714285</Y>
+                        </Point>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>111.35714285714285</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>21</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>118.69047619047619</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>118.69047619047619</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>128.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>128.02380952380952</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>22</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>134.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>134.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>144.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>144.02380952380952</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>23</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>151.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>151.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>160.35714285714286</Y>
+                        </Point>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>160.35714285714286</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>24</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>582.6666666666666</X>
+                            <Y>167.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>592.6666666666666</X>
+                            <Y>167.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>592.6666666666666</X>
+                            <Y>177.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>582.6666666666666</X>
+                            <Y>177.02380952380952</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>25</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>217.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>217.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>226.35714285714286</Y>
+                        </Point>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>226.35714285714286</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>26</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>184.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>184.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.3333333333334</X>
+                            <Y>193.35714285714286</Y>
+                        </Point>
+                        <Point>
+                            <X>583.3333333333334</X>
+                            <Y>193.35714285714286</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>27</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>234.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>234.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>243.35714285714286</Y>
+                        </Point>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>243.35714285714286</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+                <MarkPerLabel>
+                    <TextId>28</TextId>
+                    <Polygon>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>200.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>200.69047619047618</Y>
+                        </Point>
+                        <Point>
+                            <X>593.0</X>
+                            <Y>209.02380952380952</Y>
+                        </Point>
+                        <Point>
+                            <X>583.0</X>
+                            <Y>209.02380952380952</Y>
+                        </Point>
+                    </Polygon>
+                </MarkPerLabel>
+            </Legend>
+            <Axes>
+                <Version>1.1</Version>
+                <TickLabels>
+                    <TextId>0</TextId>
+                    <TextId>1</TextId>
+                    <TextId>2</TextId>
+                    <TextId>3</TextId>
+                    <TextId>4</TextId>
+                    <TextId>5</TextId>
+                    <TextId>6</TextId>
+                    <TextId>7</TextId>
+                    <TextId>8</TextId>
+                    <TextId>9</TextId>
+                    <TextId>10</TextId>
+                    <TextId>11</TextId>
+                    <TextId>12</TextId>
+                    <TextId>13</TextId>
+                    <TextId>14</TextId>
+                    <TextId>15</TextId>
+                    <TextId>16</TextId>
+                    <TextId>17</TextId>
+                </TickLabels>
+                <BoundingBox>
+                    <X1>181.03571428571428</X1>
+                    <Y1>4.571428571428571</Y1>
+                    <X2>583.3928571428569</X2>
+                    <Y2>314.1428571428571</Y2>
+                </BoundingBox>
+                <AxisX1>
+                    <AxisValues>
+                        <ValuesType>numerical</ValuesType>
+                        <TicksType>markers</TicksType>
+                        <ScaleType>linear</ScaleType>
+                        <Ticks>
+                            <TickInfo>
+                                <Position>181.03571428571428</Position>
+                                <LabelId>11</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>248.09523809523805</Position>
+                                <LabelId>12</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>315.1547619047618</Position>
+                                <LabelId>13</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>382.21428571428555</Position>
+                                <LabelId>14</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>449.27380952380935</Position>
+                                <LabelId>15</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>516.333333333333</Position>
+                                <LabelId>16</LabelId>
+                            </TickInfo>
+                            <TickInfo>
+                                <Position>583.3928571428569</Position>
+                                <LabelId>17</LabelId>
+                            </TickInfo>
+                        </Ticks>
+                        <Labels>
+                            <TextId>11</TextId>
+                            <TextId>12</TextId>
+                            <TextId>13</TextId>
+                            <TextId>14</TextId>
+                            <TextId>15</TextId>
+                            <TextId>16</TextId>
+                            <TextId>17</TextId>
+                        </Labels>
+                        <Title>18</Title>
+                    </AxisValues>
+                </AxisX1>
+                <AxisY1>
+                    <AxisValues>
+                        <ValuesType>categorical</ValuesType>
+                        <TicksType>separators</TicksType>
+                        <ScaleType>none</ScaleType>
+                        <Ticks>
+                        </Ticks>
+                        <Labels>
+                            <TextId>0</TextId>
+                            <TextId>1</TextId>
+                            <TextId>2</TextId>
+                            <TextId>3</TextId>
+                            <TextId>4</TextId>
+                            <TextId>5</TextId>
+                            <TextId>6</TextId>
+                            <TextId>7</TextId>
+                            <TextId>8</TextId>
+                            <TextId>9</TextId>
+                            <TextId>10</TextId>
+                        </Labels>
+                    </AxisValues>
+                </AxisY1>
+            </Axes>
+            <Data class="BarData">
+               <DataSeries>
+                   <TextId>19</TextId>
+                   <TextId>20</TextId>
+                   <TextId>21</TextId>
+                   <TextId>22</TextId>
+                   <TextId>23</TextId>
+                   <TextId>24</TextId>
+                   <TextId>26</TextId>
+                   <TextId>28</TextId>
+                   <TextId>25</TextId>
+                   <TextId>27</TextId>
+               </DataSeries>
+               <Categories>
+                   <TextId>0</TextId>
+                   <TextId>1</TextId>
+                   <TextId>2</TextId>
+                   <TextId>3</TextId>
+                   <TextId>4</TextId>
+                   <TextId>5</TextId>
+                   <TextId>6</TextId>
+                   <TextId>7</TextId>
+                   <TextId>8</TextId>
+                   <TextId>9</TextId>
+                   <TextId>10</TextId>
+               </Categories>
+               <Grouping>by-category</Grouping>
+               <SeriesSorting>
+                   <Group>
+                       <Index>0</Index>
+                       <Index>1</Index>
+                       <Index>2</Index>
+                       <Index>3</Index>
+                       <Index>4</Index>
+                       <Index>5</Index>
+                       <Index>6</Index>
+                       <Index>7</Index>
+                       <Index>8</Index>
+                       <Index>9</Index>
+                   </Group>
+               </SeriesSorting>
+               <Vertical>0</Vertical>
+               <BarOffset>6.6</BarOffset>
+               <BarWidth>10.7</BarWidth>
+               <BarInnerDist>0.0</BarInnerDist>
+               <BarOuterDist>16.2</BarOuterDist>
+               <BarLengths>
+                   <Series index="0">
+                       <Length category="0">67.5</Length>
+                       <Length category="1">27.5</Length>
+                       <Length category="2">81.25</Length>
+                       <Length category="3">40.5</Length>
+                       <Length category="4">14.0</Length>
+                       <Length category="5">54.25</Length>
+                       <Length category="6">40.5</Length>
+                       <Length category="7">41.0</Length>
+                       <Length category="8">0.0</Length>
+                       <Length category="9">-0.5</Length>
+                       <Length category="10">0.0</Length>
+                   </Series>
+                   <Series index="1">
+                       <Length category="0">13.5</Length>
+                       <Length category="1">-0.25</Length>
+                       <Length category="2">52.5</Length>
+                       <Length category="3">1.0</Length>
+                       <Length category="4">0.25</Length>
+                       <Length category="5">0.0</Length>
+                       <Length category="6">0.75</Length>
+                       <Length category="7">0.25</Length>
+                       <Length category="8">0.25</Length>
+                       <Length category="9">0.6428571428571388</Length>
+                       <Length category="10">0.25</Length>
+                   </Series>
+                   <Series index="2">
+                       <Length category="0">0.5</Length>
+                       <Length category="1">13.0</Length>
+                       <Length category="2">0.5</Length>
+                       <Length category="3">0.0</Length>
+                       <Length category="4">-0.25</Length>
+                       <Length category="5">0.0</Length>
+                       <Length category="6">-0.25</Length>
+                       <Length category="7">0.0</Length>
+                       <Length category="8">14.0</Length>
+                       <Length category="9">-0.2857142857142776</Length>
+                       <Length category="10">0.0</Length>
+                   </Series>
+                   <Series index="3">
+                       <Length category="0">25.5</Length>
+                       <Length category="1">175.0</Length>
+                       <Length category="2">81.25</Length>
+                       <Length category="3">39.0</Length>
+                       <Length category="4">67.0</Length>
+                       <Length category="5">12.5</Length>
+                       <Length category="6">26.5</Length>
+                       <Length category="7">12.5</Length>
+                       <Length category="8">26.0</Length>
+                       <Length category="9">0.2857142857142776</Length>
+                       <Length category="10">13.75</Length>
+                   </Series>
+                   <Series index="4">
+                       <Length category="0">175.0</Length>
+                       <Length category="1">-0.25</Length>
+                       <Length category="2">-0.75</Length>
+                       <Length category="3">13.75</Length>
+                       <Length category="4">0.38888888888891415</Length>
+                       <Length category="5">14.5</Length>
+                       <Length category="6">-0.5</Length>
+                       <Length category="7">13.25</Length>
+                       <Length category="8">-0.25</Length>
+                       <Length category="9">0.0</Length>
+                       <Length category="10">0.0</Length>
+                   </Series>
+                   <Series index="5">
+                       <Length category="0">54.0</Length>
+                       <Length category="1">39.5</Length>
+                       <Length category="2">13.361111111111086</Length>
+                       <Length category="3">12.75</Length>
+                       <Length category="4">-0.4444444444444571</Length>
+                       <Length category="5">-0.3055555555555429</Length>
+                       <Length category="6">0.5</Length>
+                       <Length category="7">0.5</Length>
+                       <Length category="8">14.0</Length>
+                       <Length category="9">0.0</Length>
+                       <Length category="10">0.0</Length>
+                   </Series>
+                   <Series index="6">
+                       <Length category="0">13.0</Length>
+                       <Length category="1">0.5</Length>
+                       <Length category="2">14.222222222222229</Length>
+                       <Length category="3">0.5</Length>
+                       <Length category="4">13.333333333333314</Length>
+                       <Length category="5">0.4444444444444571</Length>
+                       <Length category="6">-0.5</Length>
+                       <Length category="7">-0.5</Length>
+                       <Length category="8">0.0</Length>
+                       <Length category="9">14.0</Length>
+                       <Length category="10">-1.0</Length>
+                   </Series>
+                   <Series index="7">
+                       <Length category="0">0.5</Length>
+                       <Length category="1">0.0</Length>
+                       <Length category="2">12.888888888888914</Length>
+                       <Length category="3">0.5</Length>
+                       <Length category="4">-0.4444444444444571</Length>
+                       <Length category="5">0.0</Length>
+                       <Length category="6">0.0</Length>
+                       <Length category="7">-0.5</Length>
+                       <Length category="8">0.0</Length>
+                       <Length category="9">12.571428571428584</Length>
+                       <Length category="10">0.5</Length>
+                   </Series>
+                   <Series index="8">
+                       <Length category="0">0.0</Length>
+                       <Length category="1">0.0</Length>
+                       <Length category="2">-0.4444444444444571</Length>
+                       <Length category="3">-1.0</Length>
+                       <Length category="4">13.777777777777771</Length>
+                       <Length category="5">12.4444444444444</Length>
+                       <Length category="6">0.5</Length>
+                       <Length category="7">1.0</Length>
+                       <Length category="8">0.0</Length>
+                       <Length category="9">0.5714285714285552</Length>
+                       <Length category="10">0.5</Length>
+                   </Series>
+                   <Series index="9">
+                       <Length category="0">13.5</Length>
+                       <Length category="1">-0.5</Length>
+                       <Length category="2">0.0</Length>
+                       <Length category="3">14.0</Length>
+                       <Length category="4">0.0</Length>
+                       <Length category="5">0.44444444444440023</Length>
+                       <Length category="6">-1.0</Length>
+                       <Length category="7">0.0</Length>
+                       <Length category="8">0.5</Length>
+                       <Length category="9">-0.2857142857142776</Length>
+                       <Length category="10">-0.5</Length>
+                   </Series>
+               </BarLengths>
+            </Data>
+            <Properties>
+                <VERIFIED_01_CLASS>1581389263.8204372</VERIFIED_01_CLASS>
+                <VERIFIED_02_TEXT>1587461934.8638213</VERIFIED_02_TEXT>
+                <VERIFIED_03_LEGEND>1591925882.0413876</VERIFIED_03_LEGEND>
+                <VERIFIED_04_AXIS>1591925954.262062</VERIFIED_04_AXIS>
+                <VERIFIED_05_DATA>1591927231.3579328</VERIFIED_05_DATA>
+            </Properties>
+        </ChartInfo>
+    </Panels>
+    <Properties>
+        <VERIFIED_01_PANELS>1581389263.8204372</VERIFIED_01_PANELS>
+    </Properties>
+</ImageInfo>
